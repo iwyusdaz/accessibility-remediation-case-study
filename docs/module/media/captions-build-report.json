@@ -1,0 +1,25 @@
+{
+  "method": "Text: MIT OCW official human transcript (publisher). Timings: aligned to YouTube automatic-caption word-timing skeleton; unmatched words interpolated; monotonic correction.",
+  "video": {
+    "id": "2fbrl6WoIyo",
+    "title": "Lecture 1: Introduction — 9.00SC Introduction to Psychology, Fall 2011 (MIT OCW, CC BY-NC-SA 3.0 US)"
+  },
+  "transcriptWords": 8151,
+  "autoTimedWords": 7391,
+  "alignedPercent": 71,
+  "cues": 828,
+  "firstCue": {
+    "start": 0.52,
+    "end": 3.83,
+    "text": "The following content is provided under a Creative Commons license.",
+    "speaker": "Narrator"
+  },
+  "lastCue": {
+    "start": 2966.16,
+    "end": 2970.99,
+    "text": "where science has showed us something about human nature, the mind, and the brain.",
+    "speaker": "Professor"
+  },
+  "accuracyStatus": "PENDING: caption text is the publisher transcript, but no speech-to-text comparison against the audio has been run. Run `npm run eval:pending` after configuring STT_* in .env. Human protocol: evaluation/human-protocol/caption-accuracy-check.md.",
+  "builtAt": "2026-10-25"
+}

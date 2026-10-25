@@ -1,0 +1,4997 @@
+[
+  {
+    "url": "http://127.0.0.1:8900/before/index.htm",
+    "name": "before_index",
+    "keyboard": {
+      "tabStops": 120,
+      "uniqueStops": 82,
+      "keyboardTrapSuspected": false,
+      "stopsWithoutVisibleFocus": 2,
+      "stops": [
+        {
+          "stop": 1,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "MIT OpenCourseWare",
+          "href": "/",
+          "rect": {
+            "x": 8,
+            "y": 47,
+            "w": 334,
+            "h": 37
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 2,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Subscribe to OCW's newsletter.",
+          "href": "/jsp/subscribe.jsp?utm_source=header",
+          "rect": {
+            "x": 8,
+            "y": 106,
+            "w": 219,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 3,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Twitter.",
+          "href": "http://twitter.com/mitocw",
+          "rect": {
+            "x": 8,
+            "y": 124,
+            "w": 175,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 4,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Facebook.",
+          "href": "http://facebook.com/mitocw",
+          "rect": {
+            "x": 1079,
+            "y": 124,
+            "w": 193,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 5,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Home",
+          "href": "/",
+          "rect": {
+            "x": 183,
+            "y": 140,
+            "w": 39,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 6,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Courses",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses/",
+          "rect": {
+            "x": 48,
+            "y": 158,
+            "w": 52,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 7,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Donate",
+          "href": "http://ocw.mit.edu/donate",
+          "rect": {
+            "x": 48,
+            "y": 176,
+            "w": 46,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 8,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "About OCW",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/about/",
+          "rect": {
+            "x": 48,
+            "y": 194,
+            "w": 81,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 9,
+          "tag": "input",
+          "id": "terms",
+          "cls": "search",
+          "name": "Enter search keyword",
+          "href": null,
+          "rect": {
+            "x": 8,
+            "y": 228,
+            "w": 153,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 10,
+          "tag": "input",
+          "id": null,
+          "cls": "but",
+          "name": "Go",
+          "href": null,
+          "rect": {
+            "x": 165,
+            "y": 231,
+            "w": 34,
+            "h": 16
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 11,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Advanced Search",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/search/A",
+          "rect": {
+            "x": 202,
+            "y": 229,
+            "w": 112,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 12,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Help",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/help",
+          "rect": {
+            "x": 48,
+            "y": 265,
+            "w": 31,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 13,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Contact Us",
+          "href": "/jsp/feedback.jsp?Referer=",
+          "rect": {
+            "x": 48,
+            "y": 283,
+            "w": 72,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 14,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "VIEW ALL COURSES",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses",
+          "rect": {
+            "x": 48,
+            "y": 317,
+            "w": 151,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 15,
+          "tag": "a",
+          "id": null,
+          "cls": "selected",
+          "name": "Course Home",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 351,
+            "w": 88,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 16,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 388,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 17,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Syllabus",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 388,
+            "w": 68,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 18,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Meet Professor John Gabrieli",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 428,
+            "w": 188,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 19,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Meet the TAs",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 446,
+            "w": 86,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 20,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 480,
+            "w": 79,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 21,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Science & Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 514,
+            "w": 129,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 22,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain I: Structure and Functions",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 548,
+            "w": 206,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 23,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 585,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 24,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain II: Methods of Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 585,
+            "w": 244,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 25,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Brain",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 626,
+            "w": 114,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 26,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 660,
+            "w": 51,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 27,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 696,
+            "w": 134,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 28,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 142,
+            "y": 696,
+            "w": 69,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 29,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Vision",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 737,
+            "w": 120,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 30,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Writing Assignment 1",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 755,
+            "w": 141,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 31,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 778,
+            "w": 134,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 32,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Attention",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 142,
+            "y": 778,
+            "w": 75,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 33,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Attention",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 391,
+            "w": 138,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 34,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Consciousness",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 425,
+            "w": 94,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 35,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 461,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 36,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Learning",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 461,
+            "w": 74,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 37,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Learning",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 502,
+            "w": 136,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 38,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 1",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 536,
+            "w": 49,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 39,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 570,
+            "w": 64,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 40,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 607,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 41,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory II: Amnesia and Memory Systems",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 607,
+            "w": 345,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 42,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Memory",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 648,
+            "w": 134,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 43,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 684,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 44,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Language",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 684,
+            "w": 79,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 45,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Language",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 725,
+            "w": 142,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 46,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Thinking",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 759,
+            "w": 59,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 47,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 778,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 48,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Intelligence",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 778,
+            "w": 93,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 49,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Thinking & Intelligence",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 391,
+            "w": 233,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 50,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 428,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 51,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Emotion & Motivation",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 428,
+            "w": 182,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 52,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Emotion",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 469,
+            "w": 134,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 53,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 2",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 503,
+            "w": 49,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 54,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 540,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 55,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Personality",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 540,
+            "w": 90,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 56,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Discussion: Personality",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 580,
+            "w": 151,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 57,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 617,
+            "w": 135,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 58,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Child Development",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 143,
+            "y": 617,
+            "w": 154,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 59,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Writing Assignment 2",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 48,
+            "y": 658,
+            "w": 141,
+            "h": 18
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 60,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 8,
+            "y": 694,
+            "w": 134,
+            "h": 22
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        }
+      ],
+      "skipLink": null
+    },
+    "reflow320": {
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "bodyScrollWidth": 304,
+      "horizontalScroll": false
+    },
+    "zoom400": {
+      "note": "visual render only (no reflow); reflow verdict = 320px viewport pass (400% of 1280px = 320px)"
+    },
+    "contrast": {
+      "failures": [],
+      "failureCount": 0
+    },
+    "structure": {
+      "lang": "en",
+      "title": "MIT OpenCourseWare | Brain and Cognitive Sciences | 9.00SC Introduction to Psychology, Fall 2011 | Home",
+      "landmarks": [],
+      "headingOutline": [
+        {
+          "level": 1,
+          "text": ""
+        },
+        {
+          "level": 3,
+          "text": "Syllabus"
+        },
+        {
+          "level": 3,
+          "text": "Brain II: Methods of Research"
+        },
+        {
+          "level": 3,
+          "text": "Vision II"
+        },
+        {
+          "level": 3,
+          "text": "Attention"
+        },
+        {
+          "level": 3,
+          "text": "Learning"
+        },
+        {
+          "level": 3,
+          "text": "Memory II: Amnesia and Memory Systems"
+        },
+        {
+          "level": 3,
+          "text": "Language"
+        },
+        {
+          "level": 3,
+          "text": "Intelligence"
+        },
+        {
+          "level": 3,
+          "text": "Emotion & Motivation"
+        },
+        {
+          "level": 3,
+          "text": "Personality"
+        },
+        {
+          "level": 3,
+          "text": "Child Development"
+        },
+        {
+          "level": 3,
+          "text": "Adult Development"
+        },
+        {
+          "level": 3,
+          "text": "Stress"
+        },
+        {
+          "level": 3,
+          "text": "Psychopathology II"
+        },
+        {
+          "level": 3,
+          "text": "Social Psychology II"
+        },
+        {
+          "level": 1,
+          "text": "Introduction to Psychology"
+        },
+        {
+          "level": 3,
+          "text": "Instructors:"
+        },
+        {
+          "level": 3,
+          "text": "Level:"
+        },
+        {
+          "level": 4,
+          "text": "Course Description"
+        },
+        {
+          "level": 4,
+          "text": "Course Format"
+        },
+        {
+          "level": 4,
+          "text": "About OCW Scholar"
+        }
+      ],
+      "headingsCount": 22,
+      "images": [
+        {
+          "src": "logo-ocw-home_new.gif",
+          "alt": "MIT OpenCourseWare"
+        },
+        {
+          "src": "newsletter.png",
+          "alt": "Subscribe to OCW's newsletter."
+        },
+        {
+          "src": "twitter.png",
+          "alt": "Follow OCW on Twitter."
+        },
+        {
+          "src": "facebook.png",
+          "alt": "Follow OCW on Facebook."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "9-00scf11.jpg",
+          "alt": "Photo of Professor Gabrieli sitting next to a computer display of human brain im"
+        },
+        {
+          "src": "button_start.jpg",
+          "alt": "Click to get started."
+        },
+        {
+          "src": "button_donate.jpg",
+          "alt": "Donate Now"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "MIT Logo"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Copyright MIT"
+        },
+        {
+          "src": "footer_rss_new.gif",
+          "alt": "RSS Feeds"
+        },
+        {
+          "src": "cc_logo_new.gif",
+          "alt": "Creative Commons - some rights reserved"
+        },
+        {
+          "src": "ocw-logo_new.gif",
+          "alt": "OCW Consortium"
+        }
+      ],
+      "imageCount": 27,
+      "links": [
+        "skip to content",
+        "",
+        "",
+        "",
+        "",
+        "Home",
+        "Courses",
+        "Donate",
+        "About OCW",
+        "Advanced Search",
+        "Help",
+        "Contact Us",
+        "VIEW ALL COURSES",
+        "Course Home",
+        "",
+        "Syllabus",
+        "Meet Professor John Gabrieli",
+        "Meet the TAs",
+        "Introduction",
+        "Science & Research",
+        "Brain I: Structure and Functions",
+        "",
+        "Brain II: Methods of Research",
+        "Discussion: Brain",
+        "Vision I",
+        "",
+        "Vision II",
+        "Discussion: Vision",
+        "Writing Assignment 1",
+        "",
+        "Attention",
+        "Discussion: Attention",
+        "Consciousness",
+        "",
+        "Learning",
+        "Discussion: Learning",
+        "Exam 1",
+        "Memory I",
+        "",
+        "Memory II: Amnesia and Memory Systems",
+        "Discussion: Memory",
+        "",
+        "Language",
+        "Discussion: Language",
+        "Thinking",
+        "",
+        "Intelligence",
+        "Discussion: Thinking & Intelligence",
+        "",
+        "Emotion & Motivation",
+        "Discussion: Emotion",
+        "Exam 2",
+        "",
+        "Personality",
+        "Discussion: Personality",
+        "",
+        "Child Development",
+        "Writing Assignment 2",
+        "",
+        "Adult Development",
+        "Discussion: Development",
+        "",
+        "Stress",
+        "Discussion: Stress",
+        "Psychopathology I",
+        "",
+        "Psychopathology II",
+        "Discussion: Psychopathology",
+        "\"Extra Credit\" Writing Assignment",
+        "Social Psychology I",
+        "",
+        "Social Psychology II",
+        "Discussion: Social Psychology",
+        "Conclusions: Evolutionary Psychology, Happiness",
+        "Exam 3",
+        "Download Course Materials",
+        "Send us your feedback",
+        "Cite this course",
+        "Email this page",
+        "Newsletter sign-up",
+        "Donate",
+        "Home",
+        "Courses",
+        "Brain and Cognitive Sciences",
+        "",
+        "Learn more about OCW Scholar",
+        "",
+        "",
+        "",
+        "",
+        "RSS Feeds",
+        "Privacy and Terms of Use",
+        "Site Map",
+        "Cite OCW Content",
+        "",
+        ""
+      ],
+      "linkCount": 96
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8900/before/introduction/index.htm",
+    "name": "before_introduction_index",
+    "keyboard": {
+      "tabStops": 120,
+      "uniqueStops": 79,
+      "keyboardTrapSuspected": false,
+      "stopsWithoutVisibleFocus": 0,
+      "stops": [
+        {
+          "stop": 1,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "MIT OpenCourseWare",
+          "href": "/",
+          "rect": {
+            "x": 364,
+            "y": 26,
+            "w": 289,
+            "h": 31
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 2,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Subscribe to OCW's newsletter.",
+          "href": "/jsp/subscribe.jsp?utm_source=header",
+          "rect": {
+            "x": 1020,
+            "y": 21,
+            "w": 85,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 3,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Twitter.",
+          "href": "http://twitter.com/mitocw",
+          "rect": {
+            "x": 1020,
+            "y": 42,
+            "w": 40,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 4,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Facebook.",
+          "href": "http://facebook.com/mitocw",
+          "rect": {
+            "x": 1065,
+            "y": 42,
+            "w": 40,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 5,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Home",
+          "href": "/",
+          "rect": {
+            "x": 165,
+            "y": 66,
+            "w": 77,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 6,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Courses",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses/",
+          "rect": {
+            "x": 242,
+            "y": 66,
+            "w": 94,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 7,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Donate",
+          "href": "http://ocw.mit.edu/donate",
+          "rect": {
+            "x": 336,
+            "y": 66,
+            "w": 88,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 8,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "About OCW",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/about/",
+          "rect": {
+            "x": 424,
+            "y": 66,
+            "w": 122,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 9,
+          "tag": "input",
+          "id": "terms",
+          "cls": "search",
+          "name": "Enter search keyword",
+          "href": null,
+          "rect": {
+            "x": 830,
+            "y": 72,
+            "w": 136,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 10,
+          "tag": "input",
+          "id": null,
+          "cls": "but",
+          "name": "Go",
+          "href": null,
+          "rect": {
+            "x": 971,
+            "y": 71,
+            "w": 18,
+            "h": 17
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 11,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Advanced Search",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/search/A",
+          "rect": {
+            "x": 1010,
+            "y": 69,
+            "w": 100,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 12,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Help",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/help",
+          "rect": {
+            "x": 662,
+            "y": 72,
+            "w": 27,
+            "h": 13
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 13,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Contact Us",
+          "href": "/jsp/feedback.jsp?Referer=",
+          "rect": {
+            "x": 729,
+            "y": 72,
+            "w": 65,
+            "h": 13
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 14,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "VIEW ALL COURSES",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses",
+          "rect": {
+            "x": 185,
+            "y": 112,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 15,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Course Home",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 158,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 16,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 179,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 17,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Syllabus",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 177,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 18,
+          "tag": "a",
+          "id": null,
+          "cls": "selected",
+          "name": "Introduction",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 196,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 19,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Science & Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 215,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 20,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain I: Structure and Functions",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 234,
+            "w": 165,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 21,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 269,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 22,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain II: Methods of Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 267,
+            "w": 166,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 23,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 300,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 24,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 321,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 25,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 319,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 26,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 340,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 27,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Attention",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 338,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 28,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Consciousness",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 357,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 29,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 378,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 30,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Learning",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 376,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 31,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 1",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 395,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 32,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 414,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 33,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 435,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 34,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory II: Amnesia and Memory Systems",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 433,
+            "w": 166,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 35,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 468,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 36,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Language",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 466,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 37,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Thinking",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 485,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 38,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 506,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 39,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Intelligence",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 504,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 40,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 525,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 41,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Emotion & Motivation",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 523,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 42,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 2",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 542,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 43,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 563,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 44,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Personality",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 561,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 45,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 582,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 46,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Child Development",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 580,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 47,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 601,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 48,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Adult Development",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 599,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 49,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 620,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 50,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Stress",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 618,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 51,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Psychopathology I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 637,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 52,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 658,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 53,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Psychopathology II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 656,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 54,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Social Psychology I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 675,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 55,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 696,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 56,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Social Psychology II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 694,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 57,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Conclusions: Evolutionary Psychology, Happiness",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 713,
+            "w": 165,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 58,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 3",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 746,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 59,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Download Course Materials",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 786,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 60,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Send us your feedback",
+          "href": "/jsp/feedback.jsp?Referer=",
+          "rect": {
+            "x": 185,
+            "y": 392,
+            "w": 165,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        }
+      ],
+      "skipLink": null
+    },
+    "reflow320": {
+      "scrollWidth": 952,
+      "clientWidth": 320,
+      "bodyScrollWidth": 952,
+      "horizontalScroll": true
+    },
+    "zoom400": {
+      "note": "visual render only (no reflow); reflow verdict = 320px viewport pass (400% of 1280px = 320px)"
+    },
+    "contrast": {
+      "failures": [
+        {
+          "text": "OCW Scholar",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(255,255,255)",
+          "ratio": 1,
+          "required": 4.5,
+          "fontSize": "16.8017px",
+          "weight": 700
+        }
+      ],
+      "failureCount": 1
+    },
+    "structure": {
+      "lang": "en",
+      "title": "MIT OpenCourseWare | Brain and Cognitive Sciences | 9.00SC Introduction to Psychology, Fall 2011 | Introduction",
+      "landmarks": [],
+      "headingOutline": [
+        {
+          "level": 1,
+          "text": ""
+        },
+        {
+          "level": 3,
+          "text": "Syllabus"
+        },
+        {
+          "level": 3,
+          "text": "Brain II: Methods of Research"
+        },
+        {
+          "level": 3,
+          "text": "Vision II"
+        },
+        {
+          "level": 3,
+          "text": "Attention"
+        },
+        {
+          "level": 3,
+          "text": "Learning"
+        },
+        {
+          "level": 3,
+          "text": "Memory II: Amnesia and Memory Systems"
+        },
+        {
+          "level": 3,
+          "text": "Language"
+        },
+        {
+          "level": 3,
+          "text": "Intelligence"
+        },
+        {
+          "level": 3,
+          "text": "Emotion & Motivation"
+        },
+        {
+          "level": 3,
+          "text": "Personality"
+        },
+        {
+          "level": 3,
+          "text": "Child Development"
+        },
+        {
+          "level": 3,
+          "text": "Adult Development"
+        },
+        {
+          "level": 3,
+          "text": "Stress"
+        },
+        {
+          "level": 3,
+          "text": "Psychopathology II"
+        },
+        {
+          "level": 3,
+          "text": "Social Psychology II"
+        },
+        {
+          "level": 1,
+          "text": "Introduction"
+        },
+        {
+          "level": 2,
+          "text": "Session Overview"
+        },
+        {
+          "level": 2,
+          "text": "Session Activities"
+        },
+        {
+          "level": 3,
+          "text": "Readings"
+        },
+        {
+          "level": 3,
+          "text": "Lecture Videos"
+        },
+        {
+          "level": 3,
+          "text": "View Full Video"
+        },
+        {
+          "level": 3,
+          "text": "View by Chapter"
+        },
+        {
+          "level": 3,
+          "text": "Video Resources"
+        },
+        {
+          "level": 2,
+          "text": "Further Study"
+        }
+      ],
+      "headingsCount": 25,
+      "images": [
+        {
+          "src": "logo-ocw-home_new.gif",
+          "alt": "MIT OpenCourseWare"
+        },
+        {
+          "src": "newsletter.png",
+          "alt": "Subscribe to OCW's newsletter."
+        },
+        {
+          "src": "twitter.png",
+          "alt": "Follow OCW on Twitter."
+        },
+        {
+          "src": "facebook.png",
+          "alt": "Follow OCW on Facebook."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "sc2_prev.png",
+          "alt": "Click for previous page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "(empty)"
+        },
+        {
+          "src": "sc2_next.png",
+          "alt": "Click for next page."
+        },
+        {
+          "src": "lec01_chp.jpg",
+          "alt": "A white grid pattern on a black background, with the illusion of black dots flas"
+        },
+        {
+          "src": "sc2_prev.png",
+          "alt": "Click for previous page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "(empty)"
+        },
+        {
+          "src": "sc2_next.png",
+          "alt": "Click for next page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "MIT Logo"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Copyright MIT"
+        },
+        {
+          "src": "footer_rss_new.gif",
+          "alt": "RSS Feeds"
+        },
+        {
+          "src": "cc_logo_new.gif",
+          "alt": "Creative Commons - some rights reserved"
+        },
+        {
+          "src": "ocw-logo_new.gif",
+          "alt": "OCW Consortium"
+        }
+      ],
+      "imageCount": 31,
+      "links": [
+        "",
+        "",
+        "",
+        "",
+        "Home",
+        "Courses",
+        "Donate",
+        "About OCW",
+        "Advanced Search",
+        "Help",
+        "Contact Us",
+        "VIEW ALL COURSES",
+        "Course Home",
+        "",
+        "Syllabus",
+        "Introduction",
+        "Science & Research",
+        "Brain I: Structure and Functions",
+        "",
+        "Brain II: Methods of Research",
+        "Vision I",
+        "",
+        "Vision II",
+        "",
+        "Attention",
+        "Consciousness",
+        "",
+        "Learning",
+        "Exam 1",
+        "Memory I",
+        "",
+        "Memory II: Amnesia and Memory Systems",
+        "",
+        "Language",
+        "Thinking",
+        "",
+        "Intelligence",
+        "",
+        "Emotion & Motivation",
+        "Exam 2",
+        "",
+        "Personality",
+        "",
+        "Child Development",
+        "",
+        "Adult Development",
+        "",
+        "Stress",
+        "Psychopathology I",
+        "",
+        "Psychopathology II",
+        "Social Psychology I",
+        "",
+        "Social Psychology II",
+        "Conclusions: Evolutionary Psychology, Happiness",
+        "Exam 3",
+        "Download Course Materials",
+        "Send us your feedback",
+        "Cite this course",
+        "Email this page",
+        "Newsletter sign-up",
+        "Donate",
+        "Home",
+        "Courses",
+        "Brain and Cognitive Sciences",
+        "Introduction to Psychology",
+        "",
+        "",
+        "K&R",
+        "Study outline for K&R Chapter 1 (PDF)",
+        "Stangor",
+        "Introducing Psychology",
+        "Lecture 1: Introduction",
+        "Goals of the Course",
+        "How Our Minds Make Our Worlds: Vision, Memory, Attention",
+        "How Our Minds Make our Worlds: Hearing, Learning, Memory",
+        "The Power and Peril of Automaticity",
+        "How We Feel vs. How We Act",
+        "Removed Clips",
+        "Lecture Slides (PDF)",
+        "Lightness Perception and Lightness Illusions",
+        "92 Visual Phenomena & Optical Illusions",
+        "Visual illusion experiments",
+        "History of Psychology: Contemporary Foundations",
+        "Kosslyn & Rosenberg, Psychology in Context, 3/e",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RSS Feeds",
+        "Privacy and Terms of Use",
+        "Site Map",
+        "Cite OCW Content",
+        "",
+        ""
+      ],
+      "linkCount": 96
+    }
+  },
+  {
+    "url": "http://127.0.0.1:8900/before/exam-1/index.htm",
+    "name": "before_exam-1_index",
+    "keyboard": {
+      "tabStops": 120,
+      "uniqueStops": 66,
+      "keyboardTrapSuspected": false,
+      "stopsWithoutVisibleFocus": 0,
+      "stops": [
+        {
+          "stop": 1,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "MIT OpenCourseWare",
+          "href": "/",
+          "rect": {
+            "x": 364,
+            "y": 26,
+            "w": 289,
+            "h": 31
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 2,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Subscribe to OCW's newsletter.",
+          "href": "/jsp/subscribe.jsp?utm_source=header",
+          "rect": {
+            "x": 1020,
+            "y": 21,
+            "w": 85,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 3,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Twitter.",
+          "href": "http://twitter.com/mitocw",
+          "rect": {
+            "x": 1020,
+            "y": 42,
+            "w": 40,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 4,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Follow OCW on Facebook.",
+          "href": "http://facebook.com/mitocw",
+          "rect": {
+            "x": 1065,
+            "y": 42,
+            "w": 40,
+            "h": 19
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 5,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Home",
+          "href": "/",
+          "rect": {
+            "x": 165,
+            "y": 66,
+            "w": 77,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 6,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Courses",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses/",
+          "rect": {
+            "x": 242,
+            "y": 66,
+            "w": 94,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 7,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Donate",
+          "href": "http://ocw.mit.edu/donate",
+          "rect": {
+            "x": 336,
+            "y": 66,
+            "w": 88,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 8,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "About OCW",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/about/",
+          "rect": {
+            "x": 424,
+            "y": 66,
+            "w": 122,
+            "h": 24
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 9,
+          "tag": "input",
+          "id": "terms",
+          "cls": "search",
+          "name": "Enter search keyword",
+          "href": null,
+          "rect": {
+            "x": 830,
+            "y": 72,
+            "w": 136,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 10,
+          "tag": "input",
+          "id": null,
+          "cls": "but",
+          "name": "Go",
+          "href": null,
+          "rect": {
+            "x": 971,
+            "y": 71,
+            "w": 18,
+            "h": 17
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 11,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Advanced Search",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/search/A",
+          "rect": {
+            "x": 1010,
+            "y": 69,
+            "w": 100,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 12,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Help",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/help",
+          "rect": {
+            "x": 662,
+            "y": 72,
+            "w": 27,
+            "h": 13
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 13,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Contact Us",
+          "href": "/jsp/feedback.jsp?Referer=",
+          "rect": {
+            "x": 729,
+            "y": 72,
+            "w": 65,
+            "h": 13
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 14,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "VIEW ALL COURSES",
+          "href": "https://web.archive.org/web/2012/http://ocw.mit.edu/courses",
+          "rect": {
+            "x": 185,
+            "y": 112,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 15,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Course Home",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 158,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 16,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 179,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 17,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Syllabus",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 177,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 18,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 196,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 19,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Science & Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 215,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 20,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain I: Structure and Functions",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 234,
+            "w": 165,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 21,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 269,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 22,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Brain II: Methods of Research",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 267,
+            "w": 166,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 23,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 300,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 24,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 321,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 25,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Vision II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 319,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 26,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 340,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 27,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Attention",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 338,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 28,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Consciousness",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 357,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 29,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 378,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 30,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Learning",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 376,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 31,
+          "tag": "a",
+          "id": null,
+          "cls": "selected",
+          "name": "Exam 1",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 395,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 32,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 414,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 33,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 435,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 34,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Memory II: Amnesia and Memory Systems",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 433,
+            "w": 166,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 35,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 468,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 36,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Language",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 466,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 37,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Thinking",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 485,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 38,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 506,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 39,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Intelligence",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 504,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 40,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 525,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 41,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Emotion & Motivation",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 523,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 42,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 2",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 542,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 43,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 563,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 44,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Personality",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 561,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 45,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 582,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 46,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Child Development",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 580,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 47,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 601,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 48,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Adult Development",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 599,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 49,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 620,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 50,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Stress",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 618,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 51,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Psychopathology I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 637,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 52,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 658,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 53,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Psychopathology II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 656,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 54,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Social Psychology I",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 675,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 55,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Expand Menu",
+          "href": "#",
+          "rect": {
+            "x": 185,
+            "y": 696,
+            "w": 166,
+            "h": 0
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 56,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Social Psychology II",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 694,
+            "w": 166,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 57,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Conclusions: Evolutionary Psychology, Happiness",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 713,
+            "w": 165,
+            "h": 28
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 58,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Exam 3",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 746,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 59,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Download Course Materials",
+          "href": "../courses/brain-and-cognitive-sciences/9-00sc-introduction-",
+          "rect": {
+            "x": 185,
+            "y": 786,
+            "w": 165,
+            "h": 14
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 60,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Send us your feedback",
+          "href": "/jsp/feedback.jsp?Referer=",
+          "rect": {
+            "x": 185,
+            "y": 595,
+            "w": 165,
+            "h": 15
+          },
+          "style": {
+            "outlineWidth": "1px",
+            "outlineStyle": "auto",
+            "outlineColor": "rgb(0, 95, 204)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        }
+      ],
+      "skipLink": null
+    },
+    "reflow320": {
+      "scrollWidth": 952,
+      "clientWidth": 320,
+      "bodyScrollWidth": 952,
+      "horizontalScroll": true
+    },
+    "zoom400": {
+      "note": "visual render only (no reflow); reflow verdict = 320px viewport pass (400% of 1280px = 320px)"
+    },
+    "contrast": {
+      "failures": [
+        {
+          "text": "OCW Scholar",
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(255,255,255)",
+          "ratio": 1,
+          "required": 4.5,
+          "fontSize": "16.8017px",
+          "weight": 700
+        }
+      ],
+      "failureCount": 1
+    },
+    "structure": {
+      "lang": "en",
+      "title": "MIT OpenCourseWare | Brain and Cognitive Sciences | 9.00SC Introduction to Psychology, Fall 2011 | Exam 1",
+      "landmarks": [],
+      "headingOutline": [
+        {
+          "level": 1,
+          "text": ""
+        },
+        {
+          "level": 3,
+          "text": "Syllabus"
+        },
+        {
+          "level": 3,
+          "text": "Brain II: Methods of Research"
+        },
+        {
+          "level": 3,
+          "text": "Vision II"
+        },
+        {
+          "level": 3,
+          "text": "Attention"
+        },
+        {
+          "level": 3,
+          "text": "Learning"
+        },
+        {
+          "level": 3,
+          "text": "Memory II: Amnesia and Memory Systems"
+        },
+        {
+          "level": 3,
+          "text": "Language"
+        },
+        {
+          "level": 3,
+          "text": "Intelligence"
+        },
+        {
+          "level": 3,
+          "text": "Emotion & Motivation"
+        },
+        {
+          "level": 3,
+          "text": "Personality"
+        },
+        {
+          "level": 3,
+          "text": "Child Development"
+        },
+        {
+          "level": 3,
+          "text": "Adult Development"
+        },
+        {
+          "level": 3,
+          "text": "Stress"
+        },
+        {
+          "level": 3,
+          "text": "Psychopathology II"
+        },
+        {
+          "level": 3,
+          "text": "Social Psychology II"
+        },
+        {
+          "level": 1,
+          "text": "Exam 1"
+        },
+        {
+          "level": 2,
+          "text": "Review"
+        },
+        {
+          "level": 2,
+          "text": "Exam"
+        }
+      ],
+      "headingsCount": 19,
+      "images": [
+        {
+          "src": "logo-ocw-home_new.gif",
+          "alt": "MIT OpenCourseWare"
+        },
+        {
+          "src": "newsletter.png",
+          "alt": "Subscribe to OCW's newsletter."
+        },
+        {
+          "src": "twitter.png",
+          "alt": "Follow OCW on Twitter."
+        },
+        {
+          "src": "facebook.png",
+          "alt": "Follow OCW on Facebook."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Expand Menu"
+        },
+        {
+          "src": "sc2_prev.png",
+          "alt": "Click for previous page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "(empty)"
+        },
+        {
+          "src": "sc2_next.png",
+          "alt": "Click for next page."
+        },
+        {
+          "src": "sc2_prev.png",
+          "alt": "Click for previous page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "(empty)"
+        },
+        {
+          "src": "sc2_next.png",
+          "alt": "Click for next page."
+        },
+        {
+          "src": "trans.gif",
+          "alt": "MIT Logo"
+        },
+        {
+          "src": "trans.gif",
+          "alt": "Copyright MIT"
+        },
+        {
+          "src": "footer_rss_new.gif",
+          "alt": "RSS Feeds"
+        },
+        {
+          "src": "cc_logo_new.gif",
+          "alt": "Creative Commons - some rights reserved"
+        },
+        {
+          "src": "ocw-logo_new.gif",
+          "alt": "OCW Consortium"
+        }
+      ],
+      "imageCount": 30,
+      "links": [
+        "",
+        "",
+        "",
+        "",
+        "Home",
+        "Courses",
+        "Donate",
+        "About OCW",
+        "Advanced Search",
+        "Help",
+        "Contact Us",
+        "VIEW ALL COURSES",
+        "Course Home",
+        "",
+        "Syllabus",
+        "Introduction",
+        "Science & Research",
+        "Brain I: Structure and Functions",
+        "",
+        "Brain II: Methods of Research",
+        "Vision I",
+        "",
+        "Vision II",
+        "",
+        "Attention",
+        "Consciousness",
+        "",
+        "Learning",
+        "Exam 1",
+        "Memory I",
+        "",
+        "Memory II: Amnesia and Memory Systems",
+        "",
+        "Language",
+        "Thinking",
+        "",
+        "Intelligence",
+        "",
+        "Emotion & Motivation",
+        "Exam 2",
+        "",
+        "Personality",
+        "",
+        "Child Development",
+        "",
+        "Adult Development",
+        "",
+        "Stress",
+        "Psychopathology I",
+        "",
+        "Psychopathology II",
+        "Social Psychology I",
+        "",
+        "Social Psychology II",
+        "Conclusions: Evolutionary Psychology, Happiness",
+        "Exam 3",
+        "Download Course Materials",
+        "Send us your feedback",
+        "Cite this course",
+        "Email this page",
+        "Newsletter sign-up",
+        "Donate",
+        "Home",
+        "Courses",
+        "Brain and Cognitive Sciences",
+        "Introduction to Psychology",
+        "",
+        "",
+        "Introduction",
+        "Learning",
+        "Practice Exam 1 Questions (PDF)",
+        "Practice Exam 1 Solutions (PDF)",
+        "Practice Exam 1 Questions (PDF)",
+        "Practice Exam 1 Solutions (PDF)",
+        "Exam 1 Questions (PDF)",
+        "Exam 1 Solutions (PDF)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "RSS Feeds",
+        "Privacy and Terms of Use",
+        "Site Map",
+        "Cite OCW Content",
+        "",
+        ""
+      ],
+      "linkCount": 87
+    }
+  }
+]

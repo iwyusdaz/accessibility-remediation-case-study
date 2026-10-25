@@ -1,0 +1,26 @@
+[
+  {
+    "url": "http://127.0.0.1:8900/before/index.htm",
+    "critical": 1,
+    "serious": 1,
+    "moderate": 3,
+    "minor": 0,
+    "incomplete": 2
+  },
+  {
+    "url": "http://127.0.0.1:8900/before/introduction/index.htm",
+    "critical": 1,
+    "serious": 0,
+    "moderate": 3,
+    "minor": 0,
+    "incomplete": 1
+  },
+  {
+    "url": "http://127.0.0.1:8900/before/exam-1/index.htm",
+    "critical": 1,
+    "serious": 0,
+    "moderate": 3,
+    "minor": 0,
+    "incomplete": 1
+  }
+]

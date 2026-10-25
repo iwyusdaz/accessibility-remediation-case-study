@@ -48,21 +48,23 @@ evaluations are pending. No real learners have tested this yet. See
 <h2>Before and after</h2>
 
 <figure>
-  <figcaption>Before — the original 2011–2012 MIT OCW unit page: no landmarks,
-  no meaningful heading structure (the site logo is the only <code>h1</code>,
-  and the page topic “Introduction” is not a heading at all), an unlabeled
-  search field, a skip link keyboard users cannot reach, and a video behind a
-  Flash-era popup with no captions or transcript.</figcaption>
-  <img src="../audit/manual-evidence/before/before-unit-introduction.png"
+  <figcaption>Before — the original 2011–2012 MIT OCW unit page (still viewable:
+  <a href="before/introduction/index.htm">open the original unit page</a>): no
+  landmarks, <strong>two</strong> <code>h1</code>s per page (the site logo image
+  first, then the page topic buried after the sidebar’s 15 third-level
+  headings), an unlabeled search field, a skip link keyboard users cannot
+  reach, and a video behind a Flash-era popup with no captions or
+  transcript.</figcaption>
+  <img src="assets/before-unit-introduction.png"
        alt="Screenshot of the original 2012 MIT OpenCourseWare unit page: dense three-column layout with a long sidebar of course links, a search box, and the session content on the right." width="800">
 </figure>
 
 <figure>
-  <figcaption>After — the remediated module: landmarks, a real page title as
-  <code>h1</code>, a keyboard-reachable skip link, a labeled navigation, a
-  readable palette, and every content type rebuilt accessibly (screenshots and
-  raw tool exports in <code>audit/</code>).</figcaption>
-  <img src="../audit/manual-evidence/after/after-module-overview-top.png"
+  <figcaption>After — the remediated module: landmarks, a single content
+  <code>h1</code> per page, a keyboard-reachable skip link, a labeled
+  navigation, a readable palette, and every content type rebuilt accessibly
+  (screenshots and raw tool exports in <code>audit/</code>).</figcaption>
+  <img src="assets/after-module-overview-top.png"
        alt="Screenshot of the remediated module overview page: a clean single-column layout with a heading, module navigation, an accessible data table of module contents, and a clearly labeled footer." width="800">
 </figure>
 
@@ -102,8 +104,8 @@ diagram has no text alternative; and the fixed-width layout cannot reflow to a
 <thead><tr><th scope="col">Severity</th><th scope="col">Count</th><th scope="col">Examples</th><th scope="col">Caught by</th></tr></thead>
 <tbody>
 <tr><th scope="row">Critical</th><td>3</td><td>No captions for the lecture video; no audio description for an inherently visual lecture; unlabeled search field on every page</td><td>Scripted media check; markup inspection; axe (label)</td></tr>
-<tr><th scope="row">High</th><td>11</td><td>Page topic not a heading; site logo is the only h1; unreachable skip link; fixed-width layout fails 320&nbsp;px reflow; slide figures with junk alt; exam diagram with no text alternative</td><td>DOM inspection; scripted reflow; PDF tag-tree inspection</td></tr>
-<tr><th scope="row">Medium</th><td>13</th><td>No landmarks; heading-order skips; identical download-link names; popup opens without moving focus; undersized touch targets (WCAG&nbsp;2.2 best practice)</td><td>axe; pa11y; Lighthouse; scripted keyboard tests</td></tr>
+<tr><th scope="row">High</th><td>10</td><td>Duplicate logo-first <code>h1</code> on every page (topic heading buried after 15 sidebar <code>h3</code>s); unreachable skip link; fixed-width layout fails 320&nbsp;px reflow; slide figures with junk alt; exam diagram with no text alternative</td><td>DOM inspection; scripted reflow; PDF tag-tree inspection</td></tr>
+<tr><th scope="row">Medium</th><td>14</th><td>No landmarks; heading-order skips; identical download-link names; popup opens without moving focus; undersized touch targets (WCAG&nbsp;2.2 best practice)</td><td>axe; pa11y; Lighthouse; scripted keyboard tests</td></tr>
 <tr><th scope="row">Low</th><td>6</th><td>Typo’d <code>hhttp://</code> link; deprecated table <code>summary</code>; white-on-white image-replacement text</td><td>Scripted link inventory; contrast measurement</td></tr>
 </tbody>
 </table>
@@ -173,7 +175,7 @@ machine-aligned. The speech-to-text word-error-rate check runs via
 conformance report lists it as pending, and nothing is marked “fixed” on that
 evidence alone.</li>
 <li><strong>No conformance certification.</strong> The
-<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/conformance-report.md">conformance report</a>
+<a href="report/conformance-report.html">conformance report</a>
 covers every WCAG&nbsp;2.1 A/AA criterion with honest statuses, but it is
 explicitly <strong>not an official VPAT</strong>, and no “WCAG certified”
 claim is made anywhere.</li>
@@ -219,14 +221,14 @@ Captions describe the scripted steps. A full transcript is on the
 catalog scale:</p>
 
 <ul>
-<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/prioritization-model.md">Prioritization model</a> —
-Impact × Exposure ÷ Effort scoring with 10 fictional Lakeside State courses
+<li><a href="report/prioritization-model.html">Prioritization model</a> —
+(Impact + Exposure) ÷ Effort scoring with 10 fictional Lakeside State courses
 ranked; effort estimates cite published human benchmarks (4–5 hours of caption
 correction per video hour — 3Play Media; up to ~1 hour per complex PDF page —
 WebAIM/Equidox; all accessed 2026-10-25), never AI-agent time.</li>
-<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/remediation-workflow.md">Remediation workflow</a> —
+<li><a href="program/remediation-workflow.html">Remediation workflow</a> —
 intake → snapshot → audit → triage → fix → verify → human pass → faculty
-sign-off → monitor (Mermaid diagram + text).</li>
+sign-off → monitor (diagram + text).</li>
 <li><a href="faculty-quick-guide.html">Faculty quick guide</a> — the 10 rules
 that stop new problems: real headings, meaningful links, alt text, no
 color-only meaning, slide templates, corrected captions, HTML over PDF,
@@ -257,12 +259,15 @@ the audited module is real.</li>
 </ul>
 
 <h2>Repository documents</h2>
+<p>Rendered on this site where possible; the full Markdown sources are in the
+repository.</p>
 <ul>
-<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/conformance-report.md">Conformance report</a> — every WCAG 2.1 A/AA criterion, before → after (not an official VPAT)</li>
+<li><a href="report/conformance-report.html">Conformance report</a> — every WCAG 2.1 A/AA criterion, before → after (not an official VPAT; <a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/conformance-report.md">Markdown source</a>)</li>
+<li><a href="report/prioritization-model.html">Prioritization model</a> and <a href="program/remediation-workflow.html">remediation workflow</a> — the program view (<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/tree/main/program">Markdown sources</a>)</li>
 <li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/before-after.md">Before/after evidence</a> — tool scores, issue counts, screenshot pairs</li>
 <li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/executive-summary.md">Executive summary</a> — one page for a dean or director</li>
 <li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/audit/methodology.md">Audit methodology</a> — scope, tools, dates, who did what</li>
-<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/DECISIONS.md">Decision log</a> and <a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/evaluation/METHODS.md">evaluation methods</a></li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/DECISIONS.md">Decision log</a> and <a href="evaluation/METHODS.html">evaluation methods</a></li>
 </ul>
 
 </div>

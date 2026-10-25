@@ -40,23 +40,28 @@
 <tr><td>9</td><td>Scripted keyboard task tests (skip link, quiz completion, video chapters)</td><td>Agent (<code>scripts/test-keyboard.mjs</code>)</td><td>2026-10-25</td><td><code>audit/manual-evidence/after/keyboard-tests.json</code></td><td>End-to-end tasks work keyboard-only</td><td>Screen-reader announcements beyond live-region wiring</td></tr>
 <tr><td>10</td><td>Caption build (text: publisher transcript; timings: machine alignment)</td><td>Agent (<code>scripts/build-captions.mjs</code>)</td><td>2026-10-25</td><td><code>docs/module/media/captions-build-report.json</code></td><td>Transparent, reproducible caption derivation</td><td>Accuracy vs. the audio (method 11)</td></tr>
 <tr><td>11</td><td><strong>Caption accuracy vs. audio (STT word-error-rate)</strong></td><td><strong>PENDING: requires API key</strong> (<code>npm run eval:pending</code>)</td><td>—</td><td>will write <code>evaluation/caption-wer-results.json</code> + <code>dry-run/</code> stubs</td><td>Measured caption WER once run</td><td>—</td></tr>
-<tr><td>12</td><td>Agent heuristic review of the case study site (fresh-context reviewer sub-agent; may share the author's underlying model — disclosed limitation)</td><td>Reviewer agent (separate context)</td><td>2026-10-25</td><td>review notes in <code>evaluation/agent-review.md</code></td><td>Consistency, honesty, accessibility-baseline gaps</td><td>Independent human judgment</td></tr>
+<tr><td>12</td><td>Agent heuristic review of the case study site (fresh-context reviewer sub-agent; may share the author's underlying model — disclosed limitation)</td><td>Reviewer agent (separate context)</td><td>2026-10-25 (authoring session) / 2026-10-26 (fresh-context round)</td><td>review notes in <code>evaluation/agent-review.md</code></td><td>Consistency, honesty, accessibility-baseline gaps</td><td>Independent human judgment</td></tr>
 <tr><td>13</td><td>Human VoiceOver pass (rotor tests before/after)</td><td><strong>PENDING human</strong> — protocol in <code>evaluation/human-protocol/voiceover-protocol.md</code></td><td>—</td><td>—</td><td>Real screen-reader behavior</td><td>—</td></tr>
 <tr><td>14</td><td>Daily AT-user review</td><td><strong>PENDING human</strong> — invitation: <code>evaluation/human-protocol/at-user-review-invite.md</code></td><td>—</td><td>—</td><td>The strongest available evidence</td><td>—</td></tr>
 <tr><td>15</td><td>Caption timing spot-check</td><td><strong>PENDING human</strong> — <code>evaluation/human-protocol/caption-accuracy-check.md</code></td><td>—</td><td>—</td><td>Comfortable caption timing</td><td>—</td></tr>
+<tr><td>16</td><td>Label in Name check (WCAG 2.5.3: visible label contained in accessible name)</td><td>Agent (<code>scripts/check-label-in-name.mjs</code>)</td><td>2026-10-26</td><td><code>audit/manual-evidence/after/label-in-name.json</code></td><td>Every labeled control on all 9 site pages (207 controls, 0 violations)</td><td>Screen-reader pronunciation quirks</td></tr>
+<tr><td>17</td><td>Whole-site link/image/fragment check (every published page; prefix-escape rule; <code>docs/before/</code> excluded by default)</td><td>Agent (<code>scripts/check-links.mjs</code>)</td><td>2026-10-26</td><td><code>linkcheck-results/</code> (local + live runs)</td><td>Broken hrefs/srcs, links escaping the deployment root, dead fragment targets</td><td>External-link availability (external URLs are skipped)</td></tr>
+<tr><td>18</td><td>Markdown report/program documents rendered as deployed site pages</td><td>Agent (<code>scripts/render-doc-pages.mjs</code>)</td><td>2026-10-26</td><td><code>docs/report/conformance-report.html</code>, <code>docs/report/prioritization-model.html</code>, <code>docs/program/remediation-workflow.html</code></td><td>Styled, deployed versions of the Markdown sources (axe-clean)</td><td>Direct edits to the HTML (edit the <code>.md</code>, then re-render)</td></tr>
 </tbody></table>
 
 <h2>What was deliberately NOT done</h2>
 
-<li><strong>No simulated disabled users.</strong> Accessibility evidence comes from real</li>
-<p>  tools, standards-based checks, and (pending) human AT sessions — never from</p>
-<p>  AI personas pretending to be disabled users.</p>
-<li><strong>No fake pending results.</strong> Rows 11, 13, 14, 15 stay empty until their keys</li>
-<p>  or human passes exist.</p>
-<li><strong>No local/open-source speech-to-text models.</strong> The STT slot is an</li>
-<p>  OpenAI-compatible API configured in <code>.env</code> (see <code>.env.example</code>).</p>
-<li><strong>No AI-agent processing time as an effort estimate.</strong> The prioritization</li>
-<p>  model cites published human benchmarks.</p>
+<ul>
+<li><strong>No simulated disabled users.</strong> Accessibility evidence comes from real
+tools, standards-based checks, and (pending) human AT sessions — never from
+AI personas pretending to be disabled users.</li>
+<li><strong>No fake pending results.</strong> Rows 11, 13, 14, 15 stay empty until their keys
+or human passes exist.</li>
+<li><strong>No local/open-source speech-to-text models.</strong> The STT slot is an
+OpenAI-compatible API configured in <code>.env</code> (see <code>.env.example</code>).</li>
+<li><strong>No AI-agent processing time as an effort estimate.</strong> The prioritization
+model cites published human benchmarks.</li>
+</ul>
 
 <h2>Reviewer-agent note (labeling)</h2>
 
@@ -67,14 +72,16 @@
 
 <h2>Reproduce</h2>
 
-<p>```</p>
-<p>npm run serve            # python3 -m http.server 8900 --directory docs</p>
-<p>node scripts/manual-pass.mjs before &lt;before-urls...&gt;</p>
-<p>node scripts/manual-pass.mjs after  &lt;module-urls...&gt;</p>
-<p>node scripts/test-keyboard.mjs</p>
-<p>npm run eval:dry-run     # pipeline stub test, no network</p>
-<p>npm run eval:pending     # real STT run, requires .env keys</p>
-<p>```</p>
+<pre><code>npm run serve            # python3 -m http.server 8900 --directory docs
+node scripts/manual-pass.mjs before &lt;before-urls...&gt;
+node scripts/manual-pass.mjs after  &lt;module-urls...&gt;
+node scripts/test-keyboard.mjs
+node scripts/check-label-in-name.mjs
+node scripts/check-links.mjs docs          # local: every page under docs/
+node scripts/check-links.mjs &lt;live-url&gt;    # deployed site
+node scripts/render-doc-pages.mjs          # re-render docs/report + docs/program
+npm run eval:dry-run     # pipeline stub test, no network
+npm run eval:pending     # real STT run, requires .env keys</code></pre>
 
 </div>
 </main>

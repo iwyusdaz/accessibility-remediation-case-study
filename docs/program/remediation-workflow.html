@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Remediation workflow: intake → audit → fix → verify → sign-off | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="../module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-kicker">Lakeside State University — program view</p>
+    <p class="site-title"><a href="../index.html">Accessibility Remediation Case Study</a></p>
+    <nav class="site-nav" aria-label="Case study pages">
+      <ul>
+        <li><a href="../index.html">Case study home</a></li>
+        <li><a href="../module/index.html">Remediated module</a></li>
+        <li><a href="../faculty-quick-guide.html">Faculty quick guide</a></li>
+        <li><a href="remediation-workflow.html" aria-current="page">Remediation workflow</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Remediation workflow: intake → audit → fix → verify → sign-off</h1>
+<p class="lede">The repeatable pipeline used for the pilot module, ready to run per course at catalog scale. Web version of <code>program/remediation-workflow.md</code>. <a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/remediation-workflow.md" rel="noopener">Markdown source</a>.</p>
+
+<p>The repeatable pipeline used for the pilot module in this repository, ready to run per course at catalog scale.</p>
+<h2>Diagram</h2>
+<p class="meta">Diagram source (Mermaid). If it does not render, the text description below is the same process.</p>
+<pre><code>flowchart TD
+    A[Intake: course selected by prioritization model] --&gt; B[Snapshot: preserve originals verbatim]
+    B --&gt; C[Audit: automated tools + scripted keyboard/reflow/contrast]
+    C --&gt; D[Issue log: WCAG criterion, severity, users affected, fix, effort]
+    D --&gt; E[Triage: severity order; faculty consulted on content meaning]
+    E --&gt; F[Fix: rebuild content accessibly - HTML over PDFs, captions from transcripts, labeled forms]
+    F --&gt; G{Verify: re-run all automated tools\n+ scripted keyboard tasks}
+    G --&gt;|failures found| E
+    G --&gt;|clean| H[Human pass: VoiceOver protocol\n+ caption accuracy check]
+    H --&gt;|issues found| E
+    H --&gt;|pass| I[Faculty sign-off: content accuracy preserved]
+    I --&gt; J[Publish + log remediation time per content type]
+    J --&gt; K[Monitor: new-term content re-check; feedback channel]
+    K --&gt;|new issues| D</code></pre>
+<p><em>(If your Markdown viewer does not render Mermaid, the text below is the same process.)</em></p>
+<h2>Text description</h2>
+<ol><li><strong>Intake.</strong> The course arrives from the <a href="../report/prioritization-model.html">prioritization model</a> with its score and effort estimate. The disability-services office flags any active accommodation requests, which jump the queue.</li><li><strong>Snapshot.</strong> Originals are preserved verbatim (in this repo: <code>source/</code> and a renderable "before" copy). Nothing is fixed in place before evidence is captured: automated tool exports, screenshots, keyboard logs.</li><li><strong>Audit.</strong> axe-core + Lighthouse + a second CLI engine (pa11y) on every page; scripted keyboard tab-through, focus-visibility check, 320 px reflow, and measured color contrast; PDF tag-tree inspection; media availability check (captions? transcript? audio description?). Output: an issue log with WCAG criterion, severity, users affected, proposed fix, and effort (S/M/L).</li><li><strong>Triage.</strong> Order by severity (task-blocking first), batch by content type, and loop in the faculty author for anything that touches meaning (alt text for disciplinary images, quiz wording, plain-language edits).</li><li><strong>Fix.</strong> Prefer rebuilding to patching: HTML over PDF, real text over images of text, captions derived from official transcripts, semantic tables, native form controls. Each fix is recorded against its issue ID.</li><li><strong>Verify.</strong> Re-run every automated tool and scripted check; re-run the keyboard task tests; confirm zero critical/serious issues (or documented, accepted exceptions).</li><li><strong>Human pass.</strong> A human runs the screen-reader protocol (<code>evaluation/human-protocol/voiceover-protocol.md</code>) and the caption-accuracy check (<code>evaluation/human-protocol/caption-accuracy-check.md</code>); ideally a paid reviewer who uses assistive technology daily reviews the result.</li><li><strong>Faculty sign-off.</strong> The author confirms the remediated version still teaches the same content — accessibility work must never silently change meaning.</li><li><strong>Publish + measure.</strong> Deploy, log time-per-content-type (it feeds the next prioritization round), and archive the before/after evidence.</li><li><strong>Monitor.</strong> Each new term, re-check new content; keep a feedback channel for students and instructors; re-audit on any template change.</li></ol>
+<h2>Roles at scale</h2>
+<div class="table-scroll" tabindex="0"><table class="data">
+<thead><tr><th scope="col">Role</th><th scope="col">Owns</th></tr></thead>
+<tbody><tr><th scope="row">Accessibility specialist</th><td>Audit, triage, verification, issue log</td></tr><tr><th scope="row">Instructional designer</th><td>Rebuild (HTML conversion, quiz, structure), faculty support</td></tr><tr><th scope="row">Media services / vendor</th><td>Captioning at benchmark rates; audio description</td></tr><tr><th scope="row">Faculty author</th><td>Content meaning, sign-off, prevention (quick guide)</td></tr><tr><th scope="row">Disability services</th><td>Accommodation queue, severity overrides</td></tr><tr><th scope="row">Program manager</th><td>Prioritization model, capacity plan, reporting</td></tr></tbody>
+</table></div>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Part of the case study “Accessibility remediation of a real course
+    module.” Content adapted from <em>9.00SC Introduction to Psychology, Fall
+    2011</em> (Unit&nbsp;1) by Prof. John Gabrieli, MIT OpenCourseWare, licensed
+    CC BY-NC-SA 3.0 US; this adaptation is licensed alike (see
+    <a href="../index.html#attribution">attribution</a>).
+    “Lakeside State University” is a fictional US public university preparing for
+    ADA Title II digital accessibility compliance.</p>
+  </div>
+</footer>
+</body>
+</html>

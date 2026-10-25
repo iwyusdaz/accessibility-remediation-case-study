@@ -22,6 +22,17 @@
     var fb = fs.querySelector(".feedback");
     var answer = fs.getAttribute("data-answer");
     var qnum = fs.getAttribute("data-qnum");
+    var lessonName = fs.getAttribute("data-lesson-name");
+    var lessonHref = fs.getAttribute("data-lesson-href");
+    // link into the relevant lesson section (rendered as real text for the
+    // no-JS case: the section name is in the data attribute on the fieldset)
+    function lessonLink() {
+      if (!lessonHref) return null;
+      var a = document.createElement("a");
+      a.href = lessonHref;
+      a.textContent = "“" + (lessonName || "the relevant lesson section") + "”";
+      return a;
+    }
     btn.addEventListener("click", function () {
       var chosen = fs.querySelector("input[type=radio]:checked");
       if (!chosen) {
@@ -33,11 +44,25 @@
       var correct = chosen.value === answer;
       if (correct) answeredCorrect += 1;
       var pct = Math.round((answeredCorrect / fields.length) * 100);
+      var chosenText = chosen.nextElementSibling.textContent;
+      var link = lessonLink();
       fb.style.display = "block";
       fb.setAttribute("data-state", correct ? "correct" : "incorrect");
-      fb.innerHTML = correct
-        ? '<span class="verdict">Correct.</span> Well done — see the lesson sections on this topic for the full reasoning.'
-        : '<span class="verdict">Not quite.</span> You chose “' + chosen.nextElementSibling.textContent + '”. Re-read the relevant lesson section and try again — you can change your answer and re-check.';
+      fb.textContent = "";
+      var verdict = document.createElement("span");
+      verdict.className = "verdict";
+      verdict.textContent = correct ? "Correct." : "Not quite.";
+      fb.appendChild(verdict);
+      if (correct) {
+        fb.appendChild(document.createTextNode(" Well done — re-read the lesson section "));
+        if (link) fb.appendChild(link);
+        fb.appendChild(document.createTextNode(" for the full reasoning."));
+      } else {
+        fb.appendChild(document.createTextNode(" You chose “" + chosenText + "”. Re-read the lesson section "));
+        if (link) fb.appendChild(link);
+        fb.appendChild(document.createTextNode(" and try again — you can change your answer and re-check."));
+        if (!link) fb.appendChild(document.createTextNode(" (Section reference missing for this question.)"));
+      }
       var checkedCount = fields.filter(function (f) { return f.querySelector("input:checked"); }).length;
       if (checkedCount === fields.length) {
         score.textContent = "Score so far: " + answeredCorrect + " of " + fields.length + " (" + pct + "%) on your most recent check of each question.";

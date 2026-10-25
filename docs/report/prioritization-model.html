@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prioritization model: remediating a course catalog at scale | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="../module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-kicker">Lakeside State University — program view</p>
+    <p class="site-title"><a href="../index.html">Accessibility Remediation Case Study</a></p>
+    <nav class="site-nav" aria-label="Case study pages">
+      <ul>
+        <li><a href="../index.html">Case study home</a></li>
+        <li><a href="../module/index.html">Remediated module</a></li>
+        <li><a href="../faculty-quick-guide.html">Faculty quick guide</a></li>
+        <li><a href="prioritization-model.html" aria-current="page">Prioritization model</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Prioritization model: remediating a course catalog at scale</h1>
+<p class="lede">How one audited module scales to ~300 courses without pretending the hours don't exist. Web version of <code>program/prioritization-model.md</code>. <a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/prioritization-model.md" rel="noopener">Markdown source</a>.</p>
+
+<p><strong>Context.</strong> Lakeside State University — a fictional US public university preparing for ADA Title II digital accessibility compliance — must bring ~300 online courses toward WCAG 2.1 AA conformance. The DOJ rule requires WCAG 2.1 Level AA for web content and mobile apps of state and local government entities (including public universities); the compliance deadline for large covered public entities, originally April 24, 2026, was extended on April 20, 2026 to <strong>April 26, 2027</strong> (requirements unchanged). Sources verified 2026-10-25: <a href="https://www.purdue.edu/innovativelearning/blog/2026/04/27/doj-extends-ada-title-ii-digital-accessibility-deadlines-what-instructors-should-do-now/" rel="noopener">Purdue Innovative Learning, "DOJ extends ADA Title II digital accessibility deadlines"</a> and <a href="https://www.csustan.edu/access-for-all/about-access-all-and-ati/title-ii-rule-digital-accessibility" rel="noopener">CSU Stanislaus, "Title II Rule: Digital Accessibility"</a> (which also summarizes the archived-content and pre-existing-document exceptions).</p>
+<p>One module was remediated in this repository as the pilot. This model is for scaling the same process across the catalog.</p>
+<hr>
+<h2>1. The scoring model: (Impact + Exposure) ÷ Effort</h2>
+<p>Each course gets three sub-scores (1–3 each) based on registrar and LMS data:</p>
+<div class="table-scroll" tabindex="0"><table class="data">
+<thead><tr><th scope="col">Dimension</th><th scope="col">Question</th><th scope="col">Score 1</th><th scope="col">Score 2</th><th scope="col">Score 3</th></tr></thead>
+<tbody><tr><th scope="row"><strong>Impact</strong></th><td>Who is blocked, and how badly?</td><td>Elective, small enrollment</td><td>Mixed enrollment</td><td>Required course, gateway/large enrollment, or known accommodation requests</td></tr><tr><th scope="row"><strong>Exposure</strong></th><td>How often is it touched?</td><td>Archive-only (rarely visited)</td><td>Login-only, term-time use</td><td>Public-facing pages or weekly high-traffic use</td></tr><tr><th scope="row"><strong>Effort</strong></th><td>How much human work per item?</td><td>Low: under 10 hours estimated (text-heavy HTML, few simple PDFs, no media)</td><td>Medium: 10–49 hours estimated (some PDFs, short videos)</td><td>High: 50+ hours estimated (lecture-capture hours, scanned PDFs, many images)</td></tr></tbody>
+</table></div>
+<p><strong>One formula, used everywhere in this document: Priority score = (Impact + Exposure) ÷ Effort.</strong> Fix the highest score first: the most students touched for the least effort. Effort divides rather than adds because capacity is the binding constraint, and the Effort sub-score is calibrated in estimated human hours (from the benchmarks in §2) so the worked ranking below is checkable. Ties are broken by the higher (Impact + Exposure), then by the larger enrollment.</p>
+<p>Media effort dominates. Benchmarks (cited below): one hour of video ≈ 4–5 hours of human caption correction; one complex PDF page ≈ up to 1 hour of human remediation. So a course with 20 lecture hours and 200 scanned PDF pages is a multi-hundred-hour project regardless of its Impact score — it needs triage sequencing, not just enthusiasm.</p>
+<h2>2. Effort benchmarks (published, cited — not agent-measured)</h2>
+<p>These estimates are <strong>human</strong> work benchmarks from published sources, accessed 2026-10-25. AI-agent processing time was deliberately <strong>not</strong> used as a proxy.</p>
+<div class="table-scroll" tabindex="0"><table class="data">
+<thead><tr><th scope="col">Task</th><th scope="col">Benchmark</th><th scope="col">Source</th></tr></thead>
+<tbody><tr><th scope="row">Human captioning (transcribe + timecode)</th><td>A trained transcriptionist takes ~<strong>4–5 hours per hour</strong> of audio/video; a first-timer 20–100 hours. Manual timecode setting adds 1–2 hours.</td><td><a href="https://www.3playmedia.com/blog/long-take-manually-caption-videos" rel="noopener">3Play Media, "How Long Does It Take To Manually Caption Videos?" (updated Oct 28, 2021)</a> — quote verified by fetching the page 2026-10-25</td></tr><tr><th scope="row">Editing existing (auto) captions</th><td>Still requires full human review; auto-caption accuracy is reported at ~60–84% (same source)</td><td>Same 3Play Media page</td></tr><tr><th scope="row">PDF accessibility remediation</th><td>Complex documents: ~<strong>1 hour per page</strong>; simple pure-text: ~5 min/page (practitioner consensus)</td><td><a href="https://webaim.org/discussion/mail_thread?thread=8492" rel="noopener">WebAIM discussion list, "Average Time to Create an Accessible PDF" (2017)</a> — accessed 2026-10-25</td></tr><tr><th scope="row">PDF remediation (vendor view)</th><td>Simple text PDF ~15–30 minutes; complex PDFs take far longer</td><td><a href="https://equidox.co/blog/how-long-does-it-take-to-remediate-a-pdf" rel="noopener">Equidox, "How Long Does It Take to Remediate a PDF?"</a> — accessed 2026-10-25</td></tr><tr><th scope="row">HTML slide/page conversion</th><td>No single published standard; use the pilot's measured time (see <code>report/before-after.md</code>) and re-estimate per course</td><td>Pilot data, this repository</td></tr><tr><th scope="row">Audio description</th><td>Industry pricing runs ~$12–75 per finished minute (script, voice, mix); text descriptions are a cheaper interim alternative</td><td><a href="https://www.gothamlab.com/audio-description-scripts/" rel="noopener">Gotham Lab, audio description services</a> — accessed 2026-10-25; quality standard: <a href="https://dcmp.org/learn/descriptionkey" rel="noopener">DCMP Description Key</a></td></tr></tbody>
+</table></div>
+<p><strong>Known limitation of this model:</strong> no review by a person who uses assistive technology daily has yet shaped the scoring rubric; severity weights (what "blocks" a learner) reflect the WCAG-based audit in this repository. That review is pending (see <code>evaluation/human-protocol/at-user-review-invite.md</code>).</p>
+<h2>3. Worked example: 10 Lakeside State courses</h2>
+<p>All courses below are <strong>fictional</strong>, invented to exercise the model. "Media hours" uses the benchmarks above; LMS page counts are illustrative.</p>
+<p>Effort sub-scores come straight from the estimated human hours in the fourth column, using the §1 bands (under 10 hr = 1, 10–49 hr = 2, 50+ hr = 3), so the priority arithmetic can be re-done from the table itself.</p>
+<div class="table-scroll" tabindex="0"><table class="data">
+<thead><tr><th scope="col">Rank</th><th scope="col">Course (fictional)</th><th scope="col">Impact</th><th scope="col">Exposure</th><th scope="col">Effort drivers</th><th scope="col">Est. human effort</th><th scope="col">Effort (1–3)</th><th scope="col">Priority (I+E)÷E</th></tr></thead>
+<tbody><tr><th scope="row">1</th><td>ENGL-115 First-Year Writing (required, 900/yr)</td><td>3</td><td>2</td><td>text-heavy HTML, 12 simple PDFs, 0 video</td><td>≈ <strong>4 hr</strong></td><td>1</td><td><strong>5.0</strong></td></tr><tr><th scope="row">2</th><td>BIOL-101 Intro Cell Biology (gateway, 1,400 students/yr)</td><td>3</td><td>3</td><td>6 short videos (3.5 hr), 40 simple PDFs</td><td>≈ 17.5 hr captions + ≈ 8 hr PDFs ≈ <strong>26 hr</strong></td><td>2</td><td><strong>3.0</strong></td></tr><tr><th scope="row">3</th><td>MGMT-305 Operations Management (required, 500/yr)</td><td>3</td><td>2</td><td>20 scanned PDFs (legacy) → rebuild as HTML instead of remediating scans</td><td>≈ <strong>30 hr</strong> rebuild</td><td>2</td><td><strong>2.5</strong></td></tr><tr><th scope="row">4</th><td>PSY-100 Intro Psychology (required, 1,100/yr)</td><td>3</td><td>3</td><td>30 lecture hours, 54-page slide PDFs/unit, exam PDFs</td><td>≈ <strong>150+ hr</strong></td><td>3</td><td><strong>2.0</strong> (tie broken by highest I+E) → phase 2 with vendor captions</td></tr><tr><th scope="row">5</th><td>HIST-140 US Since 1877 (elective, 300/yr)</td><td>2</td><td>2</td><td>8 videos (6 hr), archived lecture pages</td><td>≈ 30 hr</td><td>2</td><td><strong>2.0</strong></td></tr><tr><th scope="row">6</th><td>ART-105 Art History Survey (elective)</td><td>2</td><td>2</td><td>image-dense; alt text + long descriptions for 400+ images</td><td>≈ <strong>35 hr</strong> (alt text dominates)</td><td>2</td><td><strong>2.0</strong></td></tr><tr><th scope="row">7</th><td>NURS-210 Pathophysiology (required, cohort lock)</td><td>3</td><td>2</td><td>12 videos (9 hr), 25 complex PDFs (tables/images)</td><td>≈ 45 hr + 25 hr ≈ <strong>70 hr</strong></td><td>3</td><td><strong>≈ 1.7</strong></td></tr><tr><th scope="row">8</th><td>ARCH-490 Historical Archives (archive-only)</td><td>1</td><td>1</td><td>60 legacy PDFs, unchanged since 2019</td><td>likely <strong>exempt as archived content</strong></td><td>—</td><td>parked (sequencing step 4), no remediation estimate</td></tr><tr><th scope="row">9</th><td>STAT-200 Elementary Statistics (required)</td><td>2</td><td>3</td><td>math notation — <strong>out of scope for this playbook</strong> (MathML specialist needed)</td><td>estimate deferred</td><td>—</td><td>flagged for specialist</td></tr><tr><th scope="row">10</th><td>CS-101 Intro Programming (elective, 200/yr)</td><td>1</td><td>2</td><td>code-heavy content (screen-reader programming is its own craft)</td><td>estimate deferred</td><td>—</td><td>flagged for specialist</td></tr></tbody>
+</table></div>
+<p>Ranks 4–6 tie at 2.0; the tie-break (higher I+E first) puts PSY-100 (6) ahead of HIST-140 and ART-105 (4 each). The formula puts ENGL-115 above BIOL-101 because BIOL's ~26 hours of caption/PDF work outweigh its larger enrollment — per hour of team capacity, ENGL-115 reaches more students.</p>
+<h2>4. Sequencing recommendation</h2>
+<ol><li><strong>Fix-forward first (weeks 1–2):</strong> new content is created accessibly. Publish the <a href="../faculty-quick-guide.html">faculty quick guide</a> and make the accessibility checker part of course-copy QA. This stops the meter.</li><li><strong>High-impact, low-effort live courses next (weeks 3–8):</strong> ranks 1–3 (ENGL-115, BIOL-101, MGMT-305) — each is days-to-weeks of work for hundreds of students per year.</li><li><strong>High-effort, high-impact courses (months 3–12):</strong> PSY-100 (rank 4) and NURS-210 (rank 7) — budget vendor captioning for the video hours (in-house at 4–5 hr/hr does not fit the timeline), convert scanned PDFs to HTML instead of tagging scans. Ranks 5–6 (HIST-140, ART-105) are medium-effort and slot into normal term work.</li><li><strong>Archive courses last:</strong> verify the <a href="https://www.csustan.edu/access-for-all/about-access-all-and-ati/title-ii-rule-digital-accessibility" rel="noopener">archived-content exception</a> applies (created before the compliance date, unchanged, kept solely for reference/research/recordkeeping), document the exemption per item, and plan retirement. ARCH-490 (rank 8) is parked, not scheduled.</li><li><strong>Flag specialists early:</strong> math notation (STAT-200) and programming content (CS-101) need skills this playbook does not cover; schedule them with the right experts rather than guessing.</li></ol>
+<p><strong>Review cadence:</strong> re-score every term; accommodation requests from the disability services office override the model immediately.</p>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Part of the case study “Accessibility remediation of a real course
+    module.” Content adapted from <em>9.00SC Introduction to Psychology, Fall
+    2011</em> (Unit&nbsp;1) by Prof. John Gabrieli, MIT OpenCourseWare, licensed
+    CC BY-NC-SA 3.0 US; this adaptation is licensed alike (see
+    <a href="../index.html#attribution">attribution</a>).
+    “Lakeside State University” is a fictional US public university preparing for
+    ADA Title II digital accessibility compliance.</p>
+  </div>
+</footer>
+</body>
+</html>

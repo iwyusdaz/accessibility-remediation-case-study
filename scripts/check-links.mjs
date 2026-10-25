@@ -137,8 +137,8 @@ async function runLive(base) {
       if (!raw || SKIP.test(raw)) continue;
       if (/^https?:/i.test(raw) && !raw.startsWith(baseU.origin)) { results.externalSkipped += 1; continue; }
       results.linksChecked += 1;
-    const u = new URL(raw, url);
-    const [pathPart, frag] = [u.pathname + u.search, u.hash.slice(1)];
+      const u = new URL(raw, url);
+      const [pathPart, frag] = [u.pathname + u.search, u.hash ? u.hash.slice(1) : undefined];
     // preserved-original pages are out of scope as referrers in live mode too
     const uPath = u.pathname.startsWith(prefix) ? u.pathname.slice(prefix.length) : u.pathname;
     if (!includeBefore && (uPath === "before" || uPath.startsWith("before/"))) continue;

@@ -29,7 +29,7 @@ This project shows both halves: **the craft** (one real module, fully audited an
 3. **Log before fixing.** 33 issues with WCAG criterion, severity, users affected, fix, effort ([issue log](audit/issue-log.md)) — including two findings I corrected against my own first assumptions (the "untagged table" in the PDF turned out to be a textbook reference; the reading PDF has no content figures at all).
 4. **Rebuild every content type accessibly** ([remediated module](docs/module/index.html)): semantic HTML lesson, 54-slide HTML deck with speaker notes and chart data tables, video page with captions derived from the publisher transcript plus a full transcript and text description of the visuals, and an accessible quiz — on a contrast-tested palette.
 5. **Verify and report.** Re-run everything on all remediated pages; criterion-by-criterion [conformance report](report/conformance-report.md) (explicitly not an official VPAT); [before/after evidence](report/before-after.md); [executive summary](report/executive-summary.md).
-6. **Scale it honestly.** A [prioritization model](program/prioritization-model.md) scoring 10 fictional Lakeside State courses (Impact × Exposure ÷ Effort) using **published human benchmarks** (4–5 hours of caption correction per video hour — 3Play Media; up to ~1 hour per complex PDF page — WebAIM/Equidox; all accessed 2026-10-25) — never AI-agent processing time — plus a [remediation workflow](program/remediation-workflow.md) and a [faculty quick guide](docs/faculty-quick-guide.html).
+6. **Scale it honestly.** A [prioritization model](program/prioritization-model.md) scoring 10 fictional Lakeside State courses ((Impact + Exposure) ÷ Effort) using **published human benchmarks** (4–5 hours of caption correction per video hour — 3Play Media; up to ~1 hour per complex PDF page — WebAIM/Equidox; all accessed 2026-10-25) — never AI-agent processing time — plus a [remediation workflow](program/remediation-workflow.md) and a [faculty quick guide](docs/faculty-quick-guide.html).
 
 ## Key design decisions
 
@@ -43,8 +43,8 @@ This project shows both halves: **the craft** (one real module, fully audited an
 
 **What was measured** (all reproducible from the repo; exports in `audit/`):
 
-- axe violations: **13 → 0** across audited pages; Lighthouse accessibility: **77/81/79 → 100** on all 8 pages; pa11y: 14 → 0.
-- Issue log: 33 issues (3 critical, 11 high, 13 medium, 6 low) — all fixed, two corrected during verification for honesty.
+- axe violations: **13 → 0** across audited pages; Lighthouse accessibility: **77/81/79 → 100** on all 8 audited pages (the demo-transcript page was axe-only, hence 9 pages with axe); pa11y: 14 → 0.
+- Issue log: 33 issues (3 critical, 10 high, 14 medium, 6 low) — all fixed; four entries were corrected during verification for accuracy (two in the authoring session, two more in the 2026-10-26 fresh-context review).
 - Scripted keyboard tasks: **11/11 pass** (skip link, radio groups, quiz feedback via live region, video chapter seeking, no traps).
 - Reflow at 320 px: fail (952 px) → pass on all 9 site pages; measured contrast: 0 failures (palette ≥ 4.5:1, ratios documented in CSS).
 - PDF tag-tree facts, not folklore: all six PDFs are tagged with titles and language — and still fail learners via junk/missing alt text and a brain diagram with no alternative.
@@ -53,7 +53,7 @@ This project shows both halves: **the craft** (one real module, fully audited an
 
 - ✅ Can: issues found/fixed with tool + scripted evidence; keyboard/reflow/contrast quality of the rebuild; a benchmark-based scaling model; that the site itself passes the same audits.
 - ❌ Cannot: claim conformance certification (the report is explicitly **not an official VPAT**); claim screen-reader testing (no human VoiceOver pass yet; automation broken on macOS 27); claim a daily-AT-user review (template ready, none run); claim verified caption accuracy (STT check pending); show learning outcomes.
-- **What it changed:** verification caught real mistakes — a broken in-site link, `<main>` not receiving skip-link focus, an overflowing table at 320 px, an `<aside>` nesting violation, and two factually wrong issue-log entries — all fixed and recorded in [`evaluation/agent-review.md`](evaluation/agent-review.md).
+- **What it changed:** verification caught real mistakes — a broken in-site link, `<main>` not receiving skip-link focus, an overflowing table at 320 px, an `<aside>` nesting violation, and four factually wrong issue-log entries (I-27/I-28 caught in the authoring session; I-10/I-11 caught by the 2026-10-26 fresh-context review) — all fixed and recorded in [`evaluation/agent-review.md`](evaluation/agent-review.md).
 
 The demo video below the fold on the [landing page](docs/index.html) is a scripted keyboard navigation of the module, captioned and transcribed, labeled as automation — not a screen reader demonstration.
 

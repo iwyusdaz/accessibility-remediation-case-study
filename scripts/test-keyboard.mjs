@@ -185,6 +185,6 @@ await t("lesson page: table has caption and scoped headers", async () => {
 
 await browser.close();
 const failed = results.filter((r) => !r.pass).length;
-writeFileSync(join(OUT, "keyboard-tests.json"), JSON.stringify({ date: "2026-10-25", base: BASE, results, failed }, null, 2));
+writeFileSync(join(OUT, "keyboard-tests.json"), JSON.stringify({ date: new Date().toISOString().slice(0, 10), base: BASE, results, failed }, null, 2));
 console.log(`\n${results.length - failed}/${results.length} keyboard tests passed`);
 process.exit(failed ? 1 : 0);

@@ -2,7 +2,7 @@
   "name": "accessibility-remediation-case-study",
   "version": "1.0.0",
   "private": true,
-  "description": "A real openly licensed course module (MIT OCW 9.00SC, Unit 1) audited against WCAG 2.1 AA, remediated into accessible HTML, and documented with before/after evidence, a conformance report, and a scaling prioritization model (content CC BY-NC-SA 4.0, code MIT).",
+  "description": "A real openly licensed course module (MIT OCW 9.00SC, Unit 1) audited against WCAG 2.1 AA, remediated into accessible HTML, and documented with before/after evidence, a conformance report, and a scaling prioritization model (content CC BY-NC-SA 3.0 US, code MIT).",
   "type": "module",
   "scripts": {
     "eval:pending": "node scripts/check-captions.mjs",
@@ -10,7 +10,10 @@
     "test:keyboard": "node scripts/test-keyboard.mjs",
     "audit:before": "node scripts/run-audits.mjs before",
     "audit:after": "node scripts/run-audits.mjs after",
-    "serve": "python3 -m http.server 8900 --directory docs"
+    "serve": "python3 -m http.server 8900 --directory docs",
+    "check:links": "node scripts/check-links.mjs docs",
+    "check:label-in-name": "node scripts/check-label-in-name.mjs",
+    "render:docs": "node scripts/render-doc-pages.mjs"
   },
   "notes": "Pinned audit tools (playwright 1.57.0, axe-core 4.11.1, pa11y 9.0.0, lighthouse 13.0.1, dotenv 17.3.1) are resolved from the workspace root node_modules by walking up the directory tree. Nothing here is duplicated or committed. Node 18+.",
   "engines": {

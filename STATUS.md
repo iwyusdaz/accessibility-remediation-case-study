@@ -1,6 +1,6 @@
 # Status
 
-Updated: 2026-10-25
+Updated: 2026-10-26 (revision round from the fresh-context agent review)
 
 ## Done
 - Source module selected, license verified on the retrieved page (CC BY-NC-SA
@@ -11,8 +11,24 @@ Updated: 2026-10-25
 - Scripted manual pass of the original (keyboard, focus, 320 px reflow,
   measured contrast, PDF tag trees) in `audit/manual-testing-notes.md` +
   `audit/manual-evidence/before/`
-- Issue log: 33 issues (3 critical / 11 high / 13 medium / 6 low), all fixed;
-  two entries corrected during verification for accuracy
+- Issue log: 33 issues (3 critical / 10 high / 14 medium / 6 low), all fixed;
+  four entries corrected during verification for accuracy (I-27/I-28 in the
+  authoring session; I-10/I-11 in the 2026-10-26 review round)
+- **2026-10-26 revision round (from `evaluation/agent-review.md`):** I-10/I-11
+  evidence chain corrected everywhere (topic IS an h1; real defects are the
+  duplicate logo-first h1 and the topic buried after 15 sidebar h3s); live
+  404s fixed (landing screenshots moved into `docs/assets/`, video-page links
+  and `#evidence` anchor); `audit/issue-log.csv` regenerated with a proper CSV
+  writer (I-27 row scrubbed of disproved-claim fragments, explicit
+  non-SC classification); conformance report completed with WCAG 2.1 Level A
+  2.5.1–2.5.4 (2.5.3 Label in Name actually tested: 207 controls, 0
+  violations — `scripts/check-label-in-name.mjs`); whole-site link check
+  rewritten (`scripts/check-links.mjs`: images, prefix escapes, fragments);
+  conformance report + program documents rendered as site pages
+  (`docs/report/`, `docs/program/`); quiz feedback links the specific lesson
+  section; prioritization model unified to one checkable formula with numeric
+  Effort scores; script evidence re-run (manual pass on all 9 site pages,
+  11/11 keyboard tests, label-in-name, link check local + live, gitleaks)
 - Remediated module in `docs/module/` (overview, lesson with data table,
   54-slide HTML deck with speaker notes, video page with captions from the
   publisher transcript + chapter buttons + text description, full transcript,

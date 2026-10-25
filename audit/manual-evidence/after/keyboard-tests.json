@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25",
+  "base": "http://127.0.0.1:8900",
+  "results": [
+    {
+      "name": "module index loads",
+      "pass": true,
+      "detail": true
+    },
+    {
+      "name": "skip link is the first tab stop and jumps to main",
+      "pass": true,
+      "detail": "focus on #main"
+    },
+    {
+      "name": "module nav is keyboard operable (tab order, no trap)",
+      "pass": true,
+      "detail": "20 stops cycled through 2 element types"
+    },
+    {
+      "name": "quiz: complete a question by keyboard and get announced feedback",
+      "pass": true,
+      "detail": "arrows within radio group + Space select -> feedback announced in status region"
+    },
+    {
+      "name": "quiz: wrong answer produces non-color-only textual feedback",
+      "pass": true,
+      "detail": "incorrect -> textual verdict, not color-only"
+    },
+    {
+      "name": "quiz score region updates (aria-live)",
+      "pass": true,
+      "detail": "Checked 2 of 5 questions. 1 correct so far."
+    },
+    {
+      "name": "video page: captions track present and labeled",
+      "pass": true,
+      "detail": "{\"src\":\"media/captions-en.vtt\",\"lang\":\"en\",\"label\":\"English captions\"}"
+    },
+    {
+      "name": "video page: chapter buttons keyboard operable and labeled",
+      "pass": true,
+      "detail": "6 buttons; seek works ([\"Play from the beginning (0:00)\",\"Goals of the Course (0:27)\"])"
+    },
+    {
+      "name": "video page: player controls reachable by keyboard",
+      "pass": true,
+      "detail": "video player focusable"
+    },
+    {
+      "name": "slides page: headings list walkable (54 slide sections)",
+      "pass": true,
+      "detail": "54 sections"
+    },
+    {
+      "name": "lesson page: table has caption and scoped headers",
+      "pass": true,
+      "detail": "caption + col/row scopes present"
+    }
+  ],
+  "failed": 0
+}

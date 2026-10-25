@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lecture 1 slides — Unit 1 | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-kicker">Unit 1 · Introduction to Psychology — remediated module</p>
+    <p class="site-title"><a href="index.html">Introduction to Psychology — Unit 1: Introduction</a></p>
+    <nav class="site-nav" aria-label="Module pages">
+      <ul>
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="lesson.html">Lesson</a></li>
+        <li><a href="slides.html" aria-current="page">Lecture slides</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="transcript.html">Transcript</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="../index.html">Case study home</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Lecture 1 slides: “Introduction”</h1>
+<p class="lede">The original lecture deck (a 54-page PDF of PowerPoint slides) is
+rebuilt here as accessible HTML: one section per slide, real text instead of
+images of text, descriptions in place of figures, and speaker notes as visible
+text.</p>
+
+<div class="note">
+<p><strong>Why HTML instead of the PDF?</strong> The original PDF carries most of
+its meaning in slide images, several with meaningless export alt text (filenames
+like “scan569.jpg” or placeholder “Text Box:” labels). HTML reflows at any zoom,
+works with screen readers without PDF reader mode, is searchable, and can be
+edited by faculty. The original PDF remains available at
+<a href="before/slides-original.pdf">…/before/slides-original.pdf</a> for
+comparison. Figure descriptions were written from inspection of the slides;
+images that the publisher marks as excluded from the Creative Commons license
+are <em>described, not reproduced</em>.</p>
+</div>
+
+<p class="skip-inline"><a href="#slide-1">Jump to slide 1</a> ·
+<a href="#chart-tables">Chart data tables</a></p>
+
+<h2 class="sr-only">Slides</h2>
+<div id="slides">
+<section class="slide" id="slide-1" aria-labelledby="slide-1-title">
+  <p class="slide-no">Slide 1 of 54</p>
+  <h3 id="slide-1-title">9.00. Intro to Psychology</h3>
+  <p class="slide-sub">Professor John Gabrieli</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Title slide. Welcome to 9.00, Introduction to Psychology. I'm John Gabrieli, and this lecture introduces the scientific study of human nature.</p>
+  </div>
+</section>
+<section class="slide" id="slide-2" aria-labelledby="slide-2-title">
+  <p class="slide-no">Slide 2 of 54</p>
+  <h3 id="slide-2-title">Objective</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The course objective in one line: a scientific study of human nature — mind and behavior.</p>
+  </div>
+</section>
+<section class="slide" id="slide-3" aria-labelledby="slide-3-title">
+  <p class="slide-no">Slide 3 of 54</p>
+  <h3 id="slide-3-title">Topics of the course</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <ul>
+     <li>brain</li>
+     <li>perception</li>
+     <li>cognition</li>
+     <li>emotion</li>
+     <li>personality</li>
+     <li>development</li>
+     <li>social interaction</li>
+     <li>psychopathology</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The topics we will cover this semester: brain, perception, cognition, emotion, personality, development, social interaction, and psychopathology.</p>
+  </div>
+</section>
+<section class="slide" id="slide-4" aria-labelledby="slide-4-title">
+  <p class="slide-no">Slide 4 of 54</p>
+  <h3 id="slide-4-title">The human brain</h3>
+  <p>Photograph of a human brain (lateral view), shown at true scale with a 5&nbsp;cm ruler.</p>
+  <figure>
+    <figcaption class="caption">Photograph of a human brain beside a 5 cm scale bar; label reads “Human, Homo sapiens”, specimen 69-314.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>The photograph shows a preserved human brain viewed from the side, with its characteristic folded cortex, cerebellum, and brain stem visible. A scale bar marked 5 cm emphasizes that the brain is a physical object of modest size. The image is credited “Reproduced (or adapted) with permission from http://www.brains.rad.msu.edu and http://brainmuseum.org, supported by the US National Science Foundation.” The third-party photograph is not reproduced here; see the credited brain museums for the original.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>We study a physical organ. Everything we will discuss — mind, behavior — is about this 3-pound structure. The image comes from the University of Wisconsin and Michigan State comparative brain collection.</p>
+  </div>
+</section>
+<section class="slide" id="slide-5" aria-labelledby="slide-5-title">
+  <p class="slide-no">Slide 5 of 54</p>
+  <h3 id="slide-5-title">A psychocentric view</h3>
+  <p>Diagram of psychology at the center, surrounded by other disciplines of the social sciences, humanities, and natural sciences.</p>
+   <p class="caption">After Peter Gray, “The Value of Psychology 101 in Liberal Arts Education: A Psychocentric Theory of the University.” <cite>Observer (APS)</cite>, October 2008.</p>
+  <figure>
+    <figcaption class="caption">Hub-and-spoke diagram: Psychology at the center, ringed by the natural sciences (physics, chemistry, biology), the social sciences (anthropology, sociology, political science, economics), and the humanities (music, art, language, literature, philosophy, theology, math/logic).</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>The diagram places Psychology in a hexagon at the center. Around it, three labeled clusters: Natural Sciences — Physics, Chemistry, Biology; Social Sciences — Anthropology, Sociology, Political Science, Economics; Humanities — Music, Art, Language, Literature, Philosophy, Theology, and Math (Logic). Lines connect Psychology to every discipline. The point: psychology connects to nearly every field of a liberal-arts education, and each field informs it.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Peter Gray's 'psychocentric' view: psychology sits at the center of the university's map of knowledge. It draws on the natural sciences, contributes to the social sciences, and shares questions with the humanities.</p>
+  </div>
+</section>
+<section class="slide" id="slide-6" aria-labelledby="slide-6-title">
+  <p class="slide-no">Slide 6 of 54</p>
+  <h3 id="slide-6-title">How our minds make our worlds</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The first theme of the lecture: how our minds make our worlds — what we see, what we hear, what we know.</p>
+  </div>
+</section>
+<section class="slide" id="slide-7" aria-labelledby="slide-7-title">
+  <p class="slide-no">Slide 7 of 54</p>
+  <h3 id="slide-7-title">What we see</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds — what we <em>see</em></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>We begin with vision: what we see is constructed by the mind, as these illusions will show.</p>
+  </div>
+</section>
+<section class="slide" id="slide-8" aria-labelledby="slide-8-title">
+  <p class="slide-no">Slide 8 of 54</p>
+  <h3 id="slide-8-title">Müller-Lyer illusion</h3>
+  <figure>
+    <figcaption class="caption">Two horizontal lines of equal length. The upper line ends in outward-pointing arrowheads (like arrow tails) and appears longer; the lower line ends in inward-pointing arrowheads and appears shorter.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>The classic Müller-Lyer display: two horizontal lines stacked vertically. The upper line is bounded at both ends by arrowheads pointing outward (opening away from the line), which makes it look longer. The lower line is bounded by arrowheads pointing inward (toward the line), which makes it look shorter. Measured, the two lines are the same length — the arrows, not the lines, drive the impression.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The two lines are exactly the same length. Your visual system constructs 'longer' and 'shorter' from context. (In the lecture, students vote on which line is longer before the reveal.)</p>
+  </div>
+</section>
+<section class="slide" id="slide-9" aria-labelledby="slide-9-title">
+  <p class="slide-no">Slide 9 of 54</p>
+  <h3 id="slide-9-title">Müller-Lyer illusion, comparison</h3>
+  <figure>
+    <figcaption class="caption">The Müller-Lyer lines overlaid for direct comparison, with the two arrow-fin lines aligned to show they are identical in length.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>The same two horizontal lines presented for direct comparison, aligned so the equal lengths are obvious once the arrowheads are ignored.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Shown together, the illusion collapses: the lines are identical. Seeing is not believing — the mind constructs what we see.</p>
+  </div>
+</section>
+<section class="slide" id="slide-10" aria-labelledby="slide-10-title">
+  <p class="slide-no">Slide 10 of 54</p>
+  <h3 id="slide-10-title">Ebbinghaus illusion</h3>
+  <figure>
+    <figcaption class="caption">Ebbinghaus illusion: a center circle surrounded by five large circles appears smaller than an identical center circle surrounded by six small circles.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>Two arrangements of circles. On the left, a red center circle is surrounded by five large black circles. On the right, an identical red center circle is surrounded by six small black circles. Because of the surrounding context, the left center circle appears smaller than the right one, although the two center circles are the same size.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The two red circles are identical. Surrounded by big circles it looks small; surrounded by small circles it looks big. Context warps size perception — 'Ebbinghaus' refers to the psychologist this display is named after.</p>
+  </div>
+</section>
+<section class="slide" id="slide-11" aria-labelledby="slide-11-title">
+  <p class="slide-no">Slide 11 of 54</p>
+  <h3 id="slide-11-title">Shepard's “Terror Subterra”</h3>
+  <figure>
+    <figcaption class="caption">Illustration: two human figures seen in a stone corridor. The figure in the foreground appears much larger than the figure in the distance, although the drawn figures are identical in size.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>A perspective drawing of a stone-walled corridor. One figure stands close to the viewer at the near end; an identical figure stands at the far end. Depth cues make the near figure appear far larger, yet the two silhouettes are the same size when measured. Source: Shepard, R. <cite>Mind Sights: Original Visual Illusions, Ambiguities, and Other Anomalies</cite>, W. H. Freeman & Co., 1990. This copyrighted image is excluded from the Creative Commons license and is described here rather than reproduced.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Roger Shepard's 'Terror Subterra.' The two figures are drawn identical — depth cues make them look different. The original drawing is copyrighted (W. H. Freeman) and excluded from our Creative Commons license, so we describe it rather than copy it.</p>
+  </div>
+</section>
+<section class="slide" id="slide-12" aria-labelledby="slide-12-title">
+  <p class="slide-no">Slide 12 of 54</p>
+  <h3 id="slide-12-title">Checker-shadow illusion</h3>
+  <p class="caption">Checker-shadow illusion. Courtesy of Professor Edward H. Adelson. Used with permission.</p>
+  <figure>
+    <figcaption class="caption">A checkerboard in perspective with a green cylinder casting a shadow. Square A, outside the shadow, and square B, inside the shadow, appear different shades of gray but are identical.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>Edward Adelson's checker-shadow illusion: a checkerboard drawn in perspective with a green cylinder standing on it, casting a diagonal shadow. Two marked squares — A on the light region, B within the shadow — appear to be different shades of gray (A light, B dark), but they are physically identical; the visual system discounts the shadow. This image is used with Professor Adelson's permission; see the MIT Perceptual Science Group's 'Lightness Perception and Lightness Illusions' gallery.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Adelson's checker-shadow: squares A and B are the same gray. Your visual system 'subtracts' the shadow automatically. We use this with Professor Adelson's permission.</p>
+  </div>
+</section>
+<section class="slide" id="slide-13" aria-labelledby="slide-13-title">
+  <p class="slide-no">Slide 13 of 54</p>
+  <h3 id="slide-13-title">Visual/optical illusions (list 1)</h3>
+  <ul>
+     <li>Criss-Cross Effect</li>
+     <li>The Koffka Ring</li>
+     <li>White's Illusion</li>
+     <li>Simultaneous Contrast Effect</li>
+   </ul>
+   <p class="caption">From “Lightness Perception and Lightness Illusions,” MIT Perceptual Science Group.</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>More lightness illusions demonstrated in the lecture, from the MIT Perceptual Science Group's gallery: criss-cross effect, Koffka ring, White's illusion, and simultaneous contrast.</p>
+  </div>
+</section>
+<section class="slide" id="slide-14" aria-labelledby="slide-14-title">
+  <p class="slide-no">Slide 14 of 54</p>
+  <h3 id="slide-14-title">Illusions cont'd</h3>
+  <ul>
+     <li>Shepard's Tables</li>
+     <li>Stepping Feet</li>
+     <li>Shading, Depth, and Faces</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>And three more: Shepard's tables (two tabletops that look different but are identical parallelograms), the stepping-feet motion illusion, and shading-depth-face ambiguity.</p>
+  </div>
+</section>
+<section class="slide" id="slide-15" aria-labelledby="slide-15-title">
+  <p class="slide-no">Slide 15 of 54</p>
+  <h3 id="slide-15-title">Memory for a picture</h3>
+  <p>10 questions</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Next demonstration: memory for a picture. Ten yes/no questions are coming.</p>
+  </div>
+</section>
+<section class="slide" id="slide-16" aria-labelledby="slide-16-title">
+  <p class="slide-no">Slide 16 of 54</p>
+  <h3 id="slide-16-title">Memory for a picture — Group A</h3>
+  <p><strong>Group A:</strong> You are going to look briefly at a picture and then answer some questions about it. The picture is a rough sketch of a poster for a <em>trained seal</em> act. Do not dwell on the picture. Look at it only long enough to “take it all in” once. After that, you will answer <em>yes</em> or <em>no</em> to a series of questions.</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Group A's instructions say the sketch is a poster for a trained seal act. The instruction itself is part of the experiment — it will shape what people remember.</p>
+  </div>
+</section>
+<section class="slide" id="slide-17" aria-labelledby="slide-17-title">
+  <p class="slide-no">Slide 17 of 54</p>
+  <h3 id="slide-17-title">Memory for a picture — Group B</h3>
+  <p><strong>Group B:</strong> You are going to look briefly at a picture and then answer some questions about it. The picture is a rough sketch of a poster for a <em>costume ball</em>. Do not dwell on the picture. Look at it only long enough to “take it all in” once. After that, you will answer <em>yes</em> or <em>no</em> to a series of questions.</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Group B gets the identical picture, described as a poster for a costume ball. Same image, different label — memory will differ.</p>
+  </div>
+</section>
+<section class="slide" id="slide-18" aria-labelledby="slide-18-title">
+  <p class="slide-no">Slide 18 of 54</p>
+  <h3 id="slide-18-title">The ambiguous picture</h3>
+  <figure>
+    <figcaption class="caption">Line drawing of two figures standing on a small stage under a fringed canopy, one seated and one standing, holding what could be either a seal's ball or a costume masque. Source: Weiten, Wayne. Psychology: Themes and Variations. Cengage Learning, 2010.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>A minimal line drawing: two ambiguous human figures on a small stage beneath a fringed canopy. The seated figure holds a round object that could be read as a seal balancing a ball or as a costume ball — the drawing supports both captions. The original slide credits: Source: Weiten, Wayne. <cite>Psychology: Themes and Variations</cite>. Cengage Learning, 2010. © Cengage Learning. All rights reserved. This content is excluded from the Creative Commons license; more information is available at the OCW terms page.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>This is the picture both groups saw. If you were told 'trained seal,' you probably remember a seal; if you were told 'costume ball,' you remember a ball. Memory is reconstructive — the label shaped what was stored. The image is Cengage-copyrighted and excluded from the CC license, so it is described rather than reproduced.</p>
+  </div>
+</section>
+<section class="slide" id="slide-19" aria-labelledby="slide-19-title">
+  <p class="slide-no">Slide 19 of 54</p>
+  <h3 id="slide-19-title">In the picture was there:</h3>
+  <table class="data">
+     <caption>Yes/No checklist for the picture-memory demonstration (as shown on the slide)</caption>
+     <thead><tr><th scope="col">#</th><th scope="col">Question</th><th scope="col">Yes</th><th scope="col">No</th></tr></thead>
+     <tbody>
+       <tr><td>1.</td><td>An automobile?</td><td>____</td><td>____</td></tr>
+       <tr><td>2.</td><td>A man?</td><td>____</td><td>____</td></tr>
+       <tr><td>3.</td><td>A woman?</td><td>____</td><td>____</td></tr>
+       <tr><td>4.</td><td>A child?</td><td>____</td><td>____</td></tr>
+       <tr><td>5.</td><td>An animal?</td><td>____</td><td>____</td></tr>
+       <tr><td>6.</td><td>A whip?</td><td>____</td><td>____</td></tr>
+       <tr><td>7.</td><td>A sword?</td><td>____</td><td>____</td></tr>
+       <tr><td>8.</td><td>A man’s hat?</td><td>____</td><td>____</td></tr>
+       <tr><td>9.</td><td>A ball?</td><td>____</td><td>____</td></tr>
+       <tr><td>10.</td><td>A fish?</td><td>____</td><td>____</td></tr>
+     </tbody>
+   </table>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The ten questions. 'A ball?' — seal group says yes; 'a sword?' — costume-ball group may say yes. The answers reveal how suggestion rewrote memory.</p>
+  </div>
+</section>
+<section class="slide" id="slide-20" aria-labelledby="slide-20-title">
+  <p class="slide-no">Slide 20 of 54</p>
+  <h3 id="slide-20-title">Memory for a picture — Group A (repeat)</h3>
+  <p><strong>Group A:</strong> You are going to look briefly at a picture and then answer some questions about it. The picture is a rough sketch of a poster for a <em>trained seal</em> act. Do not dwell on the picture. Look at it only long enough to “take it all in” once. After that, you will answer <em>yes</em> or <em>no</em> to a series of questions.</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Group A's slide, shown again for the classroom demonstration.</p>
+  </div>
+</section>
+<section class="slide" id="slide-21" aria-labelledby="slide-21-title">
+  <p class="slide-no">Slide 21 of 54</p>
+  <h3 id="slide-21-title">Ambiguous numeral</h3>
+  <figure>
+    <figcaption class="caption">The same glyph shown twice: read alone it looks like the number 13; read in the context of letters it looks like the letter B.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>Two renditions of an ambiguous glyph. Read by itself (or as a number), it is seen as “13”; the same shape in a letter context is read as “B”. The stroke pattern is identical — interpretation depends on context.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Thirteen, or B? The same drawing is '13' among numbers and 'B' among letters. Perception uses context instantly and unconsciously.</p>
+  </div>
+</section>
+<section class="slide" id="slide-22" aria-labelledby="slide-22-title">
+  <p class="slide-no">Slide 22 of 54</p>
+  <h3 id="slide-22-title">A test of attention & counting!</h3>
+  <p>HOW MANY TIMES DO THE PEOPLE IN THE WHITE SHIRTS PASS THE BASKETBALL?</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The famous selective-attention task: count the passes made by the people in white shirts. Watch carefully.</p>
+  </div>
+</section>
+<section class="slide" id="slide-23" aria-labelledby="slide-23-title">
+  <p class="slide-no">Slide 23 of 54</p>
+  <h3 id="slide-23-title">A test of attention & counting! (video)</h3>
+  <p>Watch video at <a href="https://www.youtube.com/watch?v=vJG698U2Mvo">http://www.youtube.com/watch?v=vJG698U2Mvo</a></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The 'gorillas in our midst' video (Simons & Chabris). Most viewers counting white-shirt passes never see the person in the gorilla suit walk through. Attention is selective — and we are blind to our own blindness.</p>
+  </div>
+</section>
+<section class="slide" id="slide-24" aria-labelledby="slide-24-title">
+  <p class="slide-no">Slide 24 of 54</p>
+  <h3 id="slide-24-title">What we hear</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds — what we <em>hear</em></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>From seeing to hearing: what we hear is also constructed by the mind.</p>
+  </div>
+</section>
+<section class="slide" id="slide-25" aria-labelledby="slide-25-title">
+  <p class="slide-no">Slide 25 of 54</p>
+  <h3 id="slide-25-title">What is he saying? (McGurk demo)</h3>
+  <p>McGurk Effect Demo — <a href="https://www.youtube.com/watch?v=aFPtc8BVdJk">http://www.youtube.com/watch?v=aFPtc8BVdJk</a></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The McGurk effect demonstration video. Listen to the syllable, then listen again while watching the lips.</p>
+  </div>
+</section>
+<section class="slide" id="slide-26" aria-labelledby="slide-26-title">
+  <p class="slide-no">Slide 26 of 54</p>
+  <h3 id="slide-26-title">What is he saying? (result)</h3>
+  <ul>
+     <li>Most adults (98%) think they hear <strong>“DA”</strong></li>
+     <li>In reality, you
+       <ul>
+         <li><em>hear</em> the sound <strong>“BA”</strong></li>
+         <li>see the lip movements <strong>“GA”</strong></li>
+       </ul>
+     </li>
+   </ul>
+   <p class="caption">H. McGurk &amp; J. MacDonald, <cite>Nature</cite>, 1976</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The audio says BA; the lips say GA; nearly everyone hears DA. Hearing itself fuses sight and sound — the McGurk & MacDonald effect (Nature, 1976).</p>
+  </div>
+</section>
+<section class="slide" id="slide-27" aria-labelledby="slide-27-title">
+  <p class="slide-no">Slide 27 of 54</p>
+  <h3 id="slide-27-title">What we know</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds — what we <em>know</em></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The third construction: what we know — how knowledge and belief shape judgment.</p>
+  </div>
+</section>
+<section class="slide" id="slide-28" aria-labelledby="slide-28-title">
+  <p class="slide-no">Slide 28 of 54</p>
+  <h3 id="slide-28-title">Which is farther east: San Diego or Reno?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Vote! Most people say Reno is farther east. In fact San Diego, California, lies farther east than Reno, Nevada — mental maps are distorted by borders and coastlines.</p>
+  </div>
+</section>
+<section class="slide" id="slide-29" aria-labelledby="slide-29-title">
+  <p class="slide-no">Slide 29 of 54</p>
+  <h3 id="slide-29-title">Which is farther north: Philadelphia or Rome, Italy?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Rome feels farther north because it is 'Europe.' Philadelphia is slightly farther north than Rome.</p>
+  </div>
+</section>
+<section class="slide" id="slide-30" aria-labelledby="slide-30-title">
+  <p class="slide-no">Slide 30 of 54</p>
+  <h3 id="slide-30-title">Which is farther north: Atlanta or Chicago?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Chicago 'feels' northern, Atlanta southern — yet they are at nearly the same latitude; Chicago is actually slightly farther north... most people are surprised. Mental maps compress and stretch geography.</p>
+  </div>
+</section>
+<section class="slide" id="slide-31" aria-labelledby="slide-31-title">
+  <p class="slide-no">Slide 31 of 54</p>
+  <h3 id="slide-31-title">Which is farther north: Portland or Toronto?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Most people say Toronto. Portland, Oregon, is farther north than Toronto.</p>
+  </div>
+</section>
+<section class="slide" id="slide-32" aria-labelledby="slide-32-title">
+  <p class="slide-no">Slide 32 of 54</p>
+  <h3 id="slide-32-title">Which is further west: Miami, Florida or Santiago, Chile?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Miami sits far west of the US east coast image people hold — it is farther west than Santiago, Chile. Knowledge (here, mental maps) is constructed, not photographed reality.</p>
+  </div>
+</section>
+<section class="slide" id="slide-33" aria-labelledby="slide-33-title">
+  <p class="slide-no">Slide 33 of 54</p>
+  <h3 id="slide-33-title">What we learn and remember</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds — what we learn and remember</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Now: what we learn and remember — including the automatic habits of mind we barely notice.</p>
+  </div>
+</section>
+<section class="slide" id="slide-34" aria-labelledby="slide-34-title">
+  <p class="slide-no">Slide 34 of 54</p>
+  <h3 id="slide-34-title">Listen, then write</h3>
+  <p>LISTEN TO THE WORDS, THEN WRITE DOWN THE WORDS YOU REMEMBER</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>A memory demonstration: I will read a list of words; write down as many as you remember. (In the lecture this segues into the 'one way not to do enter' false-memory demo.)</p>
+  </div>
+</section>
+<section class="slide" id="slide-35" aria-labelledby="slide-35-title">
+  <p class="slide-no">Slide 35 of 54</p>
+  <h3 id="slide-35-title">Automaticity</h3>
+  <ul>
+     <li><strong>Power</strong></li>
+     <li><strong>Peril</strong></li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Automaticity: mental processes that run without deliberate control. The power: fast, effortless thinking. The peril: systematic errors we don't notice.</p>
+  </div>
+</section>
+<section class="slide" id="slide-36" aria-labelledby="slide-36-title">
+  <p class="slide-no">Slide 36 of 54</p>
+  <h3 id="slide-36-title">ONE WAY NOT DO ENTER</h3>
+  <figure>
+    <figcaption class="caption">A gray box containing the text “ONE WAY NOT DO ENTER”.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>A road-sign style demonstration: a gray rectangle with the words “ONE WAY NOT DO ENTER.” Read automatically, the phrase feels meaningful; read deliberately, it is ungrammatical. The demonstration appears again as a triangle version on the next slide.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Read it quickly — it feels fine. Automatic reading glues the words together; only deliberate attention notices 'ONE WAY NOT DO ENTER' is word salad.</p>
+  </div>
+</section>
+<section class="slide" id="slide-37" aria-labelledby="slide-37-title">
+  <p class="slide-no">Slide 37 of 54</p>
+  <h3 id="slide-37-title">PARIS IN THE THE SPRING</h3>
+  <figure>
+    <figcaption class="caption">A gray triangle containing the text “PARIS IN THE THE SPRING”.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>A gray triangle containing the words “PARIS IN THE THE SPRING.” Most readers report 'Paris in the spring' — the duplicated “the” is invisible to automatic reading.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>'Paris in the the spring' — nearly everyone misses the doubled 'the.' Automaticity's peril in miniature.</p>
+  </div>
+</section>
+<section class="slide" id="slide-38" aria-labelledby="slide-38-title">
+  <p class="slide-no">Slide 38 of 54</p>
+  <h3 id="slide-38-title">How many F's?</h3>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Count the F's in the next sentence — quickly!</p>
+  </div>
+</section>
+<section class="slide" id="slide-39" aria-labelledby="slide-39-title">
+  <p class="slide-no">Slide 39 of 54</p>
+  <h3 id="slide-39-title">The F-sentence</h3>
+  <p>FINISHED FILES ARE THE RE-SULT OF YEARS OF SCIENTIF-IC STUDY COMBINED WITH THE EXPERIENCE OF MANY YEARS</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>“FINISHED FILES ARE THE RESULT OF YEARS OF SCIENTIFIC STUDY COMBINED WITH THE EXPERIENCE OF MANY YEARS.” There are six F's — most people find three, because the F in 'of' is pronounced like a V and automatic reading skips it.</p>
+  </div>
+</section>
+<section class="slide" id="slide-40" aria-labelledby="slide-40-title">
+  <p class="slide-no">Slide 40 of 54</p>
+  <h3 id="slide-40-title">Stroop effect — word set #1</h3>
+  <figure>
+    <figcaption class="caption">Word Set #1: color words (RED, GREEN, BLUE, YELLOW, PINK, ORANGE, WHITE, BROWN) printed in matching ink colors — the word “RED” in red ink, the word “GREEN” in green ink, and so on.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>A five-row grid of color words. In set #1 each word is printed in ink that matches its meaning: RED in red, GREEN in green, BLUE in blue, YELLOW in yellow, PINK in pink, ORANGE in orange, WHITE in white, BROWN in brown.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Set #1: name the INK color of each word aloud, row by row. It's easy — the word and the color agree.</p>
+  </div>
+</section>
+<section class="slide" id="slide-41" aria-labelledby="slide-41-title">
+  <p class="slide-no">Slide 41 of 54</p>
+  <h3 id="slide-41-title">Stroop effect — word set #2</h3>
+  <figure>
+    <figcaption class="caption">Word Set #2: the same color words, but each printed in a mismatched ink color — for example the word “RED” printed in blue ink and the word “BLUE” printed in green ink.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>The same grid of color words, but now every word is printed in a conflicting ink: RED in blue, GREEN in blue, BLUE in green, YELLOW in pink, PINK in orange, ORANGE in blue, WHITE in blue, BROWN in red, and so on.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Set #2: the same task, now the word and the ink conflict. Reading is so automatic that it fights color-naming — responses slow and error-prone. That conflict is the Stroop effect.</p>
+  </div>
+</section>
+<section class="slide" id="slide-42" aria-labelledby="slide-42-title">
+  <p class="slide-no">Slide 42 of 54</p>
+  <h3 id="slide-42-title">Birthday probability</h3>
+  <p>There are 30 people in a group. You get the month and date of each person’s birthday. What is the approximate probability that two of the people will have the exact same birthday?</p>
+   <ul>
+     <li>a) 90%</li>
+     <li>b) 70%</li>
+     <li>c) 50%</li>
+     <li>d) 30%</li>
+     <li>e) 10%</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Vote: with 30 people, how likely is a shared birthday? Most say 10 or 30 percent. The answer is about 70%. Statistical intuition is systematically miscalibrated.</p>
+  </div>
+</section>
+<section class="slide" id="slide-43" aria-labelledby="slide-43-title">
+  <p class="slide-no">Slide 43 of 54</p>
+  <h3 id="slide-43-title">Cognitive & affective forecasting</h3>
+  <p>COGNITIVE &amp; AFFECTIVE FORECASTING</p>
+   <ul><li>think about your future</li></ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Affective forecasting: predicting how we will feel in the future. We are remarkably bad at it — and this has consequences for big decisions.</p>
+  </div>
+</section>
+<section class="slide" id="slide-44" aria-labelledby="slide-44-title">
+  <p class="slide-no">Slide 44 of 54</p>
+  <h3 id="slide-44-title">Affective forecasting</h3>
+  <ul><li>think about your future</li></ul>
+   <p><em>most people think about achieving &amp; succeeding rather than fumbling or failing</em></p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Most people forecast achievement and success rather than fumbling or failing — an optimistic default.</p>
+  </div>
+</section>
+<section class="slide" id="slide-45" aria-labelledby="slide-45-title">
+  <p class="slide-no">Slide 45 of 54</p>
+  <h3 id="slide-45-title">Affective forecasting (tenure & lottery)</h3>
+  <ul>
+     <li>if I don’t get tenure, I will be sad… if I do get tenure I will be happy
+       <ul><li><em>two years later</em> - <em>no difference</em></li></ul></li>
+     <li>if I win the lottery, I will be happy!
+       <ul><li><em>a year or two later</em>, <em>no difference</em></li></ul></li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Classic findings: assistant professors are sure tenure decides their happiness — two years later, tenured and denied are indistinguishable. Lottery winners return to baseline happiness within a year or two. We overestimate how long events will move us.</p>
+  </div>
+</section>
+<section class="slide" id="slide-46" aria-labelledby="slide-46-title">
+  <p class="slide-no">Slide 46 of 54</p>
+  <h3 id="slide-46-title">Affective forecasting (accident)</h3>
+  <ul>
+     <li>if I don’t get tenure, I will be sad… if I do get tenure I will be happy
+       <ul><li><em>two years later</em> - <em>no difference</em></li></ul></li>
+     <li>if I win the lottery, I will be happy!
+       <ul><li><em>a year or two later</em>, <em>no difference</em></li></ul></li>
+     <li>accident leading to quadriplegia or paraplegia - return to typical ratings in 3 months</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>And the hardest example: people who became quadriplegic or paraplegic return to typical happiness ratings within about three months. The forecasting machine in the head systematically mispredicts.</p>
+  </div>
+</section>
+<section class="slide" id="slide-47" aria-labelledby="slide-47-title">
+  <p class="slide-no">Slide 47 of 54</p>
+  <h3 id="slide-47-title">Mispredicting responses to racism</h3>
+  <p>Mispredicting Affective and Behavioral Response to Racism — Kawakami et al., <cite>Science</cite>, 2009</p>
+   <ul>
+     <li>Racism is condemned</li>
+     <li>Blatant racism still occurs
+       <ul><li>33% of whites report hearing anti-black slurs in workplace</li></ul></li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Kawakami and colleagues (Science, 2009) asked: do people know how they — and others — respond to racism? Racism is condemned in principle; a third of white respondents report hearing anti-Black slurs in the workplace.</p>
+  </div>
+</section>
+<section class="slide" id="slide-48" aria-labelledby="slide-48-title">
+  <p class="slide-no">Slide 48 of 54</p>
+  <h3 id="slide-48-title">Forecaster vs. experiencer design</h3>
+  <ul>
+     <li>two groups - “forecaster” or “experiencer”</li>
+     <li>you enter room - see a black male &amp; a white male - black male leaves room to get cell phone, gently bumps white male knee
+       <ul>
+         <li>control - nothing else</li>
+         <li>moderate slur “Typical, I hate it when black people do that”</li>
+         <li>extreme slur …. “clumsy N word”</li>
+       </ul></li>
+     <li>black male returns, experimenter gives survey on current feelings, asks you to pick a partner for anagram task</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The design: two groups — 'forecasters' imagine the scenario; 'experiencers' live it. The black male confederate leaves, then bumps the white male's knee — with no comment, a moderate slur, or an extreme slur. Then: rate your feelings, and choose a partner for the anagram task.</p>
+  </div>
+</section>
+<section class="slide" id="slide-49" aria-labelledby="slide-49-title">
+  <p class="slide-no">Slide 49 of 54</p>
+  <h3 id="slide-49-title">Forecasters predict outrage</h3>
+  <ul>
+     <li>two groups - “forecaster” or “experiencer”</li>
+     <li>control - nothing else</li>
+     <li>moderate slur “Typical, I hate it when black people do that”</li>
+     <li>extreme slur …. “clumsy N word”</li>
+     <li>black male returns, experimenter gives survey on current feelings, asks you to pick a partner for anagram task</li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Forecasters predict they would be outraged by the slurs and would avoid the slur-saying partner. What did the experiencers actually do? The next two slides show the gap.</p>
+  </div>
+</section>
+<section class="slide" id="slide-50" aria-labelledby="slide-50-title">
+  <p class="slide-no">Slide 50 of 54</p>
+  <h3 id="slide-50-title">A gap between attitudes & actions (distress)</h3>
+  <p>Graph shows experiencer reports consistently lower distress than forecaster.</p>
+  <figure>
+    <figcaption class="caption">Bar chart: predicted (forecaster) vs reported (experiencer) negative emotional distress. Forecaster distress is higher than experiencer distress in every condition.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>Bar chart, “Negative Emotional Distress” (0–9 scale, bars with error bars), three conditions on the x-axis. Forecaster (predicted) versus Experiencer (reported): No Comment — forecaster about 4.5, experiencer about 3.1; Moderate Racist Comment — forecaster about 7.4, experiencer about 3.8; Extreme Racist Comment — forecaster about 7.0, experiencer about 3.8. People who imagine the event predict more distress than people who actually experience it report. Image by MIT OpenCourseWare; see Kawakami, K., et al. “Mispredicting Affective and Behavioral Responses to Racism.” Science 323, no. 5911 (2009): 276–8.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Forecasters predicted high distress, especially after the slurs. Experiencers reported much less distress in every condition — affective misprediction again, now about moral events.</p>
+  </div>
+</section>
+<section class="slide" id="slide-51" aria-labelledby="slide-51-title">
+  <p class="slide-no">Slide 51 of 54</p>
+  <h3 id="slide-51-title">A gap between attitudes & actions (partner choice)</h3>
+  <p>Graph shows experiencer chooses white partners more often when following racist comments.</p>
+  <figure>
+    <figcaption class="caption">Bar chart: percentage of white partners chosen, forecaster-predicted vs experiencer-actual, by condition.</figcaption>
+    <details>
+      <summary>Long description of the visual</summary>
+      <p>Bar chart, “Percentage of White Partners Chosen” (0–100), three conditions. Forecaster (predicted) versus Experiencer (actual): No Comment — forecaster about 68%, experiencer about 53%; Moderate Racist Comment — forecaster about 10%, experiencer about 66%; Extreme Racist Comment — forecaster about 24%, experiencer about 62%. People who imagined the event predicted they would strongly avoid the slur-saying partner; people who experienced it chose the white partner at similar rates across conditions. Image by MIT OpenCourseWare; see Kawakami, K., et al. “Mispredicting Affective and Behavioral Responses to Racism.” Science 323, no. 5911 (2009): 276–8.</p>
+    </details>
+  </figure>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>And the actions: forecasters predicted they would refuse the racist partner; experiencers actually chose the white partner at nearly the same rate in every condition. Attitudes and actions diverge — the gap this lecture ends on.</p>
+  </div>
+</section>
+<section class="slide" id="slide-52" aria-labelledby="slide-52-title">
+  <p class="slide-no">Slide 52 of 54</p>
+  <h3 id="slide-52-title">What the course covers</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+   <p>how our minds make our worlds</p>
+   <ul>
+     <li>what we <em>see &amp; hear</em></li>
+     <li>what we <em>remember</em></li>
+     <li>what we <em>know</em></li>
+     <li>how we <em>think</em></li>
+     <li>how we <em>feel</em></li>
+     <li>how we <em>act</em></li>
+   </ul>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>The course map: how our minds make our worlds — what we see and hear, what we remember, what we know, how we think, how we feel, and how we act.</p>
+  </div>
+</section>
+<section class="slide" id="slide-53" aria-labelledby="slide-53-title">
+  <p class="slide-no">Slide 53 of 54</p>
+  <h3 id="slide-53-title">Closing</h3>
+  <p><em>Objective:</em> Scientific study of human nature/mind/behavior</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Closing slide. This lecture introduced the themes of the whole course; the next unit begins with the brain.</p>
+  </div>
+</section>
+<section class="slide" id="slide-54" aria-labelledby="slide-54-title">
+  <p class="slide-no">Slide 54 of 54</p>
+  <h3 id="slide-54-title">MIT OpenCourseWare</h3>
+  <p>MIT OpenCourseWare — <a href="https://ocw.mit.edu" rel="noopener">http://ocw.mit.edu</a></p>
+   <p>9.00SC Introduction to Psychology, Fall 2011</p>
+   <p>For information about citing these materials or our Terms of Use, visit:
+   <a href="https://ocw.mit.edu/terms" rel="noopener">http://ocw.mit.edu/terms</a>.</p>
+  <div class="speaker-note">
+    <h4>Speaker note</h4>
+    <p>Publisher slide: MIT OpenCourseWare citation and terms of use.</p>
+  </div>
+</section>
+
+</div>
+
+<h2 id="chart-tables">Chart data tables</h2>
+<p>Slides 51 and 52 present the Kawakami et al. findings as bar charts. The
+original chart images have embedded alt text in the PDF, but the numbers are
+only available visually. The tables below give the approximate values read from
+the charts.</p>
+
+<div class="table-scroll">
+<table class="data" id="chart-distress">
+<caption>Chart data (approximate values read from the slide's bar chart): Negative emotional distress by condition, forecaster (predicted) vs. experiencer (reported). Kawakami et al., <cite>Science</cite> 323 (2009), as shown in the MIT OCW lecture slides.</caption>
+<thead><tr><th scope="col">Condition</th><th scope="col">Forecaster (predicted)</th><th scope="col">Experiencer (reported)</th></tr></thead>
+<tbody>
+<tr><th scope="row">No comment</th><td>≈ 4.5</td><td>≈ 3.1</td></tr>
+<tr><th scope="row">Moderate racist comment</th><td>≈ 7.4</td><td>≈ 3.8</td></tr>
+<tr><th scope="row">Extreme racist comment</th><td>≈ 7.0</td><td>≈ 3.8</td></tr>
+</tbody>
+</table>
+</div>
+<div class="table-scroll">
+<table class="data" id="chart-partners">
+<caption>Chart data (approximate values read from the slide's bar chart): Percentage of white partners chosen, forecaster (predicted) vs. experiencer (actual). Kawakami et al., <cite>Science</cite> 323 (2009), as shown in the MIT OCW lecture slides.</caption>
+<thead><tr><th scope="col">Condition</th><th scope="col">Forecaster (predicted)</th><th scope="col">Experiencer (actual)</th></tr></thead>
+<tbody>
+<tr><th scope="row">No comment</th><td>≈ 68%</td><td>≈ 53%</td></tr>
+<tr><th scope="row">Moderate racist comment</th><td>≈ 10%</td><td>≈ 66%</td></tr>
+<tr><th scope="row">Extreme racist comment</th><td>≈ 24%</td><td>≈ 62%</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Source</h2>
+<p>Transcribed and adapted from <cite>Lecture 1: Introduction</cite> slides
+(<code>MIT9_00SCF11_lec01.pdf</code>), 9.00SC Introduction to Psychology, Fall
+2011, Prof. John Gabrieli, MIT OpenCourseWare, CC BY-NC-SA 3.0 US. Speaker notes
+were written for this remediation to make each slide’s role in the lecture
+explicit; they are marked as notes, not as the lecturer’s words. The lecturer’s
+own words are in the <a href="transcript.html">transcript</a>.</p>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Remediated module for the case study “Accessibility remediation of a real
+    course module.” Content adapted from <em>9.00SC Introduction to Psychology,
+    Fall 2011</em> (Unit&nbsp;1) by Prof. John Gabrieli, MIT OpenCourseWare,
+    licensed CC BY-NC-SA 3.0 US; this adaptation is licensed alike (see
+    <a href="../index.html#attribution">attribution</a>).
+    “Lakeside State University” is a fictional US public university preparing for
+    ADA Title II digital accessibility compliance.</p>
+  </div>
+</footer>
+</body>
+</html>

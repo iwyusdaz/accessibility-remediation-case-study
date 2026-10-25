@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 1: Introduction — module overview | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-kicker">Unit 1 · Introduction to Psychology — remediated module</p>
+    <p class="site-title"><a href="index.html" aria-current="page">Introduction to Psychology — Unit 1: Introduction</a></p>
+    <nav class="site-nav" aria-label="Module pages">
+      <ul>
+        <li><a href="index.html" aria-current="page">Overview</a></li>
+        <li><a href="lesson.html">Lesson</a></li>
+        <li><a href="slides.html">Lecture slides</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="transcript.html">Transcript</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="../index.html">Case study home</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Unit 1: Introduction</h1>
+
+<figure>
+  <img src="img/hermann-grid.jpg" width="200" height="200"
+       alt="Scintillating grid: a white grid pattern on a black background, with the illusion of dark dots appearing at the intersections of the white lines.">
+  <figcaption class="caption">The Hermann-grid illusion shown on the original
+  unit page — one of the lecture’s visual demonstrations. The original page
+  carried this image with a good caption and alt text; the remediated slide
+  deck adds a long description (<a href="slides.html">slides.html</a>).</figcaption>
+</figure>
+
+<p class="lede">This session is an introduction to the subject of psychology:
+the scientific study of how we think, feel and act. The lecture features some
+fascinating examples and fun demonstrations on topics like optical illusions,
+limits of visual attention, the power of suggestion in memories, and the
+relationship between how we feel and how we act.</p>
+
+<p><strong>Keywords:</strong> perception, optical illusion, visual memory,
+visual attention, listening, automaticity, prediction, thinking, feeling,
+acting.</p>
+
+<h2>What is in this module</h2>
+
+<div class="table-scroll">
+<table class="data">
+<caption>Module contents and the accessibility remediation applied to each part</caption>
+<thead>
+<tr><th scope="col">Part</th><th scope="col">Original form</th><th scope="col">Remediated form</th></tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Lesson reading</th>
+<td>10-page PDF study outline (Kosslyn &amp; Rosenberg, Chapter&nbsp;1); references textbook-only tables</td>
+<td><a href="lesson.html">Semantic HTML lesson</a> with a self-contained summary table and descriptive lists</td>
+</tr>
+<tr>
+<th scope="row">Lecture slides</th>
+<td>54-page PDF of image-heavy PowerPoint slides; export junk alt text</td>
+<td><a href="slides.html">HTML slide deck</a> — one section per slide, real text, figure descriptions, speaker notes, chart data as tables</td>
+</tr>
+<tr>
+<th scope="row">Lecture video (~50 min)</th>
+<td>Flash-era player in a JS popup; no captions, no transcript, ambiguously named download links</td>
+<td><a href="video.html">Video page</a> — standard player, captions from the publisher transcript, chapter navigation, text description of the visuals, <a href="transcript.html">full transcript</a></td>
+</tr>
+<tr>
+<th scope="row">Practice quiz</th>
+<td>PDF exam files (12–21 pages), not fillable or navigable as a quiz</td>
+<td><a href="quiz.html">Accessible HTML quiz</a> — labeled controls, live-region feedback, no time limit</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>Suggested order</h2>
+<ol>
+<li>Read the <a href="lesson.html">lesson</a> (the chapter outline).</li>
+<li>Skim the <a href="slides.html">lecture slides</a> — each slide has a
+speaker note.</li>
+<li>Watch the <a href="video.html">lecture video</a> with captions, or read
+along with the <a href="transcript.html">transcript</a>.</li>
+<li>Take the <a href="quiz.html">practice quiz</a>.</li>
+</ol>
+
+<h2>About this remediation</h2>
+<p>This module is a real, openly licensed course unit used as the subject of the
+accessibility case study. The original is preserved unchanged in the
+repository’s <code>docs/before/</code> folder (labeled “inaccessible
+original”). What was changed, and why, is documented in the
+<a href="../index.html">case study landing page</a>, the
+<a href="../index.html#attribution">attribution page</a>, and the
+<a href="../index.html#evidence">issue log and conformance report</a>.</p>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Remediated module for the case study “Accessibility remediation of a real
+    course module.” Content adapted from <em>9.00SC Introduction to Psychology,
+    Fall 2011</em> (Unit&nbsp;1) by Prof. John Gabrieli, MIT OpenCourseWare,
+    licensed CC BY-NC-SA 3.0 US; this adaptation is licensed alike (see
+    <a href="../index.html#attribution">attribution</a>).
+    “Lakeside State University” is a fictional US public university preparing for
+    ADA Title II digital accessibility compliance.</p>
+  </div>
+</footer>
+</body>
+</html>

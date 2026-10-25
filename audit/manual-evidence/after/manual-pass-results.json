@@ -1,0 +1,2704 @@
+[
+  {
+    "url": "http://127.0.0.1:8900/module/video.html",
+    "name": "module_video",
+    "keyboard": {
+      "tabStops": 120,
+      "uniqueStops": 33,
+      "keyboardTrapSuspected": false,
+      "stopsWithoutVisibleFocus": 0,
+      "stops": [
+        {
+          "stop": 1,
+          "tag": "a",
+          "id": null,
+          "cls": "skip-link",
+          "name": "Skip to main content",
+          "href": "#main",
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 210,
+            "h": 46
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 2,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 41,
+            "w": 473,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 3,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Overview",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 74,
+            "w": 86,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 4,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lesson",
+          "href": "lesson.html",
+          "rect": {
+            "x": 388,
+            "y": 74,
+            "w": 65,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 5,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lecture slides",
+          "href": "slides.html",
+          "rect": {
+            "x": 467,
+            "y": 74,
+            "w": 123,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 6,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Video",
+          "href": "video.html",
+          "rect": {
+            "x": 605,
+            "y": 74,
+            "w": 60,
+            "h": 41
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 7,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Transcript",
+          "href": "transcript.html",
+          "rect": {
+            "x": 680,
+            "y": 74,
+            "w": 90,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 8,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Quiz",
+          "href": "quiz.html",
+          "rect": {
+            "x": 784,
+            "y": 74,
+            "w": 44,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 9,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Case study home",
+          "href": "../index.html",
+          "rect": {
+            "x": 288,
+            "y": 119,
+            "w": 154,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 10,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions status section",
+          "href": "#captions-status",
+          "rect": {
+            "x": 713,
+            "y": 535,
+            "w": 170,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 11,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation status",
+          "href": "../index.html#evaluation",
+          "rect": {
+            "x": 308,
+            "y": 562,
+            "w": 615,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 12,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 13,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 14,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 15,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Download the lecture MP4 from the Internet Archive",
+          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "rect": {
+            "x": 328,
+            "y": 1148,
+            "w": 397,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 16,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Watch on YouTube (MIT OpenCourseWare)",
+          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "rect": {
+            "x": 328,
+            "y": 1175,
+            "w": 331,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 17,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Publisher’s resource page for this lecture",
+          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "rect": {
+            "x": 328,
+            "y": 1257,
+            "w": 305,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 18,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Play from the beginning (0:00)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1363,
+            "w": 195,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 19,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Goals of the Course (0:27)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1395,
+            "w": 173,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 20,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1428,
+            "w": 411,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 21,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1460,
+            "w": 430,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 22,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "The Power and Peril of Automaticity (29:58)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1492,
+            "w": 273,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 23,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How We Feel vs. How We Act (37:09)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1525,
+            "w": 239,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 24,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "HTML slide deck",
+          "href": "slides.html",
+          "rect": {
+            "x": 474,
+            "y": 1743,
+            "w": 129,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 25,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 8–14",
+          "href": "slides.html#slide-8",
+          "rect": {
+            "x": 447,
+            "y": 2032,
+            "w": 85,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 26,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "16–23",
+          "href": "slides.html#slide-16",
+          "rect": {
+            "x": 568,
+            "y": 2032,
+            "w": 47,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 27,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 25–26",
+          "href": "slides.html#slide-25",
+          "rect": {
+            "x": 328,
+            "y": 2086,
+            "w": 651,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 28,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 35–41",
+          "href": "slides.html#slide-35",
+          "rect": {
+            "x": 328,
+            "y": 2222,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 29,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "distress chart data",
+          "href": "slides.html#chart-distress",
+          "rect": {
+            "x": 473,
+            "y": 2331,
+            "w": 138,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 30,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "partner-choice chart data",
+          "href": "slides.html#chart-partners",
+          "rect": {
+            "x": 647,
+            "y": 2331,
+            "w": 190,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 31,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 43–51",
+          "href": "slides.html#slide-43",
+          "rect": {
+            "x": 876,
+            "y": 2331,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 32,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions-build-report.json",
+          "href": "media/captions-build-report.json",
+          "rect": {
+            "x": 664,
+            "y": 2596,
+            "w": 198,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 33,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 487,
+            "y": 2705,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 34,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 501,
+            "y": 2732,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 35,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "case study evidence",
+          "href": "../index.html#evidence",
+          "rect": {
+            "x": 654,
+            "y": 3024,
+            "w": 147,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 36,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "attribution",
+          "href": "../index.html#attribution",
+          "rect": {
+            "x": 881,
+            "y": 3178,
+            "w": 71,
+            "h": 17
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 37,
+          "note": "focus left the document (body) — possible tab escape or end of page"
+        },
+        {
+          "stop": 38,
+          "tag": "a",
+          "id": null,
+          "cls": "skip-link",
+          "name": "Skip to main content",
+          "href": "#main",
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 210,
+            "h": 46
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 39,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 41,
+            "w": 473,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 40,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Overview",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 74,
+            "w": 86,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 41,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lesson",
+          "href": "lesson.html",
+          "rect": {
+            "x": 388,
+            "y": 74,
+            "w": 65,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 42,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lecture slides",
+          "href": "slides.html",
+          "rect": {
+            "x": 467,
+            "y": 74,
+            "w": 123,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 43,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Video",
+          "href": "video.html",
+          "rect": {
+            "x": 605,
+            "y": 74,
+            "w": 60,
+            "h": 41
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 44,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Transcript",
+          "href": "transcript.html",
+          "rect": {
+            "x": 680,
+            "y": 74,
+            "w": 90,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 45,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Quiz",
+          "href": "quiz.html",
+          "rect": {
+            "x": 784,
+            "y": 74,
+            "w": 44,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 46,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Case study home",
+          "href": "../index.html",
+          "rect": {
+            "x": 288,
+            "y": 119,
+            "w": 154,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 47,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions status section",
+          "href": "#captions-status",
+          "rect": {
+            "x": 713,
+            "y": 535,
+            "w": 170,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 48,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation status",
+          "href": "../index.html#evaluation",
+          "rect": {
+            "x": 308,
+            "y": 562,
+            "w": 615,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 49,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 50,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 51,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 52,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Download the lecture MP4 from the Internet Archive",
+          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "rect": {
+            "x": 328,
+            "y": 1148,
+            "w": 397,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 53,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Watch on YouTube (MIT OpenCourseWare)",
+          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "rect": {
+            "x": 328,
+            "y": 1175,
+            "w": 331,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 54,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Publisher’s resource page for this lecture",
+          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "rect": {
+            "x": 328,
+            "y": 1257,
+            "w": 305,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 55,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Play from the beginning (0:00)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1363,
+            "w": 195,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 56,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Goals of the Course (0:27)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1395,
+            "w": 173,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 57,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1428,
+            "w": 411,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 58,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1460,
+            "w": 430,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 59,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "The Power and Peril of Automaticity (29:58)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1492,
+            "w": 273,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 60,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How We Feel vs. How We Act (37:09)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1525,
+            "w": 239,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 61,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "HTML slide deck",
+          "href": "slides.html",
+          "rect": {
+            "x": 474,
+            "y": 1743,
+            "w": 129,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 62,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 8–14",
+          "href": "slides.html#slide-8",
+          "rect": {
+            "x": 447,
+            "y": 2032,
+            "w": 85,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 63,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "16–23",
+          "href": "slides.html#slide-16",
+          "rect": {
+            "x": 568,
+            "y": 2032,
+            "w": 47,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 64,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 25–26",
+          "href": "slides.html#slide-25",
+          "rect": {
+            "x": 328,
+            "y": 2086,
+            "w": 651,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 65,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 35–41",
+          "href": "slides.html#slide-35",
+          "rect": {
+            "x": 328,
+            "y": 2222,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 66,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "distress chart data",
+          "href": "slides.html#chart-distress",
+          "rect": {
+            "x": 473,
+            "y": 2331,
+            "w": 138,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 67,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "partner-choice chart data",
+          "href": "slides.html#chart-partners",
+          "rect": {
+            "x": 647,
+            "y": 2331,
+            "w": 190,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 68,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 43–51",
+          "href": "slides.html#slide-43",
+          "rect": {
+            "x": 876,
+            "y": 2331,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 69,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions-build-report.json",
+          "href": "media/captions-build-report.json",
+          "rect": {
+            "x": 664,
+            "y": 2596,
+            "w": 198,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 70,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 487,
+            "y": 2705,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 71,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 501,
+            "y": 2732,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 72,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "case study evidence",
+          "href": "../index.html#evidence",
+          "rect": {
+            "x": 654,
+            "y": 3024,
+            "w": 147,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 73,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "attribution",
+          "href": "../index.html#attribution",
+          "rect": {
+            "x": 881,
+            "y": 3178,
+            "w": 71,
+            "h": 17
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 74,
+          "note": "focus left the document (body) — possible tab escape or end of page"
+        },
+        {
+          "stop": 75,
+          "tag": "a",
+          "id": null,
+          "cls": "skip-link",
+          "name": "Skip to main content",
+          "href": "#main",
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 210,
+            "h": 46
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 76,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 41,
+            "w": 473,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 77,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Overview",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 74,
+            "w": 86,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 78,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lesson",
+          "href": "lesson.html",
+          "rect": {
+            "x": 388,
+            "y": 74,
+            "w": 65,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 79,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lecture slides",
+          "href": "slides.html",
+          "rect": {
+            "x": 467,
+            "y": 74,
+            "w": 123,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 80,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Video",
+          "href": "video.html",
+          "rect": {
+            "x": 605,
+            "y": 74,
+            "w": 60,
+            "h": 41
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 81,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Transcript",
+          "href": "transcript.html",
+          "rect": {
+            "x": 680,
+            "y": 74,
+            "w": 90,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 82,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Quiz",
+          "href": "quiz.html",
+          "rect": {
+            "x": 784,
+            "y": 74,
+            "w": 44,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 83,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Case study home",
+          "href": "../index.html",
+          "rect": {
+            "x": 288,
+            "y": 119,
+            "w": 154,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 84,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions status section",
+          "href": "#captions-status",
+          "rect": {
+            "x": 713,
+            "y": 535,
+            "w": 170,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 85,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation status",
+          "href": "../index.html#evaluation",
+          "rect": {
+            "x": 308,
+            "y": 562,
+            "w": 615,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 86,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 87,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 88,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 660,
+            "w": 624,
+            "h": 351
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 89,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Download the lecture MP4 from the Internet Archive",
+          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "rect": {
+            "x": 328,
+            "y": 1148,
+            "w": 397,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 90,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Watch on YouTube (MIT OpenCourseWare)",
+          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "rect": {
+            "x": 328,
+            "y": 1175,
+            "w": 331,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 91,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Publisher’s resource page for this lecture",
+          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "rect": {
+            "x": 328,
+            "y": 1257,
+            "w": 305,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 92,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Play from the beginning (0:00)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1363,
+            "w": 195,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 93,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "Goals of the Course (0:27)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1395,
+            "w": 173,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 94,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1428,
+            "w": 411,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 95,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1460,
+            "w": 430,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 96,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "The Power and Peril of Automaticity (29:58)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1492,
+            "w": 273,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 97,
+          "tag": "button",
+          "id": null,
+          "cls": null,
+          "name": "How We Feel vs. How We Act (37:09)",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 1525,
+            "w": 239,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 98,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "HTML slide deck",
+          "href": "slides.html",
+          "rect": {
+            "x": 474,
+            "y": 1743,
+            "w": 129,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 99,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 8–14",
+          "href": "slides.html#slide-8",
+          "rect": {
+            "x": 447,
+            "y": 2032,
+            "w": 85,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 100,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "16–23",
+          "href": "slides.html#slide-16",
+          "rect": {
+            "x": 568,
+            "y": 2032,
+            "w": 47,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 101,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 25–26",
+          "href": "slides.html#slide-25",
+          "rect": {
+            "x": 328,
+            "y": 2086,
+            "w": 651,
+            "h": 47
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 102,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 35–41",
+          "href": "slides.html#slide-35",
+          "rect": {
+            "x": 328,
+            "y": 2222,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 103,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "distress chart data",
+          "href": "slides.html#chart-distress",
+          "rect": {
+            "x": 473,
+            "y": 2331,
+            "w": 138,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 104,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "partner-choice chart data",
+          "href": "slides.html#chart-partners",
+          "rect": {
+            "x": 647,
+            "y": 2331,
+            "w": 190,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 105,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "slides 43–51",
+          "href": "slides.html#slide-43",
+          "rect": {
+            "x": 876,
+            "y": 2331,
+            "w": 93,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 106,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "captions-build-report.json",
+          "href": "media/captions-build-report.json",
+          "rect": {
+            "x": 664,
+            "y": 2596,
+            "w": 198,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 107,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 487,
+            "y": 2705,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 108,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation/METHODS",
+          "href": "../../evaluation/METHODS.html",
+          "rect": {
+            "x": 501,
+            "y": 2732,
+            "w": 173,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 109,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "case study evidence",
+          "href": "../index.html#evidence",
+          "rect": {
+            "x": 654,
+            "y": 3024,
+            "w": 147,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 110,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "attribution",
+          "href": "../index.html#attribution",
+          "rect": {
+            "x": 881,
+            "y": 3178,
+            "w": 71,
+            "h": 17
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 111,
+          "note": "focus left the document (body) — possible tab escape or end of page"
+        },
+        {
+          "stop": 112,
+          "tag": "a",
+          "id": null,
+          "cls": "skip-link",
+          "name": "Skip to main content",
+          "href": "#main",
+          "rect": {
+            "x": 8,
+            "y": 8,
+            "w": 210,
+            "h": 46
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 113,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 41,
+            "w": 473,
+            "h": 21
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 114,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Overview",
+          "href": "index.html",
+          "rect": {
+            "x": 288,
+            "y": 74,
+            "w": 86,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 115,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lesson",
+          "href": "lesson.html",
+          "rect": {
+            "x": 388,
+            "y": 74,
+            "w": 65,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 116,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Lecture slides",
+          "href": "slides.html",
+          "rect": {
+            "x": 467,
+            "y": 74,
+            "w": 123,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 117,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Video",
+          "href": "video.html",
+          "rect": {
+            "x": 605,
+            "y": 74,
+            "w": 60,
+            "h": 41
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 118,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Transcript",
+          "href": "transcript.html",
+          "rect": {
+            "x": 680,
+            "y": 74,
+            "w": 90,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 119,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Quiz",
+          "href": "quiz.html",
+          "rect": {
+            "x": 784,
+            "y": 74,
+            "w": 44,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 120,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Case study home",
+          "href": "../index.html",
+          "rect": {
+            "x": 288,
+            "y": 119,
+            "w": 154,
+            "h": 38
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        }
+      ],
+      "skipLink": {
+        "stop": 1,
+        "tag": "a",
+        "id": null,
+        "cls": "skip-link",
+        "name": "Skip to main content",
+        "href": "#main",
+        "rect": {
+          "x": 8,
+          "y": 8,
+          "w": 210,
+          "h": 46
+        },
+        "style": {
+          "outlineWidth": "3px",
+          "outlineStyle": "solid",
+          "outlineColor": "rgb(179, 71, 0)",
+          "boxShadow": "none",
+          "textDecorationLine": "underline"
+        },
+        "visibleFocusIndicator": true
+      }
+    },
+    "reflow320": {
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "bodyScrollWidth": 320,
+      "horizontalScroll": false
+    },
+    "zoom400": {
+      "note": "visual render only (no reflow); reflow verdict = 320px viewport pass (400% of 1280px = 320px)"
+    },
+    "contrast": {
+      "failures": [],
+      "failureCount": 0
+    },
+    "structure": {
+      "lang": "en",
+      "title": "Lecture 1 video — Unit 1 | Accessibility Remediation Case Study",
+      "landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ],
+      "headingOutline": [
+        {
+          "level": 1,
+          "text": "Lecture 1: Introduction (video)"
+        },
+        {
+          "level": 2,
+          "text": "Watch or listen"
+        },
+        {
+          "level": 2,
+          "text": "Chapters"
+        },
+        {
+          "level": 2,
+          "text": "What happens on screen (text description)"
+        },
+        {
+          "level": 2,
+          "text": "Captions status"
+        },
+        {
+          "level": 2,
+          "text": "What the original module offered"
+        }
+      ],
+      "headingsCount": 6,
+      "images": [],
+      "imageCount": 0,
+      "links": [
+        "Skip to main content",
+        "Introduction to Psychology — Unit 1: Introduction",
+        "Overview",
+        "Lesson",
+        "Lecture slides",
+        "Video",
+        "Transcript",
+        "Quiz",
+        "Case study home",
+        "captions status section",
+        "evaluation status",
+        "Download the lecture MP4 from the Internet Archive",
+        "Watch on YouTube (MIT OpenCourseWare)",
+        "Publisher’s resource page for this lecture",
+        "HTML slide deck",
+        "slides 8–14",
+        "16–23",
+        "slides 25–26",
+        "slides 35–41",
+        "distress chart data",
+        "partner-choice chart data",
+        "slides 43–51",
+        "captions-build-report.json",
+        "evaluation/METHODS",
+        "evaluation/METHODS",
+        "case study evidence",
+        "attribution"
+      ],
+      "linkCount": 27
+    }
+  }
+]

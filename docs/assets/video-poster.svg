@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Poster frame: Lecture 1: Introduction, Unit 1 of Introduction to Psychology">
+  <rect width="960" height="540" fill="#1f2a37"/>
+  <rect x="0" y="500" width="960" height="40" fill="#7a1f2b"/>
+  <text x="480" y="200" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="42" fill="#ffffff">Lecture 1: Introduction</text>
+  <text x="480" y="260" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" fill="#c8d0da">Introduction to Psychology — Unit 1 · Prof. John Gabrieli</text>
+  <text x="480" y="310" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#8b98a8">Video hosted by MIT OpenCourseWare / Internet Archive (CC BY-NC-SA)</text>
+  <g transform="translate(480 400)">
+    <polygon points="-25,-32 38,0 -25,32" fill="#ffffff"/>
+  </g>
+  <text x="480" y="527" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#ffffff">Captions and transcript available on the video page</text>
+</svg>

@@ -475,7 +475,7 @@ its meaning in slide images, several with meaningless export alt text (filenames
 like “scan569.jpg” or placeholder “Text Box:” labels). HTML reflows at any zoom,
 works with screen readers without PDF reader mode, is searchable, and can be
 edited by faculty. The original PDF remains available at
-<a href="before/slides-original.pdf">…/before/slides-original.pdf</a> for
+<a href="../before/slides-original.pdf">…/before/slides-original.pdf</a> for
 comparison. Figure descriptions were written from inspection of the slides;
 images that the publisher marks as excluded from the Creative Commons license
 are <em>described, not reproduced</em>.</p>

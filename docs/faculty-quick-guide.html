@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faculty quick guide: 10 rules for accessible course materials | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-kicker">Lakeside State University — prevention program</p>
+    <p class="site-title"><a href="index.html">Accessibility Remediation Case Study</a></p>
+    <nav class="site-nav" aria-label="Case study pages">
+      <ul>
+        <li><a href="index.html">Case study home</a></li>
+        <li><a href="module/index.html">Remediated module</a></li>
+        <li><a href="faculty-quick-guide.html" aria-current="page">Faculty quick guide</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Faculty quick guide: 10 rules for accessible course materials</h1>
+<p class="lede">One page. Print it, pin it, forward it. Remediation doesn't
+scale if new inaccessible content keeps arriving — prevention is the cheapest
+fix in the whole program. (This is the web version of
+<code>program/faculty-quick-guide.md</code>.)</p>
+
+<p class="meta">Lakeside State University is a fictional US public university
+preparing for ADA Title II digital accessibility compliance. Companion to the
+remediation case study.</p>
+
+<h2>The 10 rules</h2>
+
+<ol>
+<li><strong>Use real headings.</strong> Apply Heading 1/2/3 styles — don't just
+make text big and bold. Screen reader users navigate by heading; a page without
+them is one long undifferentiated block.</li>
+<li><strong>Write meaningful link text.</strong> “Week 3 reading (PDF)” beats
+“click here.” Screen readers offer a list of links out of context — every link
+should make sense alone.</li>
+<li><strong>Add alt text — and know when to leave it empty.</strong> Describe
+what the image <em>means</em> in the lesson (“Bar chart: students who slept 8
+hours scored higher”), not “image of chart.” Purely decorative images get
+<em>empty</em> alt (<code>alt=""</code>) so screen readers skip them.</li>
+<li><strong>Don't rely on color alone.</strong> “Correct answers are in green”
+fails for color-blind students and screen readers. Add a word, a symbol, or a
+label: “Correct answers are marked Correct.”</li>
+<li><strong>Use the built-in templates for slides.</strong> PowerPoint/Slides
+layout placeholders carry structure that exported images lose. Avoid pasting
+text as screenshots; use the outline view to check that all slide text is real
+text.</li>
+<li><strong>Caption your videos — and correct the captions.</strong>
+Auto-captions are a draft (typically ~60–84% accurate). Correct speaker names,
+punctuation, and sound cues, or route media through the captioning service.
+Every required video needs accurate captions.</li>
+<li><strong>Prefer HTML pages over PDFs.</strong> HTML reflows on phones, works
+with screen readers, and is searchable. If you must use a PDF, start from a
+tagged, text-based source document — never a scan — and run the accessibility
+checker on it.</li>
+<li><strong>Use simple tables with header rows.</strong> Keep one idea per
+table, mark the header row (and use “Header Row” in Word/PowerPoint or
+<code>&lt;th&gt;</code> in HTML). Complex nested tables lose their meaning when
+read cell by cell.</li>
+<li><strong>Check contrast.</strong> Text should be dark-on-light or
+light-on-dark with real separation (aim for 4.5:1). Light gray on white and
+pastel-on-pastel fail. The checker in rule 10 flags this automatically.</li>
+<li><strong>Run the built-in accessibility checker.</strong> Word, PowerPoint,
+and Canvas all have one (Review → Check Accessibility). Fix everything it marks
+“Error”; “Tips” are worth reading too. It takes two minutes on a typical
+document.</li>
+</ol>
+
+<h2>When you need help</h2>
+<ul>
+<li>New course build or redesign: book the ID team — accessibility is cheapest
+at design time.</li>
+<li>Videos beyond 30 minutes, or more than an hour of video per course: media
+services routes them to captioning (human correction of a transcript, not
+from-scratch transcription).</li>
+<li>Scanned PDFs: don't remediate the scan — send it for HTML conversion; the
+result is better and reusable.</li>
+<li>A student reports a barrier: that becomes a priority-1 fix the same week,
+regardless of any model or schedule.</li>
+</ul>
+
+<p class="meta">Rule sources: WCAG 2.1 AA success criteria (headings 2.4.6,
+link purpose 2.4.4, non-text content 1.1.1, use of color 1.4.1, captions 1.2.2,
+reflow 1.4.10, contrast 1.4.3) applied to everyday authoring;
+caption-accuracy figure from
+<a href="https://www.3playmedia.com/blog/long-take-manually-caption-videos" rel="noopener">3Play Media</a>
+(accessed 2026-10-25).</p>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Part of the accessibility remediation case study. “Lakeside State
+    University” is a fictional US public university preparing for ADA Title II
+    digital accessibility compliance.</p>
+  </div>
+</footer>
+</body>
+</html>

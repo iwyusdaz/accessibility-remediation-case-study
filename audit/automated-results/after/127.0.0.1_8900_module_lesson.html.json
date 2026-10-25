@@ -1,6 +1,6 @@
 {
   "url": "http://127.0.0.1:8900/module/lesson.html",
-  "timestamp": "2026-10-25T19:58:20.733Z",
+  "timestamp": "2026-10-25T20:12:45.672Z",
   "violations": [],
   "incomplete": [],
   "passes": [
@@ -138,6 +138,10 @@
     },
     {
       "id": "skip-link",
+      "nodes": 1
+    },
+    {
+      "id": "tabindex",
       "nodes": 1
     },
     {

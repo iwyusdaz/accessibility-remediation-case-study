@@ -1,0 +1,102 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.454
+Scripted keyboard navigation demo (automated). Not a screen reader demonstration: VoiceOver automation is unavailable on macOS 27, so no spoken output is shown. Captions describe the scripted keyboard steps.
+
+2
+00:00:05.454 --> 00:00:05.926
+The module home page loads. Every page starts with a skip link as the first tab stop.
+
+3
+00:00:05.926 --> 00:00:06.256
+Tab once — the skip link receives a visible focus outline.
+
+4
+00:00:06.256 --> 00:00:06.517
+Enter activates the skip link; focus jumps past the navigation to the main content.
+
+5
+00:00:06.517 --> 00:00:06.775
+Tab moves through the module navigation links.
+
+6
+00:00:06.775 --> 00:00:07.035
+Enter opens the Lesson page.
+
+7
+00:00:07.035 --> 00:00:10.688
+The lesson page: the study outline as semantic HTML with headings, lists, and a data table with a caption and scoped headers.
+
+8
+00:00:10.688 --> 00:00:10.947
+Tab reaches the Schools of Psychological Thought table; row and column headers are announced to assistive technology via scope attributes.
+
+9
+00:00:10.947 --> 00:00:11.201
+Arrow keys move between row headers in the table.
+
+10
+00:00:11.201 --> 00:00:11.487
+Next: the lecture slides page, where the 54-slide deck is HTML with real text, figure descriptions, and speaker notes.
+
+11
+00:00:11.487 --> 00:00:11.745
+Tab through the page; a details element expands the long description of a visual.
+
+12
+00:00:11.745 --> 00:00:12.013
+Enter expands the long description of the slide’s visual.
+
+13
+00:00:12.013 --> 00:00:15.676
+The expanded long description is visible to sighted users and read by screen readers alike.
+
+14
+00:00:15.676 --> 00:00:16.146
+The video page: a standard video element with a captions track, chapter buttons, and a transcript link.
+
+15
+00:00:16.146 --> 00:00:16.397
+Tab to a chapter button.
+
+16
+00:00:16.397 --> 00:00:16.651
+Enter starts playback from that chapter — the video element is fully keyboard operable.
+
+17
+00:00:16.651 --> 00:00:21.503
+The player controls are native and keyboard accessible; captions load from the transcript-derived WebVTT file.
+
+18
+00:00:21.503 --> 00:00:21.856
+Last: the practice quiz.
+
+19
+00:00:21.856 --> 00:00:22.154
+Tab to the first question’s radio group.
+
+20
+00:00:22.154 --> 00:00:22.408
+Arrow keys move within the radio group — radios use arrow-key navigation.
+
+21
+00:00:22.408 --> 00:00:22.661
+Space selects an answer.
+
+22
+00:00:22.661 --> 00:00:22.911
+Tab to the Check answer button.
+
+23
+00:00:22.911 --> 00:00:23.164
+Enter checks the answer; feedback appears in a live region that assistive technology announces.
+
+24
+00:00:23.164 --> 00:00:29.016
+Textual feedback is shown — never color alone. The score region updates politely.
+
+25
+00:00:29.016 --> 00:00:34.468
+Every check shown here is scripted; see the case study’s evidence section for the full audit, and the limitations section for what remains pending — including a human VoiceOver pass and a review by a daily assistive-technology user.
+

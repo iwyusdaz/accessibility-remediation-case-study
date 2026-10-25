@@ -1,5 +1,21 @@
 [
   {
+    "url": "http://127.0.0.1:8900/index.html",
+    "critical": 0,
+    "serious": 0,
+    "moderate": 0,
+    "minor": 0,
+    "incomplete": 0
+  },
+  {
+    "url": "http://127.0.0.1:8900/faculty-quick-guide.html",
+    "critical": 0,
+    "serious": 0,
+    "moderate": 0,
+    "minor": 0,
+    "incomplete": 0
+  },
+  {
     "url": "http://127.0.0.1:8900/module/index.html",
     "critical": 0,
     "serious": 0,
@@ -33,6 +49,22 @@
   },
   {
     "url": "http://127.0.0.1:8900/module/quiz.html",
+    "critical": 0,
+    "serious": 0,
+    "moderate": 0,
+    "minor": 0,
+    "incomplete": 0
+  },
+  {
+    "url": "http://127.0.0.1:8900/module/transcript.html",
+    "critical": 0,
+    "serious": 0,
+    "moderate": 0,
+    "minor": 0,
+    "incomplete": 0
+  },
+  {
+    "url": "http://127.0.0.1:8900/assets/demo-keyboard-navigation-transcript.html",
     "critical": 0,
     "serious": 0,
     "moderate": 0,

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo video transcript — keyboard navigation | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="../module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap">
+<p class="site-kicker">Case study media</p>
+<p class="site-title"><a href="../index.html">Accessibility Remediation Case Study</a></p>
+<nav class="site-nav" aria-label="Case study pages"><ul>
+<li><a href="../index.html">Case study home</a></li>
+<li><a href="../module/index.html">Module overview</a></li>
+</ul></nav>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<h1>Transcript: scripted keyboard navigation demo</h1>
+<div class="note">
+<p><strong>What this video is.</strong> A scripted keyboard navigation demo of the
+remediated module, recorded automatically with a browser automation tool. It is
+<strong>not</strong> a screen reader demonstration: VoiceOver automation is
+unavailable on macOS 27, so no spoken output is shown, and no screen reader
+results are claimed anywhere in this repository. The captions and this
+transcript describe the scripted keyboard steps only. See the case study’s
+limitations section for the full list of what is pending human review.</p>
+</div>
+<ol>
+<li><span class="meta">[00:00:00.000]</span> Scripted keyboard navigation demo (automated). Not a screen reader demonstration: VoiceOver automation is unavailable on macOS 27, so no spoken output is shown. Captions describe the scripted keyboard steps.</li>
+<li><span class="meta">[00:00:05.454]</span> The module home page loads. Every page starts with a skip link as the first tab stop.</li>
+<li><span class="meta">[00:00:05.926]</span> Tab once — the skip link receives a visible focus outline.</li>
+<li><span class="meta">[00:00:06.256]</span> Enter activates the skip link; focus jumps past the navigation to the main content.</li>
+<li><span class="meta">[00:00:06.517]</span> Tab moves through the module navigation links.</li>
+<li><span class="meta">[00:00:06.775]</span> Enter opens the Lesson page.</li>
+<li><span class="meta">[00:00:07.035]</span> The lesson page: the study outline as semantic HTML with headings, lists, and a data table with a caption and scoped headers.</li>
+<li><span class="meta">[00:00:10.688]</span> Tab reaches the Schools of Psychological Thought table; row and column headers are announced to assistive technology via scope attributes.</li>
+<li><span class="meta">[00:00:10.947]</span> Arrow keys move between row headers in the table.</li>
+<li><span class="meta">[00:00:11.201]</span> Next: the lecture slides page, where the 54-slide deck is HTML with real text, figure descriptions, and speaker notes.</li>
+<li><span class="meta">[00:00:11.487]</span> Tab through the page; a details element expands the long description of a visual.</li>
+<li><span class="meta">[00:00:11.745]</span> Enter expands the long description of the slide’s visual.</li>
+<li><span class="meta">[00:00:12.013]</span> The expanded long description is visible to sighted users and read by screen readers alike.</li>
+<li><span class="meta">[00:00:15.676]</span> The video page: a standard video element with a captions track, chapter buttons, and a transcript link.</li>
+<li><span class="meta">[00:00:16.146]</span> Tab to a chapter button.</li>
+<li><span class="meta">[00:00:16.397]</span> Enter starts playback from that chapter — the video element is fully keyboard operable.</li>
+<li><span class="meta">[00:00:16.651]</span> The player controls are native and keyboard accessible; captions load from the transcript-derived WebVTT file.</li>
+<li><span class="meta">[00:00:21.503]</span> Last: the practice quiz.</li>
+<li><span class="meta">[00:00:21.856]</span> Tab to the first question’s radio group.</li>
+<li><span class="meta">[00:00:22.154]</span> Arrow keys move within the radio group — radios use arrow-key navigation.</li>
+<li><span class="meta">[00:00:22.408]</span> Space selects an answer.</li>
+<li><span class="meta">[00:00:22.661]</span> Tab to the Check answer button.</li>
+<li><span class="meta">[00:00:22.911]</span> Enter checks the answer; feedback appears in a live region that assistive technology announces.</li>
+<li><span class="meta">[00:00:23.164]</span> Textual feedback is shown — never color alone. The score region updates politely.</li>
+<li><span class="meta">[00:00:29.016]</span> Every check shown here is scripted; see the case study’s evidence section for the full audit, and the limitations section for what remains pending — including a human VoiceOver pass and a review by a daily assistive-technology user.</li>
+</ol>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap">
+<p>Part of the accessibility remediation case study. “Lakeside State University”
+is a fictional US public university preparing for ADA Title II digital
+accessibility compliance.</p>
+</div></footer>
+</body>
+</html>

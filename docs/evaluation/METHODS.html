@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evaluation methods | Accessibility Remediation Case Study</title>
+<link rel="stylesheet" href="../module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><div class="wrap">
+<p class="site-kicker">Case study · Evaluation</p>
+<p class="site-title"><a href="../index.html">Accessibility Remediation Case Study</a></p>
+<nav class="site-nav" aria-label="Case study pages"><ul>
+<li><a href="../index.html">Case study home</a></li>
+<li><a href="../module/index.html">Remediated module</a></li>
+</ul></nav>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<h1>Evaluation methods</h1>
+
+<p>This document records every evaluation method used on this repository, who or</p>
+<p>what performed it, when, and what each method can and cannot show. Per the</p>
+<p>portfolio's evidence rules, every evaluation is <strong>labeled by method</strong>; pending</p>
+<p>results are never filled in.</p>
+
+<h2>Methods used (complete)</h2>
+
+<table class="data">
+<thead><tr><th scope="col">#</th><th scope="col">Method</th><th scope="col">Performed by</th><th scope="col">Date</th><th scope="col">Artifacts</th><th scope="col">Can show</th><th scope="col">Cannot show</th></tr></thead><tbody>
+<tr><td>1</td><td>Automated WCAG audit (axe-core 4.11.1, WCAG 2.1 A/AA + best practice)</td><td>Agent (scripted tool: <code>tooling/audit-axe.mjs</code>)</td><td>2026-10-25 (before) / 2026-10-25 (after)</td><td><code>audit/automated-results/before/</code>, <code>after/</code></td><td>Rule-detectable violations on rendered pages</td><td>Judgment issues: alt quality, captions accuracy, reading-order meaning</td></tr>
+<tr><td>2</td><td>Automated audit (Lighthouse 13.0.1, accessibility category)</td><td>Agent (scripted tool)</td><td>2026-10-25</td><td><code>audit/automated-results/…/lighthouse-*.json</code></td><td>Scores + failed audits incl. target-size</td><td>Same as above; scores are not conformance</td></tr>
+<tr><td>3</td><td>Automated audit (pa11y 9.0.0, WCAG2AA)</td><td>Agent (scripted tool)</td><td>2026-10-25</td><td><code>audit/automated-results/…/pa11y-*.json</code></td><td>Second-engine corroboration (broken anchors, labels, frame titles)</td><td>Same as above</td></tr>
+<tr><td>4</td><td>Scripted keyboard pass (tab-through, focus visibility, trap detection)</td><td>Agent (Playwright, <code>scripts/manual-pass.mjs</code>)</td><td>2026-10-25</td><td><code>audit/manual-evidence/*/manual-pass-results.json</code></td><td>Tab order, reachability, focus indicators, traps</td><td>What a screen reader announces; real AT-user experience</td></tr>
+<tr><td>5</td><td>Scripted reflow check (320 px = 400% of 1280)</td><td>Agent (Playwright)</td><td>2026-10-25</td><td>same + <code>*-320px.png</code></td><td>Document-level horizontal scroll</td><td>Visual comfort; every possible breakpoint</td></tr>
+<tr><td>6</td><td>Measured color contrast (WCAG luminance formula on rendered colors)</td><td>Agent (Playwright + script)</td><td>2026-10-25</td><td>same, <code>contrast</code> field</td><td>Ratio failures against first opaque background</td><td>Contrast over background <em>images</em> (flagged and manually inspected instead)</td></tr>
+<tr><td>7</td><td>PDF structure inspection (pypdf: tag tree, alt entries, text density)</td><td>Agent</td><td>2026-10-25</td><td><code>audit/manual-testing-notes.md</code></td><td>Tagged status, figure/table structure, alt quality</td><td>How a PDF screen-reader session actually reads the file</td></tr>
+<tr><td>8</td><td>Media availability check (captions/transcript/player inventory)</td><td>Agent</td><td>2026-10-25</td><td>issue log I-01–I-09</td><td>What the module provides for deaf/blind users</td><td>Caption <em>accuracy</em> (separate method, pending)</td></tr>
+<tr><td>9</td><td>Scripted keyboard task tests (skip link, quiz completion, video chapters)</td><td>Agent (<code>scripts/test-keyboard.mjs</code>)</td><td>2026-10-25</td><td><code>audit/manual-evidence/after/keyboard-tests.json</code></td><td>End-to-end tasks work keyboard-only</td><td>Screen-reader announcements beyond live-region wiring</td></tr>
+<tr><td>10</td><td>Caption build (text: publisher transcript; timings: machine alignment)</td><td>Agent (<code>scripts/build-captions.mjs</code>)</td><td>2026-10-25</td><td><code>docs/module/media/captions-build-report.json</code></td><td>Transparent, reproducible caption derivation</td><td>Accuracy vs. the audio (method 11)</td></tr>
+<tr><td>11</td><td><strong>Caption accuracy vs. audio (STT word-error-rate)</strong></td><td><strong>PENDING: requires API key</strong> (<code>npm run eval:pending</code>)</td><td>—</td><td>will write <code>evaluation/caption-wer-results.json</code> + <code>dry-run/</code> stubs</td><td>Measured caption WER once run</td><td>—</td></tr>
+<tr><td>12</td><td>Agent heuristic review of the case study site (fresh-context reviewer sub-agent; may share the author's underlying model — disclosed limitation)</td><td>Reviewer agent (separate context)</td><td>2026-10-25</td><td>review notes in <code>evaluation/agent-review.md</code></td><td>Consistency, honesty, accessibility-baseline gaps</td><td>Independent human judgment</td></tr>
+<tr><td>13</td><td>Human VoiceOver pass (rotor tests before/after)</td><td><strong>PENDING human</strong> — protocol in <code>evaluation/human-protocol/voiceover-protocol.md</code></td><td>—</td><td>—</td><td>Real screen-reader behavior</td><td>—</td></tr>
+<tr><td>14</td><td>Daily AT-user review</td><td><strong>PENDING human</strong> — invitation: <code>evaluation/human-protocol/at-user-review-invite.md</code></td><td>—</td><td>—</td><td>The strongest available evidence</td><td>—</td></tr>
+<tr><td>15</td><td>Caption timing spot-check</td><td><strong>PENDING human</strong> — <code>evaluation/human-protocol/caption-accuracy-check.md</code></td><td>—</td><td>—</td><td>Comfortable caption timing</td><td>—</td></tr>
+</tbody></table>
+
+<h2>What was deliberately NOT done</h2>
+
+<li><strong>No simulated disabled users.</strong> Accessibility evidence comes from real</li>
+<p>  tools, standards-based checks, and (pending) human AT sessions — never from</p>
+<p>  AI personas pretending to be disabled users.</p>
+<li><strong>No fake pending results.</strong> Rows 11, 13, 14, 15 stay empty until their keys</li>
+<p>  or human passes exist.</p>
+<li><strong>No local/open-source speech-to-text models.</strong> The STT slot is an</li>
+<p>  OpenAI-compatible API configured in <code>.env</code> (see <code>.env.example</code>).</p>
+<li><strong>No AI-agent processing time as an effort estimate.</strong> The prioritization</li>
+<p>  model cites published human benchmarks.</p>
+
+<h2>Reviewer-agent note (labeling)</h2>
+
+<p>The "Agent review" of this site was performed by a reviewer agent in a fresh</p>
+<p>context. It may run on the same underlying model family as the authoring</p>
+<p>agent; this same-model limitation is disclosed, and an API-based multi-model</p>
+<p>review panel remains possible later (<code>MODEL_A/B/C</code> slots in <code>.env.example</code>).</p>
+
+<h2>Reproduce</h2>
+
+<p>```</p>
+<p>npm run serve            # python3 -m http.server 8900 --directory docs</p>
+<p>node scripts/manual-pass.mjs before &lt;before-urls...&gt;</p>
+<p>node scripts/manual-pass.mjs after  &lt;module-urls...&gt;</p>
+<p>node scripts/test-keyboard.mjs</p>
+<p>npm run eval:dry-run     # pipeline stub test, no network</p>
+<p>npm run eval:pending     # real STT run, requires .env keys</p>
+<p>```</p>
+
+</div>
+</main>
+<footer class="site-footer"><div class="wrap">
+<p>Markdown source: <code>evaluation/METHODS.md</code>. “Lakeside State University” is a fictional US public university preparing for ADA Title II digital accessibility compliance.</p>
+</div></footer>
+</body>
+</html>

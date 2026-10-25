@@ -2,3 +2,6 @@
 node_modules/
 .DS_Store
 dry-run/
+scripts/caption-build/
+scripts/stt-work/
+scripts/demo-tmp/

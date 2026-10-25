@@ -1,10 +1,10 @@
 [
   {
-    "url": "http://127.0.0.1:8900/module/video.html",
-    "name": "module_video",
+    "url": "http://127.0.0.1:8900/index.html",
+    "name": "index",
     "keyboard": {
       "tabStops": 120,
-      "uniqueStops": 33,
+      "uniqueStops": 37,
       "keyboardTrapSuspected": false,
       "stopsWithoutVisibleFocus": 0,
       "stops": [
@@ -35,12 +35,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "name": "Accessibility Remediation Case Study",
           "href": "index.html",
           "rect": {
-            "x": 288,
+            "x": 176,
             "y": 41,
-            "w": 473,
+            "w": 352,
             "h": 21
           },
           "style": {
@@ -57,12 +57,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Overview",
-          "href": "index.html",
+          "name": "The module",
+          "href": "#module",
           "rect": {
-            "x": 288,
+            "x": 176,
             "y": 74,
-            "w": 86,
+            "w": 107,
             "h": 38
           },
           "style": {
@@ -79,12 +79,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Lesson",
-          "href": "lesson.html",
+          "name": "Findings",
+          "href": "#findings",
           "rect": {
-            "x": 388,
+            "x": 297,
             "y": 74,
-            "w": 65,
+            "w": 77,
             "h": 38
           },
           "style": {
@@ -101,12 +101,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Lecture slides",
-          "href": "slides.html",
+          "name": "Fixes",
+          "href": "#fixes",
           "rect": {
-            "x": 467,
+            "x": 389,
             "y": 74,
-            "w": 123,
+            "w": 50,
             "h": 38
           },
           "style": {
@@ -123,20 +123,20 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Video",
-          "href": "video.html",
+          "name": "Evidence",
+          "href": "#evidence",
           "rect": {
-            "x": 605,
+            "x": 453,
             "y": 74,
-            "w": 60,
-            "h": 41
+            "w": 82,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -145,12 +145,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Transcript",
-          "href": "transcript.html",
+          "name": "Demo video",
+          "href": "#demo",
           "rect": {
-            "x": 680,
+            "x": 549,
             "y": 74,
-            "w": 90,
+            "w": 108,
             "h": 38
           },
           "style": {
@@ -167,12 +167,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Quiz",
-          "href": "quiz.html",
+          "name": "Scaling model",
+          "href": "#scaling",
           "rect": {
-            "x": 784,
+            "x": 672,
             "y": 74,
-            "w": 44,
+            "w": 126,
             "h": 38
           },
           "style": {
@@ -189,12 +189,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Case study home",
-          "href": "../index.html",
+          "name": "Faculty guide",
+          "href": "faculty-quick-guide.html",
           "rect": {
-            "x": 288,
-            "y": 119,
-            "w": 154,
+            "x": 812,
+            "y": 74,
+            "w": 119,
             "h": 38
           },
           "style": {
@@ -211,13 +211,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "captions status section",
-          "href": "#captions-status",
+          "name": "Remediated module",
+          "href": "module/index.html",
           "rect": {
-            "x": 713,
-            "y": 535,
-            "w": 170,
-            "h": 20
+            "x": 176,
+            "y": 116,
+            "w": 176,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -233,13 +233,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "evaluation status",
-          "href": "../index.html#evaluation",
+          "name": "evaluation/METHODS",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 308,
-            "y": 562,
-            "w": 615,
-            "h": 47
+            "x": 555,
+            "y": 569,
+            "w": 173,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -252,67 +252,67 @@
         },
         {
           "stop": 12,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "attribution",
+          "href": "#attribution",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 697,
+            "y": 1227,
+            "w": 82,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 13,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "issue-log.csv",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 641,
+            "y": 1663,
+            "w": 95,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 14,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "issue-log.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 745,
+            "y": 1663,
+            "w": 96,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -321,13 +321,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Download the lecture MP4 from the Internet Archive",
-          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "name": "Video page",
+          "href": "module/video.html",
           "rect": {
-            "x": 328,
-            "y": 1148,
-            "w": 397,
-            "h": 20
+            "x": 591,
+            "y": 2567,
+            "w": 74,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -343,13 +343,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Watch on YouTube (MIT OpenCourseWare)",
-          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "name": "full transcript",
+          "href": "module/transcript.html",
           "rect": {
-            "x": 328,
-            "y": 1175,
-            "w": 331,
-            "h": 20
+            "x": 591,
+            "y": 2641,
+            "w": 238,
+            "h": 41
           },
           "style": {
             "outlineWidth": "3px",
@@ -365,13 +365,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Publisher’s resource page for this lecture",
-          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "name": "HTML deck",
+          "href": "module/slides.html",
           "rect": {
-            "x": 328,
-            "y": 1257,
-            "w": 305,
-            "h": 20
+            "x": 591,
+            "y": 2705,
+            "w": 80,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -384,126 +384,148 @@
         },
         {
           "stop": 18,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Play from the beginning (0:00)",
-          "href": null,
+          "name": "Semantic HTML lesson",
+          "href": "module/lesson.html",
           "rect": {
-            "x": 328,
-            "y": 1363,
-            "w": 195,
-            "h": 21
+            "x": 591,
+            "y": 2817,
+            "w": 157,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 19,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Goals of the Course (0:27)",
-          "href": null,
+          "name": "Accessible quiz",
+          "href": "module/quiz.html",
           "rect": {
-            "x": 328,
-            "y": 1395,
-            "w": 173,
-            "h": 21
+            "x": 591,
+            "y": 2906,
+            "w": 101,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 20,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
-          "href": null,
+          "name": "conformance report",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 1428,
-            "w": 411,
-            "h": 21
+            "x": 627,
+            "y": 4005,
+            "w": 149,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 21,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
-          "href": null,
+          "name": "audit/methodology.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 1460,
-            "w": 430,
-            "h": 21
+            "x": 724,
+            "y": 4203,
+            "w": 174,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 22,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "The Power and Peril of Automaticity (29:58)",
-          "href": null,
+          "name": "evaluation/METHODS",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 328,
-            "y": 1492,
-            "w": 273,
-            "h": 21
+            "x": 288,
+            "y": 4230,
+            "w": 173,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 23,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How We Feel vs. How We Act (37:09)",
+          "name": "transcript",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
+          "rect": {
+            "x": 773,
+            "y": 4523,
+            "w": 74,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 24,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
           "href": null,
           "rect": {
             "x": 328,
-            "y": 1525,
-            "w": 239,
-            "h": 21
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
@@ -515,112 +537,90 @@
           "visibleFocusIndicator": true
         },
         {
-          "stop": 24,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "HTML slide deck",
-          "href": "slides.html",
-          "rect": {
-            "x": 474,
-            "y": 1743,
-            "w": 129,
-            "h": 20
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
           "stop": 25,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "slides 8–14",
-          "href": "slides.html#slide-8",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 447,
-            "y": 2032,
-            "w": 85,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 26,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "16–23",
-          "href": "slides.html#slide-16",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 568,
-            "y": 2032,
-            "w": 47,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 27,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "slides 25–26",
-          "href": "slides.html#slide-25",
+          "name": "",
+          "href": null,
           "rect": {
             "x": 328,
-            "y": 2086,
-            "w": 651,
-            "h": 47
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 28,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "slides 35–41",
-          "href": "slides.html#slide-35",
+          "name": "",
+          "href": null,
           "rect": {
             "x": 328,
-            "y": 2222,
-            "w": 93,
-            "h": 20
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
@@ -629,13 +629,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "distress chart data",
-          "href": "slides.html#chart-distress",
+          "name": "transcript page",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
           "rect": {
-            "x": 473,
-            "y": 2331,
-            "w": 138,
-            "h": 20
+            "x": 488,
+            "y": 5043,
+            "w": 103,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -651,12 +651,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "partner-choice chart data",
-          "href": "slides.html#chart-partners",
+          "name": "Prioritization model",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 647,
-            "y": 2331,
-            "w": 190,
+            "x": 328,
+            "y": 5185,
+            "w": 152,
             "h": 20
           },
           "style": {
@@ -673,12 +673,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 43–51",
-          "href": "slides.html#slide-43",
+          "name": "Remediation workflow",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 876,
-            "y": 2331,
-            "w": 93,
+            "x": 328,
+            "y": 5293,
+            "w": 171,
             "h": 20
           },
           "style": {
@@ -695,12 +695,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "captions-build-report.json",
-          "href": "media/captions-build-report.json",
+          "name": "Faculty quick guide",
+          "href": "faculty-quick-guide.html",
           "rect": {
-            "x": 664,
-            "y": 2596,
-            "w": 198,
+            "x": 328,
+            "y": 5348,
+            "w": 146,
             "h": 20
           },
           "style": {
@@ -717,12 +717,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "name": "Purdue Innovative Learning",
+          "href": "https://www.purdue.edu/innovativelearning/blog/2026/04/27/do",
           "rect": {
-            "x": 487,
-            "y": 2705,
-            "w": 173,
+            "x": 356,
+            "y": 5555,
+            "w": 211,
             "h": 20
           },
           "style": {
@@ -739,12 +739,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "name": "CSU Stanislaus",
+          "href": "https://www.csustan.edu/access-for-all/about-access-all-and-",
           "rect": {
-            "x": 501,
-            "y": 2732,
-            "w": 173,
+            "x": 576,
+            "y": 5555,
+            "w": 114,
             "h": 20
           },
           "style": {
@@ -761,12 +761,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "case study evidence",
-          "href": "../index.html#evidence",
+          "name": "CC BY-NC-SA 3.0 US",
+          "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
           "rect": {
-            "x": 654,
-            "y": 3024,
-            "w": 147,
+            "x": 590,
+            "y": 5685,
+            "w": 160,
             "h": 20
           },
           "style": {
@@ -783,13 +783,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "attribution",
-          "href": "../index.html#attribution",
+          "name": "ATTRIBUTION.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 881,
-            "y": 3178,
-            "w": 71,
-            "h": 17
+            "x": 362,
+            "y": 5712,
+            "w": 147,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -802,10 +802,142 @@
         },
         {
           "stop": 37,
-          "note": "focus left the document (body) — possible tab escape or end of page"
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Conformance report",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 5923,
+            "w": 152,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
         },
         {
           "stop": 38,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Before/after evidence",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 5977,
+            "w": 162,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 39,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Executive summary",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6004,
+            "w": 148,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 40,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Audit methodology",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6031,
+            "w": 144,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 41,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Decision log",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6059,
+            "w": 92,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 42,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation methods",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 457,
+            "y": 6059,
+            "w": 148,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 43,
+          "note": "focus left the document (body) — possible tab escape or end of page"
+        },
+        {
+          "stop": 44,
           "tag": "a",
           "id": null,
           "cls": "skip-link",
@@ -827,16 +959,16 @@
           "visibleFocusIndicator": true
         },
         {
-          "stop": 39,
+          "stop": 45,
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Introduction to Psychology — Unit 1: Introduction",
+          "name": "Accessibility Remediation Case Study",
           "href": "index.html",
           "rect": {
-            "x": 288,
+            "x": 176,
             "y": 41,
-            "w": 473,
+            "w": 352,
             "h": 21
           },
           "style": {
@@ -849,148 +981,16 @@
           "visibleFocusIndicator": true
         },
         {
-          "stop": 40,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Overview",
-          "href": "index.html",
-          "rect": {
-            "x": 288,
-            "y": 74,
-            "w": 86,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 41,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Lesson",
-          "href": "lesson.html",
-          "rect": {
-            "x": 388,
-            "y": 74,
-            "w": 65,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 42,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Lecture slides",
-          "href": "slides.html",
-          "rect": {
-            "x": 467,
-            "y": 74,
-            "w": 123,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 43,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Video",
-          "href": "video.html",
-          "rect": {
-            "x": 605,
-            "y": 74,
-            "w": 60,
-            "h": 41
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "none"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 44,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Transcript",
-          "href": "transcript.html",
-          "rect": {
-            "x": 680,
-            "y": 74,
-            "w": 90,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 45,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Quiz",
-          "href": "quiz.html",
-          "rect": {
-            "x": 784,
-            "y": 74,
-            "w": 44,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
           "stop": 46,
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Case study home",
-          "href": "../index.html",
+          "name": "The module",
+          "href": "#module",
           "rect": {
-            "x": 288,
-            "y": 119,
-            "w": 154,
+            "x": 176,
+            "y": 74,
+            "w": 107,
             "h": 38
           },
           "style": {
@@ -1007,13 +1007,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "captions status section",
-          "href": "#captions-status",
+          "name": "Findings",
+          "href": "#findings",
           "rect": {
-            "x": 713,
-            "y": 535,
-            "w": 170,
-            "h": 20
+            "x": 297,
+            "y": 74,
+            "w": 77,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1029,13 +1029,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "evaluation status",
-          "href": "../index.html#evaluation",
+          "name": "Fixes",
+          "href": "#fixes",
           "rect": {
-            "x": 308,
-            "y": 562,
-            "w": 615,
-            "h": 47
+            "x": 389,
+            "y": 74,
+            "w": 50,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1048,67 +1048,67 @@
         },
         {
           "stop": 49,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "Evidence",
+          "href": "#evidence",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 453,
+            "y": 74,
+            "w": 82,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 50,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "Demo video",
+          "href": "#demo",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 549,
+            "y": 74,
+            "w": 108,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 51,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "Scaling model",
+          "href": "#scaling",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 672,
+            "y": 74,
+            "w": 126,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -1117,13 +1117,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Download the lecture MP4 from the Internet Archive",
-          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "name": "Faculty guide",
+          "href": "faculty-quick-guide.html",
           "rect": {
-            "x": 328,
-            "y": 1148,
-            "w": 397,
-            "h": 20
+            "x": 812,
+            "y": 74,
+            "w": 119,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1139,13 +1139,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Watch on YouTube (MIT OpenCourseWare)",
-          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "name": "Remediated module",
+          "href": "module/index.html",
           "rect": {
-            "x": 328,
-            "y": 1175,
-            "w": 331,
-            "h": 20
+            "x": 176,
+            "y": 116,
+            "w": 176,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1161,12 +1161,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Publisher’s resource page for this lecture",
-          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "name": "evaluation/METHODS",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 328,
-            "y": 1257,
-            "w": 305,
+            "x": 555,
+            "y": 569,
+            "w": 173,
             "h": 20
           },
           "style": {
@@ -1180,133 +1180,133 @@
         },
         {
           "stop": 55,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Play from the beginning (0:00)",
-          "href": null,
+          "name": "attribution",
+          "href": "#attribution",
           "rect": {
-            "x": 328,
-            "y": 1363,
-            "w": 195,
-            "h": 21
+            "x": 697,
+            "y": 1227,
+            "w": 82,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 56,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Goals of the Course (0:27)",
-          "href": null,
+          "name": "issue-log.csv",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 1395,
-            "w": 173,
-            "h": 21
+            "x": 641,
+            "y": 1663,
+            "w": 95,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 57,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
-          "href": null,
+          "name": "issue-log.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 1428,
-            "w": 411,
-            "h": 21
+            "x": 745,
+            "y": 1663,
+            "w": 96,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 58,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
-          "href": null,
+          "name": "Video page",
+          "href": "module/video.html",
           "rect": {
-            "x": 328,
-            "y": 1460,
-            "w": 430,
-            "h": 21
+            "x": 591,
+            "y": 2567,
+            "w": 74,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 59,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "The Power and Peril of Automaticity (29:58)",
-          "href": null,
+          "name": "full transcript",
+          "href": "module/transcript.html",
           "rect": {
-            "x": 328,
-            "y": 1492,
-            "w": 273,
-            "h": 21
+            "x": 591,
+            "y": 2641,
+            "w": 238,
+            "h": 41
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 60,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How We Feel vs. How We Act (37:09)",
-          "href": null,
+          "name": "HTML deck",
+          "href": "module/slides.html",
           "rect": {
-            "x": 328,
-            "y": 1525,
-            "w": 239,
-            "h": 21
+            "x": 591,
+            "y": 2705,
+            "w": 80,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -1315,13 +1315,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "HTML slide deck",
-          "href": "slides.html",
+          "name": "Semantic HTML lesson",
+          "href": "module/lesson.html",
           "rect": {
-            "x": 474,
-            "y": 1743,
-            "w": 129,
-            "h": 20
+            "x": 591,
+            "y": 2817,
+            "w": 157,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -1337,13 +1337,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 8–14",
-          "href": "slides.html#slide-8",
+          "name": "Accessible quiz",
+          "href": "module/quiz.html",
           "rect": {
-            "x": 447,
-            "y": 2032,
-            "w": 85,
-            "h": 20
+            "x": 591,
+            "y": 2906,
+            "w": 101,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -1359,12 +1359,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "16–23",
-          "href": "slides.html#slide-16",
+          "name": "conformance report",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 568,
-            "y": 2032,
-            "w": 47,
+            "x": 627,
+            "y": 4005,
+            "w": 149,
             "h": 20
           },
           "style": {
@@ -1381,13 +1381,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 25–26",
-          "href": "slides.html#slide-25",
+          "name": "audit/methodology.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 328,
-            "y": 2086,
-            "w": 651,
-            "h": 47
+            "x": 724,
+            "y": 4203,
+            "w": 174,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -1403,12 +1403,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 35–41",
-          "href": "slides.html#slide-35",
+          "name": "evaluation/METHODS",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 328,
-            "y": 2222,
-            "w": 93,
+            "x": 288,
+            "y": 4230,
+            "w": 173,
             "h": 20
           },
           "style": {
@@ -1425,12 +1425,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "distress chart data",
-          "href": "slides.html#chart-distress",
+          "name": "transcript",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
           "rect": {
-            "x": 473,
-            "y": 2331,
-            "w": 138,
+            "x": 773,
+            "y": 4523,
+            "w": 74,
             "h": 20
           },
           "style": {
@@ -1444,111 +1444,111 @@
         },
         {
           "stop": 67,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "partner-choice chart data",
-          "href": "slides.html#chart-partners",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 647,
-            "y": 2331,
-            "w": 190,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 68,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "slides 43–51",
-          "href": "slides.html#slide-43",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 876,
-            "y": 2331,
-            "w": 93,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 69,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "captions-build-report.json",
-          "href": "media/captions-build-report.json",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 664,
-            "y": 2596,
-            "w": 198,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 70,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 487,
-            "y": 2705,
-            "w": 173,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 71,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 501,
-            "y": 2732,
-            "w": 173,
-            "h": 20
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
@@ -1557,13 +1557,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "case study evidence",
-          "href": "../index.html#evidence",
+          "name": "transcript page",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
           "rect": {
-            "x": 654,
-            "y": 3024,
-            "w": 147,
-            "h": 20
+            "x": 488,
+            "y": 5043,
+            "w": 103,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -1579,13 +1579,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "attribution",
-          "href": "../index.html#attribution",
+          "name": "Prioritization model",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 881,
-            "y": 3178,
-            "w": 71,
-            "h": 17
+            "x": 328,
+            "y": 5185,
+            "w": 152,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -1598,10 +1598,274 @@
         },
         {
           "stop": 74,
-          "note": "focus left the document (body) — possible tab escape or end of page"
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Remediation workflow",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 5293,
+            "w": 171,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
         },
         {
           "stop": 75,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Faculty quick guide",
+          "href": "faculty-quick-guide.html",
+          "rect": {
+            "x": 328,
+            "y": 5348,
+            "w": 146,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 76,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Purdue Innovative Learning",
+          "href": "https://www.purdue.edu/innovativelearning/blog/2026/04/27/do",
+          "rect": {
+            "x": 356,
+            "y": 5555,
+            "w": 211,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 77,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "CSU Stanislaus",
+          "href": "https://www.csustan.edu/access-for-all/about-access-all-and-",
+          "rect": {
+            "x": 576,
+            "y": 5555,
+            "w": 114,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 78,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "CC BY-NC-SA 3.0 US",
+          "href": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "rect": {
+            "x": 590,
+            "y": 5685,
+            "w": 160,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 79,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "ATTRIBUTION.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 362,
+            "y": 5712,
+            "w": 147,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 80,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Conformance report",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 5923,
+            "w": 152,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 81,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Before/after evidence",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 5977,
+            "w": 162,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 82,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Executive summary",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6004,
+            "w": 148,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 83,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Audit methodology",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6031,
+            "w": 144,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 84,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "Decision log",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 328,
+            "y": 6059,
+            "w": 92,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 85,
+          "tag": "a",
+          "id": null,
+          "cls": null,
+          "name": "evaluation methods",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
+          "rect": {
+            "x": 457,
+            "y": 6059,
+            "w": 148,
+            "h": 20
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "underline"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 86,
+          "note": "focus left the document (body) — possible tab escape or end of page"
+        },
+        {
+          "stop": 87,
           "tag": "a",
           "id": null,
           "cls": "skip-link",
@@ -1623,281 +1887,17 @@
           "visibleFocusIndicator": true
         },
         {
-          "stop": 76,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Introduction to Psychology — Unit 1: Introduction",
-          "href": "index.html",
-          "rect": {
-            "x": 288,
-            "y": 41,
-            "w": 473,
-            "h": 21
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "none"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 77,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Overview",
-          "href": "index.html",
-          "rect": {
-            "x": 288,
-            "y": 74,
-            "w": 86,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 78,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Lesson",
-          "href": "lesson.html",
-          "rect": {
-            "x": 388,
-            "y": 74,
-            "w": 65,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 79,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Lecture slides",
-          "href": "slides.html",
-          "rect": {
-            "x": 467,
-            "y": 74,
-            "w": 123,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 80,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Video",
-          "href": "video.html",
-          "rect": {
-            "x": 605,
-            "y": 74,
-            "w": 60,
-            "h": 41
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "none"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 81,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Transcript",
-          "href": "transcript.html",
-          "rect": {
-            "x": 680,
-            "y": 74,
-            "w": 90,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 82,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Quiz",
-          "href": "quiz.html",
-          "rect": {
-            "x": 784,
-            "y": 74,
-            "w": 44,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 83,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "Case study home",
-          "href": "../index.html",
-          "rect": {
-            "x": 288,
-            "y": 119,
-            "w": 154,
-            "h": 38
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 84,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "captions status section",
-          "href": "#captions-status",
-          "rect": {
-            "x": 713,
-            "y": 535,
-            "w": 170,
-            "h": 20
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 85,
-          "tag": "a",
-          "id": null,
-          "cls": null,
-          "name": "evaluation status",
-          "href": "../index.html#evaluation",
-          "rect": {
-            "x": 308,
-            "y": 562,
-            "w": 615,
-            "h": 47
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "underline"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 86,
-          "tag": "video",
-          "id": null,
-          "cls": null,
-          "name": "",
-          "href": null,
-          "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "none"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
-          "stop": 87,
-          "tag": "video",
-          "id": null,
-          "cls": null,
-          "name": "",
-          "href": null,
-          "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
-          },
-          "style": {
-            "outlineWidth": "3px",
-            "outlineStyle": "solid",
-            "outlineColor": "rgb(179, 71, 0)",
-            "boxShadow": "none",
-            "textDecorationLine": "none"
-          },
-          "visibleFocusIndicator": true
-        },
-        {
           "stop": 88,
-          "tag": "video",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "",
-          "href": null,
+          "name": "Accessibility Remediation Case Study",
+          "href": "index.html",
           "rect": {
-            "x": 328,
-            "y": 660,
-            "w": 624,
-            "h": 351
+            "x": 176,
+            "y": 41,
+            "w": 352,
+            "h": 21
           },
           "style": {
             "outlineWidth": "3px",
@@ -1913,13 +1913,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Download the lecture MP4 from the Internet Archive",
-          "href": "https://archive.org/download/MIT9.00SCF11/MIT9_00SCF11_lec01",
+          "name": "The module",
+          "href": "#module",
           "rect": {
-            "x": 328,
-            "y": 1148,
-            "w": 397,
-            "h": 20
+            "x": 176,
+            "y": 74,
+            "w": 107,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1935,13 +1935,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Watch on YouTube (MIT OpenCourseWare)",
-          "href": "https://www.youtube.com/watch?v=2fbrl6WoIyo",
+          "name": "Findings",
+          "href": "#findings",
           "rect": {
-            "x": 328,
-            "y": 1175,
-            "w": 331,
-            "h": 20
+            "x": 297,
+            "y": 74,
+            "w": 77,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1957,13 +1957,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Publisher’s resource page for this lecture",
-          "href": "https://ocw.mit.edu/courses/9-00sc-introduction-to-psycholog",
+          "name": "Fixes",
+          "href": "#fixes",
           "rect": {
-            "x": 328,
-            "y": 1257,
-            "w": 305,
-            "h": 20
+            "x": 389,
+            "y": 74,
+            "w": 50,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
@@ -1976,133 +1976,133 @@
         },
         {
           "stop": 92,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Play from the beginning (0:00)",
-          "href": null,
+          "name": "Evidence",
+          "href": "#evidence",
           "rect": {
-            "x": 328,
-            "y": 1363,
-            "w": 195,
-            "h": 21
+            "x": 453,
+            "y": 74,
+            "w": 82,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 93,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Goals of the Course (0:27)",
-          "href": null,
+          "name": "Demo video",
+          "href": "#demo",
           "rect": {
-            "x": 328,
-            "y": 1395,
-            "w": 173,
-            "h": 21
+            "x": 549,
+            "y": 74,
+            "w": 108,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 94,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Vision, Memory, Attention (4:",
-          "href": null,
+          "name": "Scaling model",
+          "href": "#scaling",
           "rect": {
-            "x": 328,
-            "y": 1428,
-            "w": 411,
-            "h": 21
+            "x": 672,
+            "y": 74,
+            "w": 126,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 95,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How Our Minds Make Our Worlds: Hearing, Learning, Memory (20",
-          "href": null,
+          "name": "Faculty guide",
+          "href": "faculty-quick-guide.html",
           "rect": {
-            "x": 328,
-            "y": 1460,
-            "w": 430,
-            "h": 21
+            "x": 812,
+            "y": 74,
+            "w": 119,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 96,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "The Power and Peril of Automaticity (29:58)",
-          "href": null,
+          "name": "Remediated module",
+          "href": "module/index.html",
           "rect": {
-            "x": 328,
-            "y": 1492,
-            "w": 273,
-            "h": 21
+            "x": 176,
+            "y": 116,
+            "w": 176,
+            "h": 38
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 97,
-          "tag": "button",
+          "tag": "a",
           "id": null,
           "cls": null,
-          "name": "How We Feel vs. How We Act (37:09)",
-          "href": null,
+          "name": "evaluation/METHODS",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 328,
-            "y": 1525,
-            "w": 239,
-            "h": 21
+            "x": 555,
+            "y": 569,
+            "w": 173,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -2111,12 +2111,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "HTML slide deck",
-          "href": "slides.html",
+          "name": "attribution",
+          "href": "#attribution",
           "rect": {
-            "x": 474,
-            "y": 1743,
-            "w": 129,
+            "x": 697,
+            "y": 1227,
+            "w": 82,
             "h": 20
           },
           "style": {
@@ -2133,12 +2133,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 8–14",
-          "href": "slides.html#slide-8",
+          "name": "issue-log.csv",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 447,
-            "y": 2032,
-            "w": 85,
+            "x": 641,
+            "y": 1663,
+            "w": 95,
             "h": 20
           },
           "style": {
@@ -2155,12 +2155,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "16–23",
-          "href": "slides.html#slide-16",
+          "name": "issue-log.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 568,
-            "y": 2032,
-            "w": 47,
+            "x": 745,
+            "y": 1663,
+            "w": 96,
             "h": 20
           },
           "style": {
@@ -2177,13 +2177,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 25–26",
-          "href": "slides.html#slide-25",
+          "name": "Video page",
+          "href": "module/video.html",
           "rect": {
-            "x": 328,
-            "y": 2086,
-            "w": 651,
-            "h": 47
+            "x": 591,
+            "y": 2567,
+            "w": 74,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -2199,13 +2199,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 35–41",
-          "href": "slides.html#slide-35",
+          "name": "full transcript",
+          "href": "module/transcript.html",
           "rect": {
-            "x": 328,
-            "y": 2222,
-            "w": 93,
-            "h": 20
+            "x": 591,
+            "y": 2641,
+            "w": 238,
+            "h": 41
           },
           "style": {
             "outlineWidth": "3px",
@@ -2221,13 +2221,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "distress chart data",
-          "href": "slides.html#chart-distress",
+          "name": "HTML deck",
+          "href": "module/slides.html",
           "rect": {
-            "x": 473,
-            "y": 2331,
-            "w": 138,
-            "h": 20
+            "x": 591,
+            "y": 2705,
+            "w": 80,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -2243,13 +2243,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "partner-choice chart data",
-          "href": "slides.html#chart-partners",
+          "name": "Semantic HTML lesson",
+          "href": "module/lesson.html",
           "rect": {
-            "x": 647,
-            "y": 2331,
-            "w": 190,
-            "h": 20
+            "x": 591,
+            "y": 2817,
+            "w": 157,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -2265,13 +2265,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "slides 43–51",
-          "href": "slides.html#slide-43",
+          "name": "Accessible quiz",
+          "href": "module/quiz.html",
           "rect": {
-            "x": 876,
-            "y": 2331,
-            "w": 93,
-            "h": 20
+            "x": 591,
+            "y": 2906,
+            "w": 101,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -2287,12 +2287,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "captions-build-report.json",
-          "href": "media/captions-build-report.json",
+          "name": "conformance report",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 664,
-            "y": 2596,
-            "w": 198,
+            "x": 627,
+            "y": 4005,
+            "w": 149,
             "h": 20
           },
           "style": {
@@ -2309,12 +2309,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "name": "audit/methodology.md",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 487,
-            "y": 2705,
-            "w": 173,
+            "x": 724,
+            "y": 4203,
+            "w": 174,
             "h": 20
           },
           "style": {
@@ -2332,10 +2332,10 @@
           "id": null,
           "cls": null,
           "name": "evaluation/METHODS",
-          "href": "../../evaluation/METHODS.html",
+          "href": "evaluation/METHODS.html",
           "rect": {
-            "x": 501,
-            "y": 2732,
+            "x": 288,
+            "y": 4230,
             "w": 173,
             "h": 20
           },
@@ -2353,12 +2353,12 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "case study evidence",
-          "href": "../index.html#evidence",
+          "name": "transcript",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
           "rect": {
-            "x": 654,
-            "y": 3024,
-            "w": 147,
+            "x": 773,
+            "y": 4523,
+            "w": 74,
             "h": 20
           },
           "style": {
@@ -2372,64 +2372,82 @@
         },
         {
           "stop": 110,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "attribution",
-          "href": "../index.html#attribution",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 881,
-            "y": 3178,
-            "w": 71,
-            "h": 17
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 111,
-          "note": "focus left the document (body) — possible tab escape or end of page"
-        },
-        {
-          "stop": 112,
-          "tag": "a",
+          "tag": "video",
           "id": null,
-          "cls": "skip-link",
-          "name": "Skip to main content",
-          "href": "#main",
+          "cls": null,
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 8,
-            "y": 8,
-            "w": 210,
-            "h": 46
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
+          },
+          "visibleFocusIndicator": true
+        },
+        {
+          "stop": 112,
+          "tag": "video",
+          "id": null,
+          "cls": null,
+          "name": "",
+          "href": null,
+          "rect": {
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
+          },
+          "style": {
+            "outlineWidth": "3px",
+            "outlineStyle": "solid",
+            "outlineColor": "rgb(179, 71, 0)",
+            "boxShadow": "none",
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
         {
           "stop": 113,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "Introduction to Psychology — Unit 1: Introduction",
-          "href": "index.html",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 288,
-            "y": 41,
-            "w": 473,
-            "h": 21
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
@@ -2442,23 +2460,23 @@
         },
         {
           "stop": 114,
-          "tag": "a",
+          "tag": "video",
           "id": null,
           "cls": null,
-          "name": "Overview",
-          "href": "index.html",
+          "name": "",
+          "href": null,
           "rect": {
-            "x": 288,
-            "y": 74,
-            "w": 86,
-            "h": 38
+            "x": 328,
+            "y": 4621,
+            "w": 624,
+            "h": 390
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "underline"
+            "textDecorationLine": "none"
           },
           "visibleFocusIndicator": true
         },
@@ -2467,13 +2485,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Lesson",
-          "href": "lesson.html",
+          "name": "transcript page",
+          "href": "assets/demo-keyboard-navigation-transcript.html",
           "rect": {
-            "x": 388,
-            "y": 74,
-            "w": 65,
-            "h": 38
+            "x": 488,
+            "y": 5043,
+            "w": 103,
+            "h": 17
           },
           "style": {
             "outlineWidth": "3px",
@@ -2489,13 +2507,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Lecture slides",
-          "href": "slides.html",
+          "name": "Prioritization model",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 467,
-            "y": 74,
-            "w": 123,
-            "h": 38
+            "x": 328,
+            "y": 5185,
+            "w": 152,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -2511,20 +2529,20 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Video",
-          "href": "video.html",
+          "name": "Remediation workflow",
+          "href": "https://github.com/iwyusdaz/accessibility-remediation-case-s",
           "rect": {
-            "x": 605,
-            "y": 74,
-            "w": 60,
-            "h": 41
+            "x": 328,
+            "y": 5293,
+            "w": 171,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
             "outlineStyle": "solid",
             "outlineColor": "rgb(179, 71, 0)",
             "boxShadow": "none",
-            "textDecorationLine": "none"
+            "textDecorationLine": "underline"
           },
           "visibleFocusIndicator": true
         },
@@ -2533,13 +2551,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Transcript",
-          "href": "transcript.html",
+          "name": "Faculty quick guide",
+          "href": "faculty-quick-guide.html",
           "rect": {
-            "x": 680,
-            "y": 74,
-            "w": 90,
-            "h": 38
+            "x": 328,
+            "y": 5348,
+            "w": 146,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -2555,13 +2573,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Quiz",
-          "href": "quiz.html",
+          "name": "Purdue Innovative Learning",
+          "href": "https://www.purdue.edu/innovativelearning/blog/2026/04/27/do",
           "rect": {
-            "x": 784,
-            "y": 74,
-            "w": 44,
-            "h": 38
+            "x": 356,
+            "y": 5555,
+            "w": 211,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -2577,13 +2595,13 @@
           "tag": "a",
           "id": null,
           "cls": null,
-          "name": "Case study home",
-          "href": "../index.html",
+          "name": "CSU Stanislaus",
+          "href": "https://www.csustan.edu/access-for-all/about-access-all-and-",
           "rect": {
-            "x": 288,
-            "y": 119,
-            "w": 154,
-            "h": 38
+            "x": 576,
+            "y": 5555,
+            "w": 114,
+            "h": 20
           },
           "style": {
             "outlineWidth": "3px",
@@ -2633,7 +2651,7 @@
     },
     "structure": {
       "lang": "en",
-      "title": "Lecture 1 video — Unit 1 | Accessibility Remediation Case Study",
+      "title": "Accessibility Remediation Case Study — a real course module audited and remediated to WCAG 2.1 AA",
       "landmarks": [
         "header",
         "nav",
@@ -2643,62 +2661,109 @@
       "headingOutline": [
         {
           "level": 1,
-          "text": "Lecture 1: Introduction (video)"
+          "text": "Remediating a real course module to WCAG 2.1 AA"
         },
         {
           "level": 2,
-          "text": "Watch or listen"
+          "text": "Before and after"
         },
         {
           "level": 2,
-          "text": "Chapters"
+          "text": "The module"
         },
         {
           "level": 2,
-          "text": "What happens on screen (text description)"
+          "text": "Findings"
         },
         {
           "level": 2,
-          "text": "Captions status"
+          "text": "Fixes"
         },
         {
           "level": 2,
-          "text": "What the original module offered"
+          "text": "Evidence — and what it can and cannot show"
+        },
+        {
+          "level": 3,
+          "text": "What was measured"
+        },
+        {
+          "level": 3,
+          "text": "What this evidence cannot show"
+        },
+        {
+          "level": 3,
+          "text": "Methods, labels, and authorship"
+        },
+        {
+          "level": 2,
+          "text": "Demo video (scripted keyboard navigation)"
+        },
+        {
+          "level": 2,
+          "text": "Scaling to 300 courses"
+        },
+        {
+          "level": 2,
+          "text": "License and attribution"
+        },
+        {
+          "level": 2,
+          "text": "Repository documents"
         }
       ],
-      "headingsCount": 6,
-      "images": [],
-      "imageCount": 0,
+      "headingsCount": 13,
+      "images": [
+        {
+          "src": "before-unit-introduction.png",
+          "alt": "Screenshot of the original 2012 MIT OpenCourseWare unit page: dense three-column"
+        },
+        {
+          "src": "after-module-overview-top.png",
+          "alt": "Screenshot of the remediated module overview page: a clean single-column layout "
+        }
+      ],
+      "imageCount": 2,
       "links": [
         "Skip to main content",
-        "Introduction to Psychology — Unit 1: Introduction",
-        "Overview",
-        "Lesson",
-        "Lecture slides",
-        "Video",
-        "Transcript",
-        "Quiz",
-        "Case study home",
-        "captions status section",
-        "evaluation status",
-        "Download the lecture MP4 from the Internet Archive",
-        "Watch on YouTube (MIT OpenCourseWare)",
-        "Publisher’s resource page for this lecture",
-        "HTML slide deck",
-        "slides 8–14",
-        "16–23",
-        "slides 25–26",
-        "slides 35–41",
-        "distress chart data",
-        "partner-choice chart data",
-        "slides 43–51",
-        "captions-build-report.json",
+        "Accessibility Remediation Case Study",
+        "The module",
+        "Findings",
+        "Fixes",
+        "Evidence",
+        "Demo video",
+        "Scaling model",
+        "Faculty guide",
+        "Remediated module",
         "evaluation/METHODS",
+        "attribution",
+        "issue-log.csv",
+        "issue-log.md",
+        "Video page",
+        "full transcript",
+        "HTML deck",
+        "Semantic HTML lesson",
+        "Accessible quiz",
+        "conformance report",
+        "audit/methodology.md",
         "evaluation/METHODS",
-        "case study evidence",
-        "attribution"
+        "transcript",
+        "transcript page",
+        "Prioritization model",
+        "Remediation workflow",
+        "Faculty quick guide",
+        "Purdue Innovative Learning",
+        "CSU Stanislaus",
+        "CC BY-NC-SA 3.0 US",
+        "ATTRIBUTION.md",
+        "Conformance report",
+        "Before/after evidence",
+        "Executive summary",
+        "Audit methodology",
+        "Decision log",
+        "evaluation methods"
       ],
-      "linkCount": 27
+      "linkCount": 37
     }
   }
 ]

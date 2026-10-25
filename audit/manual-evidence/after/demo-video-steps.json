@@ -1,0 +1,131 @@
+{
+  "recorded": "2026-10-25",
+  "base": "http://127.0.0.1:8900",
+  "steps": [
+    {
+      "i": 0,
+      "caption": "Scripted keyboard navigation demo (automated). Not a screen reader demonstration: VoiceOver automation is unavailable on macOS 27, so no spoken output is shown. Captions describe the scripted keyboard steps.",
+      "ms": 5204
+    },
+    {
+      "i": 1,
+      "caption": "The module home page loads. Every page starts with a skip link as the first tab stop.",
+      "ms": 222
+    },
+    {
+      "i": 2,
+      "caption": "Tab once — the skip link receives a visible focus outline.",
+      "ms": 80
+    },
+    {
+      "i": 3,
+      "caption": "Enter activates the skip link; focus jumps past the navigation to the main content.",
+      "ms": 11
+    },
+    {
+      "i": 4,
+      "caption": "Tab moves through the module navigation links.",
+      "ms": 8
+    },
+    {
+      "i": 5,
+      "caption": "Enter opens the Lesson page.",
+      "ms": 10
+    },
+    {
+      "i": 6,
+      "caption": "The lesson page: the study outline as semantic HTML with headings, lists, and a data table with a caption and scoped headers.",
+      "ms": 3403
+    },
+    {
+      "i": 7,
+      "caption": "Tab reaches the Schools of Psychological Thought table; row and column headers are announced to assistive technology via scope attributes.",
+      "ms": 9
+    },
+    {
+      "i": 8,
+      "caption": "Arrow keys move between row headers in the table.",
+      "ms": 4
+    },
+    {
+      "i": 9,
+      "caption": "Next: the lecture slides page, where the 54-slide deck is HTML with real text, figure descriptions, and speaker notes.",
+      "ms": 36
+    },
+    {
+      "i": 10,
+      "caption": "Tab through the page; a details element expands the long description of a visual.",
+      "ms": 8
+    },
+    {
+      "i": 11,
+      "caption": "Enter expands the long description of the slide’s visual.",
+      "ms": 18
+    },
+    {
+      "i": 12,
+      "caption": "The expanded long description is visible to sighted users and read by screen readers alike.",
+      "ms": 3413
+    },
+    {
+      "i": 13,
+      "caption": "The video page: a standard video element with a captions track, chapter buttons, and a transcript link.",
+      "ms": 220
+    },
+    {
+      "i": 14,
+      "caption": "Tab to a chapter button.",
+      "ms": 1
+    },
+    {
+      "i": 15,
+      "caption": "Enter starts playback from that chapter — the video element is fully keyboard operable.",
+      "ms": 4
+    },
+    {
+      "i": 16,
+      "caption": "The player controls are native and keyboard accessible; captions load from the transcript-derived WebVTT file.",
+      "ms": 4602
+    },
+    {
+      "i": 17,
+      "caption": "Last: the practice quiz.",
+      "ms": 103
+    },
+    {
+      "i": 18,
+      "caption": "Tab to the first question’s radio group.",
+      "ms": 48
+    },
+    {
+      "i": 19,
+      "caption": "Arrow keys move within the radio group — radios use arrow-key navigation.",
+      "ms": 4
+    },
+    {
+      "i": 20,
+      "caption": "Space selects an answer.",
+      "ms": 3
+    },
+    {
+      "i": 21,
+      "caption": "Tab to the Check answer button.",
+      "ms": 0
+    },
+    {
+      "i": 22,
+      "caption": "Enter checks the answer; feedback appears in a live region that assistive technology announces.",
+      "ms": 3
+    },
+    {
+      "i": 23,
+      "caption": "Textual feedback is shown — never color alone. The score region updates politely.",
+      "ms": 5602
+    },
+    {
+      "i": 24,
+      "caption": "Every check shown here is scripted; see the case study’s evidence section for the full audit, and the limitations section for what remains pending — including a human VoiceOver pass and a review by a daily assistive-technology user.",
+      "ms": 5202
+    }
+  ]
+}

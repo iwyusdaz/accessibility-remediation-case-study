@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility Remediation Case Study — a real course module audited and remediated to WCAG 2.1 AA</title>
+<link rel="stylesheet" href="module/css/module.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap-wide">
+    <p class="site-kicker">Case study · Instructional design portfolio</p>
+    <p class="site-title"><a href="index.html">Accessibility Remediation Case Study</a></p>
+    <nav class="site-nav" aria-label="Site sections">
+      <ul>
+        <li><a href="#module">The module</a></li>
+        <li><a href="#findings">Findings</a></li>
+        <li><a href="#fixes">Fixes</a></li>
+        <li><a href="#evidence">Evidence</a></li>
+        <li><a href="#demo">Demo video</a></li>
+        <li><a href="#scaling">Scaling model</a></li>
+        <li><a href="faculty-quick-guide.html">Faculty guide</a></li>
+        <li><a href="module/index.html">Remediated module</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+
+<h1>Remediating a real course module to WCAG&nbsp;2.1&nbsp;AA</h1>
+<p class="lede">A real, openly licensed university course unit was audited
+against WCAG&nbsp;2.1&nbsp;AA with automated <em>and</em> manual methods, rebuilt
+as accessible HTML, and documented with a criterion-by-criterion conformance
+report, before/after evidence, a catalog-scale prioritization model, and a
+faculty prevention guide. Prepared as the pilot for Lakeside State University,
+<strong>a fictional US public university preparing for ADA Title II digital
+accessibility compliance</strong>.</p>
+
+<div class="note">
+<p><strong>Evaluation status.</strong> Automated accessibility testing and
+agent-based design reviews are complete. AI-simulated learner and review-panel
+evaluations are pending. No real learners have tested this yet. See
+<a href="evaluation/METHODS.html">evaluation/METHODS</a>.</p>
+</div>
+
+<h2>Before and after</h2>
+
+<figure>
+  <figcaption>Before — the original 2011–2012 MIT OCW unit page: no landmarks,
+  no meaningful heading structure (the site logo is the only <code>h1</code>,
+  and the page topic “Introduction” is not a heading at all), an unlabeled
+  search field, a skip link keyboard users cannot reach, and a video behind a
+  Flash-era popup with no captions or transcript.</figcaption>
+  <img src="../audit/manual-evidence/before/before-unit-introduction.png"
+       alt="Screenshot of the original 2012 MIT OpenCourseWare unit page: dense three-column layout with a long sidebar of course links, a search box, and the session content on the right." width="800">
+</figure>
+
+<figure>
+  <figcaption>After — the remediated module: landmarks, a real page title as
+  <code>h1</code>, a keyboard-reachable skip link, a labeled navigation, a
+  readable palette, and every content type rebuilt accessibly (screenshots and
+  raw tool exports in <code>audit/</code>).</figcaption>
+  <img src="../audit/manual-evidence/after/after-module-overview-top.png"
+       alt="Screenshot of the remediated module overview page: a clean single-column layout with a heading, module navigation, an accessible data table of module contents, and a clearly labeled footer." width="800">
+</figure>
+
+<h2 id="module">The module</h2>
+
+<p>The subject is <strong>Unit&nbsp;1 (“Introduction”) of <cite>9.00SC
+Introduction to Psychology, Fall 2011</cite></strong> by Prof. John Gabrieli,
+published by MIT OpenCourseWare under
+<strong>CC&nbsp;BY-NC-SA&nbsp;3.0&nbsp;US</strong> (license verified on the
+retrieved page; see <a href="#attribution">attribution</a>). One week of real
+content in every format the plan calls for:</p>
+
+<ul>
+<li>course home, unit session page, and exam page (2011–2012 HTML, preserved
+from Internet Archive captures in <code>docs/before/</code>)</li>
+<li>a 54-page lecture-slide PDF and a 10-page study-outline PDF</li>
+<li>a ~50-minute lecture video (linked, not copied — it stays at the
+publisher) with a publisher transcript available</li>
+<li>a data chart in the slides and a practice exam with solutions as the quiz</li>
+</ul>
+
+<p>The problems are real — nothing here was staged: the original page’s video
+is a Flash-era popup with no captions and no transcript; the slide PDF’s figure
+alt text is export junk (“Text Box:”, “scan569.jpg”); the exam PDF’s brain
+diagram has no text alternative; and the fixed-width layout cannot reflow to a
+320&nbsp;px screen.</p>
+
+<h2 id="findings">Findings</h2>
+
+<p><strong>33 issues logged</strong> across the original module
+(<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/audit/issue-log.csv">issue-log.csv</a>,
+<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/audit/issue-log.md">issue-log.md</a>):</p>
+
+<div class="table-scroll">
+<table class="data">
+<caption>Issues by severity, with the audit method that caught them</caption>
+<thead><tr><th scope="col">Severity</th><th scope="col">Count</th><th scope="col">Examples</th><th scope="col">Caught by</th></tr></thead>
+<tbody>
+<tr><th scope="row">Critical</th><td>3</td><td>No captions for the lecture video; no audio description for an inherently visual lecture; unlabeled search field on every page</td><td>Scripted media check; markup inspection; axe (label)</td></tr>
+<tr><th scope="row">High</th><td>11</td><td>Page topic not a heading; site logo is the only h1; unreachable skip link; fixed-width layout fails 320&nbsp;px reflow; slide figures with junk alt; exam diagram with no text alternative</td><td>DOM inspection; scripted reflow; PDF tag-tree inspection</td></tr>
+<tr><th scope="row">Medium</th><td>13</th><td>No landmarks; heading-order skips; identical download-link names; popup opens without moving focus; undersized touch targets (WCAG&nbsp;2.2 best practice)</td><td>axe; pa11y; Lighthouse; scripted keyboard tests</td></tr>
+<tr><th scope="row">Low</th><td>6</th><td>Typo’d <code>hhttp://</code> link; deprecated table <code>summary</code>; white-on-white image-replacement text</td><td>Scripted link inventory; contrast measurement</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><strong>Automated tool results, before:</strong> axe-core 4.11.1 found
+13 violations across the three pages (3 critical, 1 serious, 9 moderate);
+Lighthouse 13.0.1 scored accessibility 77 / 81 / 79 with 24–35 undersized
+touch targets per page; pa11y 9.0.0 added broken in-page anchors
+(<code>href="#?w=535"</code>) and the unlabeled search field. Automated tools
+caught only part of the picture — most logged issues (captions, heading
+meaning, link purpose, PDF structure) required the scripted manual pass and
+file inspection. Raw exports: <code>audit/automated-results/</code>.</p>
+
+<h2 id="fixes">Fixes</h2>
+
+<div class="table-scroll">
+<table class="data">
+<caption>Every content type, rebuilt accessibly — each fix traces to an issue ID in the log</caption>
+<thead><tr><th scope="col">Content type</th><th scope="col">Original</th><th scope="col">Remediated</th><th scope="col">Issues fixed</th></tr></thead>
+<tbody>
+<tr><th scope="row">Video</th><td>Flash-era popup, no captions, no transcript, identically-named download links</td><td><a href="module/video.html">Video page</a>: standard <code>&lt;video&gt;</code> with a captions track built from the publisher’s official transcript, chapter buttons, text description of the visuals, and a <a href="module/transcript.html">full transcript</a></td><td>I-01–I-09</td></tr>
+<tr><th scope="row">Slides</th><td>54-page image-heavy PDF, junk alt text, chart data invisible to text readers</td><td><a href="module/slides.html">HTML deck</a>: one section per slide, real text, figure descriptions, speaker notes, and chart data as tables</td><td>I-24–I-26</td></tr>
+<tr><th scope="row">Reading</th><td>10-page PDF; references textbook-only tables</td><td><a href="module/lesson.html">Semantic HTML lesson</a> with a self-contained summary table built from the outline’s own text</td><td>I-27, I-28, I-31</td></tr>
+<tr><th scope="row">Quiz</th><td>PDF exams, not fillable or navigable as a quiz</td><td><a href="module/quiz.html">Accessible quiz</a>: fieldset/legend, labels, arrow-key radio groups, live-region feedback, no time limit</td><td>I-30</td></tr>
+<tr><th scope="row">Page structure</th><td>No landmarks; logo-h1; unreachable skip link; unlabeled search; fixed width</td><td>Landmarks, one content <code>h1</code> per page, working skip link, labeled controls, fluid layout with a tested palette (every pair ≥&nbsp;4.5:1)</td><td>I-10–I-23</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 id="evidence">Evidence — and what it can and cannot show</h2>
+
+<h3>What was measured</h3>
+<ul>
+<li>Automated audits of every original page and every remediated page (axe,
+Lighthouse, pa11y; exports in <code>audit/automated-results/</code>).
+<strong>After: 0 axe violations (0 critical/serious) on all remediated pages</strong>
+and on this case study site itself.</li>
+<li>Scripted keyboard tests, 11 of 11 passing
+(<code>audit/manual-evidence/after/keyboard-tests.json</code>): skip link
+works, radio groups operate with arrow keys, quiz feedback is announced in a
+live region, video chapter buttons seek the player, no keyboard traps.</li>
+<li>Reflow at 320&nbsp;px (the 400%-zoom reference): original unit/exam pages
+render a 952&nbsp;px-wide document (fail); every remediated page fits without
+horizontal scrolling.</li>
+<li>Measured color contrast: every palette pair in the remediated module ≥ 4.5:1
+(ratios documented in <code>docs/module/css/module.css</code>).</li>
+<li>PDF tag-tree inspection: all six original PDFs are tagged, but slides carry
+junk alt text and the exam diagrams have none — checked, not assumed.</li>
+</ul>
+
+<h3>What this evidence cannot show</h3>
+<ul>
+<li><strong>No screen-reader testing has been done.</strong> VoiceOver
+automation (Guidepup) does not function on macOS&nbsp;27, and aria snapshots
+are not a substitute for a real screen reader. A step-by-step human VoiceOver
+protocol (rotor checks before/after) is provided at
+<code>evaluation/human-protocol/voiceover-protocol.md</code> and remains
+<strong>pending</strong>.</li>
+<li><strong>No review by a daily assistive-technology user.</strong> This is the
+strongest missing evidence; a paid-review invitation template is in
+<code>evaluation/human-protocol/at-user-review-invite.md</code>.</li>
+<li><strong>Caption accuracy against the audio is pending.</strong> Caption
+<em>text</em> is the publisher’s official transcript; cue <em>timings</em> were
+machine-aligned. The speech-to-text word-error-rate check runs via
+<code>npm run eval:pending</code> once API keys are configured — until then the
+conformance report lists it as pending, and nothing is marked “fixed” on that
+evidence alone.</li>
+<li><strong>No conformance certification.</strong> The
+<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/conformance-report.md">conformance report</a>
+covers every WCAG&nbsp;2.1 A/AA criterion with honest statuses, but it is
+explicitly <strong>not an official VPAT</strong>, and no “WCAG certified”
+claim is made anywhere.</li>
+<li><strong>No learning outcomes.</strong> Nothing here shows that students
+learn more from the remediated module — only that the content is accessible.</li>
+</ul>
+
+<h3>Methods, labels, and authorship</h3>
+<p>All methods, tools, versions, and dates are documented in
+<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/audit/methodology.md">audit/methodology.md</a>
+and <a href="evaluation/METHODS.html">evaluation/METHODS</a>. Every automated
+or scripted result is labeled as agent-produced. The site, the remediated
+module, the caption timing alignment, and the written materials were produced
+with AI assistance as part of a portfolio build; the underlying course content
+is MIT OpenCourseWare’s, and every claim above is reproducible from the
+repository.</p>
+
+<h2 id="demo">Demo video (scripted keyboard navigation)</h2>
+
+<div class="note">
+<p><strong>What this video is:</strong> a scripted keyboard navigation demo of
+the remediated module, recorded automatically. It is <strong>not</strong> a
+screen reader demonstration — VoiceOver automation is unavailable on macOS&nbsp;27
+(see limitations), and no screen reader results are claimed anywhere in this
+repository. The captions and the
+<a href="assets/demo-keyboard-navigation-transcript.html">transcript</a>
+describe the scripted steps.</p>
+</div>
+
+<figure class="video-frame">
+<video controls preload="metadata" width="960" height="540">
+  <source src="assets/demo-keyboard-navigation.webm" type="video/webm">
+  <track kind="captions" src="assets/demo-keyboard-navigation.vtt" srclang="en" label="English captions" default>
+</video>
+<figcaption class="caption">Scripted keyboard navigation demo (automated).
+Captions describe the scripted steps. A full transcript is on the
+<a href="assets/demo-keyboard-navigation-transcript.html">transcript page</a>.</figcaption>
+</figure>
+
+<h2 id="scaling">Scaling to 300 courses</h2>
+
+<p>One module proves the craft; the program view makes it survivable at
+catalog scale:</p>
+
+<ul>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/prioritization-model.md">Prioritization model</a> —
+Impact × Exposure ÷ Effort scoring with 10 fictional Lakeside State courses
+ranked; effort estimates cite published human benchmarks (4–5 hours of caption
+correction per video hour — 3Play Media; up to ~1 hour per complex PDF page —
+WebAIM/Equidox; all accessed 2026-10-25), never AI-agent time.</li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/program/remediation-workflow.md">Remediation workflow</a> —
+intake → snapshot → audit → triage → fix → verify → human pass → faculty
+sign-off → monitor (Mermaid diagram + text).</li>
+<li><a href="faculty-quick-guide.html">Faculty quick guide</a> — the 10 rules
+that stop new problems: real headings, meaningful links, alt text, no
+color-only meaning, slide templates, corrected captions, HTML over PDF,
+simple tables, contrast, and the built-in checkers.</li>
+</ul>
+
+<p>Regulatory anchor, verified 2026-10-25: the DOJ’s ADA Title&nbsp;II rule
+requires WCAG&nbsp;2.1&nbsp;AA for state and local government web content and
+mobile apps; the deadline for large covered public entities, originally
+April&nbsp;24,&nbsp;2026, was extended on April&nbsp;20,&nbsp;2026 to
+April&nbsp;26,&nbsp;2027, with requirements unchanged and limited exceptions
+(including archived web content). Sources:
+<a href="https://www.purdue.edu/innovativelearning/blog/2026/04/27/doj-extends-ada-title-ii-digital-accessibility-deadlines-what-instructors-should-do-now/" rel="noopener">Purdue Innovative Learning</a>,
+<a href="https://www.csustan.edu/access-for-all/about-access-all-and-ati/title-ii-rule-digital-accessibility" rel="noopener">CSU Stanislaus</a>.</p>
+
+<h2 id="attribution">License and attribution</h2>
+<ul>
+<li>Source module: <cite>9.00SC Introduction to Psychology, Fall 2011</cite>,
+Unit&nbsp;1, Prof. John Gabrieli, MIT OpenCourseWare —
+<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/" rel="noopener">CC BY-NC-SA 3.0 US</a>,
+verified on the retrieved page (see
+<a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/ATTRIBUTION.md">ATTRIBUTION.md</a>
+for every adaptation and third-party item).</li>
+<li>This repository’s learning content is licensed alike (CC BY-NC-SA, see
+<code>LICENSE</code>); all code is MIT (<code>LICENSE-CODE</code>).</li>
+<li>“Lakeside State University” is fictional and labeled as such on every page;
+the audited module is real.</li>
+</ul>
+
+<h2>Repository documents</h2>
+<ul>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/conformance-report.md">Conformance report</a> — every WCAG 2.1 A/AA criterion, before → after (not an official VPAT)</li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/before-after.md">Before/after evidence</a> — tool scores, issue counts, screenshot pairs</li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/report/executive-summary.md">Executive summary</a> — one page for a dean or director</li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/audit/methodology.md">Audit methodology</a> — scope, tools, dates, who did what</li>
+<li><a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/DECISIONS.md">Decision log</a> and <a href="https://github.com/iwyusdaz/accessibility-remediation-case-study/blob/main/evaluation/METHODS.md">evaluation methods</a></li>
+</ul>
+
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <p>Accessibility statement for this site: every page here was audited with
+    the same toolchain as the module (axe-core 4.11.1, Lighthouse 13.0.1,
+    pa11y 9.0.0), passes scripted keyboard and 320&nbsp;px reflow checks, uses a
+    contrast-tested palette, and ships a skip link, landmarks, and descriptive
+    titles. Known limitation: no human screen-reader pass has yet been run —
+    see the limitations above and in <code>STATUS.md</code>. Contact details on
+    the repository README are the owner’s to fill in.</p>
+    <p>Learning content: CC BY-NC-SA (matching the source) · Code: MIT ·
+    “Lakeside State University” is fictional · Not an official VPAT ·
+    Built with AI assistance, disclosed in the README.</p>
+  </div>
+</footer>
+</body>
+</html>

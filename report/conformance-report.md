@@ -11,8 +11,8 @@
 | **Evaluated content** | The remediated module: `docs/module/` (index, lesson, slides, video, transcript, quiz) |
 | **"Before" basis** | The original module as retrieved: `docs/before/` (2011–2012 MIT OCW pages + 6 PDFs) |
 | **Standard** | WCAG 2.1 Level A + AA ([W3C](https://www.w3.org/TR/WCAG21/)); WCAG 2.2 items noted as best practice, labeled "exceeds requirement" |
-| **Methods** | axe-core 4.11.1, Lighthouse 13.0.1, pa11y 9.0.0; scripted keyboard/reflow/contrast checks (Playwright 1.57.0); PDF tag-tree inspection (pypdf/pymupdf); DOM inspection. Full detail: `audit/methodology.md` |
-| **Dates** | 2026-10-25 |
+| **Methods** | axe-core 4.11.1, Lighthouse 13.0.1, pa11y 9.0.0; scripted keyboard/reflow/contrast checks (Playwright 1.57.0); Label-in-Name check (2.5.3, Playwright); PDF tag-tree inspection (pypdf/pymupdf); DOM inspection. Full detail: `audit/methodology.md` |
+| **Dates** | 2026-10-25 (2.5.1–2.5.4 rows and corrected 1.3.1/2.4.6 remarks: 2026-10-26 review round) |
 | **Evaluator** | AI agent with scripted tools (labeled; see limitations). No human screen-reader pass yet; no daily-AT-user review yet. |
 
 **Overall: Partially Supports WCAG 2.1 AA.**
@@ -37,12 +37,12 @@ The remaining gaps are specific and disclosed:
 | 1.2.1 Audio-only and Video-only (Prerecorded) | Not Applicable | Not Applicable | No audio-only or video-only content in the module. |
 | 1.2.2 Captions (Prerecorded) | Does Not Support | **Partially Supports** | Before: no captions anywhere; player had no caption control (I-01). After: `<track kind="captions">` with text from the official publisher transcript. **Pending:** STT word-error-rate check + human timing spot-check. |
 | 1.2.3 Audio Description or Media Alternative (Prerecorded) | Does Not Support | Partially Supports | Before: no transcript or alternative (I-03). After: full transcript page + chapter-by-chapter text description of the visuals. Pending human confirmation that the alternative is adequate in practice. |
-| 1.3.1 Info and Relationships | Does Not Support | Supports | Before: page topic not a heading (I-10), logo as only h1 (I-11), no landmarks (I-13), 15 state-less menu toggles (I-15). After: landmarks, one content h1, logical heading order, real table markup, fieldset/legend quiz, `aria-current` nav state. |
+| 1.3.1 Info and Relationships | Does Not Support | Supports | Before: two h1s on every page — the site-logo image h1 first, then the topic h1 buried after 15 sidebar h3s (I-10, I-11) — plus no landmarks (I-13) and 15 state-less menu toggles (I-15). After: landmarks, one content h1, logical heading order, real table markup, fieldset/legend quiz, `aria-current` nav state. |
 | 1.3.2 Meaningful Sequence | Supports | Supports | Original HTML and tagged PDFs read in order; verified unchanged in remediation. |
 | 1.3.3 Sensory Characteristics | Supports | Supports | No sensory-only instructions found in either version ("click the red button" pattern absent). |
 | 1.4.1 Use of Color | Supports | Supports | Exam solutions mark answers with text ("Answer: D"), verified. Quiz feedback is textual, never color-only. |
 | 1.4.2 Audio Control | Not Applicable | Not Applicable | No audio plays automatically. |
-| 2.1.1 Keyboard | Partially Supports | Supports | Before: Flash-era player not keyboard operable (I-04). After: native `<video>` controls, native buttons; scripted test confirms player + chapters + quiz operable (11/11 keyboard tests). |
+| 2.1.1 Keyboard | Does Not Support | Supports | Before: Flash-era player not keyboard operable at all (I-04) — the video function is unavailable without a pointer. After: native `<video>` controls, native buttons; scripted test confirms player + chapters + quiz operable (11/11 keyboard tests). |
 | 2.1.2 No Keyboard Trap | Supports | Supports | Before: popup not dismissible with Escape and focus left behind (I-05, I-06) — pattern removed entirely. After: scripted tests find no traps. |
 | 2.1.4 Character Key Shortcuts | Supports | Supports | No character-key shortcuts implemented. |
 | 2.2.1 Timing Adjustable | Not Applicable | Not Applicable | Quiz has no time limit (stated on the page). |
@@ -52,10 +52,14 @@ The remaining gaps are specific and disclosed:
 | 2.4.2 Page Titled | Supports | Supports | Before: descriptive but very long pipe titles (I-33). After: concise, descriptive titles. |
 | 2.4.3 Focus Order | Partially Supports | Supports | Before: popup opened without moving focus (I-05). After: popup removed; linear order verified by scripted tab-through. |
 | 2.4.4 Link Purpose (In Context) | Partially Supports | Supports | Before: 12 identically-named download links (I-07), `[K&R]`/`[Stangor]` (I-31), broken `hhttp://` (I-08). After: descriptive link text throughout. |
+| 2.5.1 Pointer Gestures | Not Applicable | Not Applicable | No multipoint, path-based, or long-press gesture functionality in either version; all controls are single-pointer activation and keyboard operable. |
+| 2.5.2 Pointer Cancellation | Supports | Supports | No down-event-only or dragging functionality; native buttons and links activate on pointer-up. |
+| 2.5.3 Label in Name | Supports | Supports | Visible label text is contained in each control's accessible name. Scripted check (`scripts/check-label-in-name.mjs`, 2026-10-26) verified every labeled control on all 9 site pages: skip link ("Skip to main content"), nav links, quiz radio labels, "Check answer" buttons, video chapter buttons. |
+| 2.5.4 Motion Actuation | Not Applicable | Not Applicable | No functionality is triggered by device motion or user motion. |
 | 3.1.1 Language of Page | Supports | Supports | `lang="en"` on every page (before and after). |
 | 3.2.1 On Focus | Supports | Supports | No focus-triggered context changes. |
 | 3.2.2 On Input | Supports | Supports | No input-triggered context changes. |
-| 3.3.1 Error Identification | Not Applicable → Supports | Supports | No error-prone forms before (search only). After: quiz identifies wrong answers in text. |
+| 3.3.1 Error Identification | Not Applicable | Supports | No error-prone forms before (search only). After: quiz identifies wrong answers in text. |
 | 3.3.2 Labels or Instructions | Does Not Support | Supports | Before: search field unlabeled (I-16, critical) with value-as-placeholder (I-17). After: all controls labeled; quiz explains what to do. |
 | 4.1.1 Parsing | Supports | Supports | axe parse checks clean on all remediated pages. |
 | 4.1.2 Name, Role, Value | Does Not Support | Supports | Before: unlabeled inputs (I-16, I-18), iframes without titles (I-19), state-less toggles (I-15). After: native controls, labeled inputs, `aria-expanded` not needed (no disclosure widgets besides `<details>`), live regions for quiz status. |
@@ -76,12 +80,12 @@ The remaining gaps are specific and disclosed:
 | 1.4.12 Text Spacing | Supports | Supports | Layout survives text-spacing overrides (relative units; verified visually at increased spacing). |
 | 1.4.13 Content on Hover or Focus | Supports | Supports | No tooltips or hover-revealed content; the popup pattern (which lacked dismissibility, I-06) was removed. |
 | 2.4.5 Multiple Ways | Partially Supports | Supports | Before: nav + broken/unlabeled site search. After: module nav, in-page menus, and the overview page's contents table provide multiple routes. |
-| 2.4.6 Headings and Labels | Does Not Support | Supports | Before: topic not a heading, level skips (I-10, I-11, I-12). After: descriptive headings and labels throughout. |
-| 2.4.7 Focus Visible | Supports | Supports | Before: browser default outlines (mostly OK; 2 ambiguous stops). After: explicit 3px focus ring, 5.50:1, verified on every focusable element including the video player (focus-within). |
+| 2.4.6 Headings and Labels | Does Not Support | Supports | Before: duplicate logo-first h1 with the topic heading buried after 15 sidebar h3s, plus level skips (I-10, I-11, I-12). After: descriptive headings and labels throughout. |
+| 2.4.7 Focus Visible | Partially Supports | Supports | Before: browser default outlines (mostly OK; 2 ambiguous stops). After: explicit 3px focus ring, 5.50:1, verified on every focusable element including the video player (focus-within). |
 | 3.1.2 Language of Parts | Supports | Supports | No passages in other languages requiring marking. |
 | 3.2.3 Consistent Navigation | Supports | Supports | Module nav repeated identically across pages (before and after). |
 | 3.2.4 Consistent Identification | Supports | Supports | Icons/labels used consistently. |
-| 3.3.3 Error Suggestion | Not Applicable → Supports | Supports | Quiz incorrect answers get a textual suggestion ("re-read the relevant lesson section and try again"). |
+| 3.3.3 Error Suggestion | Not Applicable | Supports | Quiz incorrect answers get a suggestion that links directly to the relevant lesson section (per-question anchor into `module/lesson.html`), not a generic "re-read the material" message. |
 | 3.3.4 Error Prevention (Legal, Financial, Data) | Not Applicable | Not Applicable | No submissions of the covered kinds. |
 | 4.1.3 Status Messages | Partially Supports | Supports | Quiz feedback and score use `role="status"` / `aria-live="polite"`; scripted test confirms the feedback region is populated. A human screen-reader pass is still pending, hence not "verified with AT". |
 

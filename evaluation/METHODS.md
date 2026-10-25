@@ -20,10 +20,13 @@ results are never filled in.
 | 9 | Scripted keyboard task tests (skip link, quiz completion, video chapters) | Agent (`scripts/test-keyboard.mjs`) | 2026-10-25 | `audit/manual-evidence/after/keyboard-tests.json` | End-to-end tasks work keyboard-only | Screen-reader announcements beyond live-region wiring |
 | 10 | Caption build (text: publisher transcript; timings: machine alignment) | Agent (`scripts/build-captions.mjs`) | 2026-10-25 | `docs/module/media/captions-build-report.json` | Transparent, reproducible caption derivation | Accuracy vs. the audio (method 11) |
 | 11 | **Caption accuracy vs. audio (STT word-error-rate)** | **PENDING: requires API key** (`npm run eval:pending`) | — | will write `evaluation/caption-wer-results.json` + `dry-run/` stubs | Measured caption WER once run | — |
-| 12 | Agent heuristic review of the case study site (fresh-context reviewer sub-agent; may share the author's underlying model — disclosed limitation) | Reviewer agent (separate context) | 2026-10-25 | review notes in `evaluation/agent-review.md` | Consistency, honesty, accessibility-baseline gaps | Independent human judgment |
+| 12 | Agent heuristic review of the case study site (fresh-context reviewer sub-agent; may share the author's underlying model — disclosed limitation) | Reviewer agent (separate context) | 2026-10-25 (authoring session) / 2026-10-26 (fresh-context round) | review notes in `evaluation/agent-review.md` | Consistency, honesty, accessibility-baseline gaps | Independent human judgment |
 | 13 | Human VoiceOver pass (rotor tests before/after) | **PENDING human** — protocol in `evaluation/human-protocol/voiceover-protocol.md` | — | — | Real screen-reader behavior | — |
 | 14 | Daily AT-user review | **PENDING human** — invitation: `evaluation/human-protocol/at-user-review-invite.md` | — | — | The strongest available evidence | — |
 | 15 | Caption timing spot-check | **PENDING human** — `evaluation/human-protocol/caption-accuracy-check.md` | — | — | Comfortable caption timing | — |
+| 16 | Label in Name check (WCAG 2.5.3: visible label contained in accessible name) | Agent (`scripts/check-label-in-name.mjs`) | 2026-10-26 | `audit/manual-evidence/after/label-in-name.json` | Every labeled control on all 9 site pages (207 controls, 0 violations) | Screen-reader pronunciation quirks |
+| 17 | Whole-site link/image/fragment check (every published page; prefix-escape rule; `docs/before/` excluded by default) | Agent (`scripts/check-links.mjs`) | 2026-10-26 | `linkcheck-results/` (local + live runs) | Broken hrefs/srcs, links escaping the deployment root, dead fragment targets | External-link availability (external URLs are skipped) |
+| 18 | Markdown report/program documents rendered as deployed site pages | Agent (`scripts/render-doc-pages.mjs`) | 2026-10-26 | `docs/report/conformance-report.html`, `docs/report/prioritization-model.html`, `docs/program/remediation-workflow.html` | Styled, deployed versions of the Markdown sources (axe-clean) | Direct edits to the HTML (edit the `.md`, then re-render) |
 
 ## What was deliberately NOT done
 
@@ -51,6 +54,10 @@ npm run serve            # python3 -m http.server 8900 --directory docs
 node scripts/manual-pass.mjs before <before-urls...>
 node scripts/manual-pass.mjs after  <module-urls...>
 node scripts/test-keyboard.mjs
+node scripts/check-label-in-name.mjs
+node scripts/check-links.mjs docs          # local: every page under docs/
+node scripts/check-links.mjs <live-url>    # deployed site
+node scripts/render-doc-pages.mjs          # re-render docs/report + docs/program
 npm run eval:dry-run     # pipeline stub test, no network
 npm run eval:pending     # real STT run, requires .env keys
 ```

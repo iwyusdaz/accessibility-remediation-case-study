@@ -26,10 +26,15 @@ the same steps so the comparison is fair.
 
 ### B. Rotor: Headings (VO+U, then Left/Right to the Headings list)
 2. List the headings in order. Note:
-   - Is the page's own topic a heading?
+   - Is the page's own topic a heading, and how deep in the list does it sit?
    - Are levels logical (no skips)?
-   - Before, the only h1 is "MIT OpenCourseWare" (the logo image) and the page
-     topic "Introduction" is missing — confirm and record.
+   - Before, there are **two** h1s on every page: the logo image h1 first
+     ("MIT OpenCourseWare"), then the page topic ("Introduction") — but the
+     topic h1 is buried after the sidebar's 15 third-level headings (it is the
+     17th heading in the outline). Confirm the two-h1 order and record how many
+     headings deep the topic sits. (Corrected in the 2026-10-26 review round:
+     an earlier version of this step wrongly expected the topic to be missing
+     entirely.)
 3. **After:** every module page should expose exactly one h1 matching the page
    topic, with a logical h2/h3 outline. Record any skips.
 

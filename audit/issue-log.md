@@ -4,7 +4,9 @@ Master tracker: `audit/issue-log.csv` (33 issues). Source module: Unit 1
 ("Introduction"), *9.00SC Introduction to Psychology, Fall 2011*, MIT
 OpenCourseWare (CC BY-NC-SA 3.0 US). All issues below were verified against the
 retrieved original (`docs/before/` + PDFs) on 2026-10-25; the "status" column in
-the CSV tracks the remediation.
+the CSV tracks the remediation. I-10, I-11, I-24 and I-27 were restated during
+verification for accuracy — corrections are recorded in the CSV rows' notes
+(I-10/I-11 in the 2026-10-26 fresh-context review round).
 
 **Counts by WCAG principle**
 
@@ -22,8 +24,8 @@ the CSV tracks the remediation.
 | Severity | Count | IDs |
 |---|---|---|
 | Critical | 3 | I-01 (no captions), I-02 (no audio description for visual lecture), I-16 (unlabeled search field) |
-| High | 11 | I-03, I-04, I-10, I-11, I-14, I-20, I-24, I-25, I-26, I-29 (exam figures), I-30 |
-| Medium | 12 | I-05, I-06, I-07, I-09, I-12, I-13, I-15, I-17, I-18, I-19, I-22, I-27, I-30, I-31 |
+| High | 10 | I-03, I-04, I-10, I-11, I-14, I-20, I-24, I-25, I-26, I-29 (exam figures) |
+| Medium | 14 | I-05, I-06, I-07, I-09, I-12, I-13, I-15, I-17, I-18, I-19, I-22, I-27, I-30, I-31 |
 | Low | 6 | I-08, I-21, I-23, I-28, I-32, I-33 |
 
 **Counts by content type**

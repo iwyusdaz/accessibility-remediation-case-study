@@ -21,12 +21,13 @@ reflow at 320 px. Full evidence: `audit/`, `report/before-after.md`.
   in images with junk alt text; the exam's brain diagram had no text
   alternative. These block learners outright.
 - **Navigation was hostile to keyboard and screen-reader users:** no
-  landmarks, the logo as the only top-level heading, an unreachable skip link,
-  an unlabeled search field.
+  landmarks, a duplicate logo-first top-level heading on every page (the topic
+  heading buried after the sidebar's 15 third-level headings), an unreachable
+  skip link, an unlabeled search field.
 - **Layout failed 400% zoom** (fixed 950 px width), and 24–35 touch targets
   per page were undersized.
-- Automated tools caught only about a third of the issues — most required
-  judgment (captions, heading meaning, link purpose, PDF structure).
+- axe's rule set surfaced 13 of the 33 logged issues — the rest required
+  judgment (captions accuracy, heading meaning, link purpose, PDF structure).
 
 ## Effort at scale (benchmarks, cited — see prioritization model)
 

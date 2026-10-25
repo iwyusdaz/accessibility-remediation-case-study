@@ -64,13 +64,16 @@ serious remaining:
 | Severity | Before | Fixed |
 |---|---|---|
 | Critical | 3 | 3 (I-01 captions — with accuracy check pending; I-02 audio description — as text alternative; I-16 unlabeled search) |
-| High | 11 | 11 |
-| Medium | 13 | 13 |
+| High | 10 | 10 |
+| Medium | 14 | 14 |
 | Low | 6 | 6 |
 
-Two corrections made during verification (documented in the log): the reading
-PDF's "Table 1" turned out to be a textbook reference, not an untagged in-PDF
-table (I-27); the reading PDF contains no content figures at all (I-28).
+Four corrections were made during verification and documented in the log: the
+reading PDF's "Table 1" turned out to be a textbook reference, not an untagged
+in-PDF table (I-27); the reading PDF contains no content figures at all (I-28);
+and — from the 2026-10-26 fresh-context review — the page topic was found to BE
+a real `<h1>` after all, so I-10/I-11 were restated (the actual defects: a
+duplicate logo-first h1 and the topic heading buried after 15 sidebar h3s).
 
 ## 3. Scripted manual pass
 
@@ -82,7 +85,7 @@ table (I-27); the reading PDF contains no content figures at all (I-28).
 | 320 px reflow | unit + exam pages: 952 px documents → fail | all 9 pages: no horizontal scroll |
 | Contrast failures (measured) | 1 flagged (image-replacement banner; documented) | 0 |
 | Landmarks | none | header/nav/main/footer on every page |
-| Headings | logo-only h1; topic missing | one content h1 per page, logical order |
+| Headings | two h1s per page (logo first, topic buried after 15 sidebar h3s) | one content h1 per page, logical order |
 | Video | Flash-era popup; no captions; no transcript; focus not moved; Escape dead | `<video>` + captions track + chapter buttons + transcript; operable by keyboard |
 
 Screenshot pairs (`audit/manual-evidence/`):

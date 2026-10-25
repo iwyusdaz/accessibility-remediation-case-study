@@ -18,7 +18,7 @@ One module ≈ one week of a course:
 | Unit 1 session page (`before/introduction/index.htm`) | HTML | same |
 | Exam 1 page (`before/exam-1/index.htm`) | HTML | same |
 | Lecture 1 slides (`MIT9_00SCF11_lec01.pdf`, 54 pp.) | PDF | PDF tag-tree inspection (pypdf: `/StructTreeRoot`, `/MarkInfo`, `/Alt`, table tags), text extraction, page text density |
-| Study outline PDF (`MIT9_00SCF11_read_kr1.pdf`, 10 pp., contains Table 1) | PDF | same |
+| Study outline PDF (`MIT9_00SCF11_read_kr1.pdf`, 10 pp., references textbook Table 1 — no table exists in the PDF) | PDF | same |
 | Exam 1 + practice exams + solutions (4 PDFs) | PDF | same |
 | Lecture 1 video (~50 min) | streaming (Flash-era player; MP4 at Internet Archive) | markup inspection, popup behavior test with keyboard, caption/transcript availability check |
 | Video popup (JS dialog with embedded player) | HTML/JS | keyboard operability test (Tab/Enter/Escape), focusable-element inventory |
@@ -77,6 +77,25 @@ All module pages were audited (no sampling — the module is 3 HTML pages +
 6 PDFs + 1 video section). The case study site itself (`docs/index.html`,
 `docs/module/*`, `docs/program/*`) was audited with the same axe/keyboard/
 reflow/contrast suite (see `automated-results/after/`).
+
+## Link integrity of the published site
+
+The published case study site is checked with `scripts/check-links.mjs`
+(2026-10-26, added after the agent review found the earlier single-page,
+same-origin crawl was blind to three defect classes): it scans **every** page
+under `docs/` (local mode) or the deployed prefix (live mode) and verifies
+
+1. **image/media targets** — every `img/source/track/video` `src`/`poster`
+   resolves and returns 200;
+2. **prefix escapes** — no `href`/`src` may resolve outside the deployment
+   root/prefix (this is what broke the landing page's screenshots live);
+3. **fragment targets** — every `#id` reference must exist in its target page.
+
+The preserved original (`docs/before/`) is excluded by default: it is the
+2011–2012 snapshot kept as retrieved, dead external navigation included — it is
+the audit subject, not the published deliverable (`--include-before` audits it
+separately). Code samples in prose (`<code>`/`<pre>`) are stripped before
+scanning so documented-broken examples are not flagged.
 
 ## Known limits of automated tools
 

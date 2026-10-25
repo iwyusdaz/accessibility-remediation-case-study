@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "base": "http://127.0.0.1:8900",
+  "checked": 207,
+  "results": [
+    {
+      "page": "/index.html",
+      "controlsWithVisibleLabel": 42,
+      "violations": []
+    },
+    {
+      "page": "/faculty-quick-guide.html",
+      "controlsWithVisibleLabel": 6,
+      "violations": []
+    },
+    {
+      "page": "/module/index.html",
+      "controlsWithVisibleLabel": 24,
+      "violations": []
+    },
+    {
+      "page": "/module/lesson.html",
+      "controlsWithVisibleLabel": 18,
+      "violations": []
+    },
+    {
+      "page": "/module/slides.html",
+      "controlsWithVisibleLabel": 33,
+      "violations": []
+    },
+    {
+      "page": "/module/video.html",
+      "controlsWithVisibleLabel": 33,
+      "violations": []
+    },
+    {
+      "page": "/module/transcript.html",
+      "controlsWithVisibleLabel": 11,
+      "violations": []
+    },
+    {
+      "page": "/module/quiz.html",
+      "controlsWithVisibleLabel": 36,
+      "violations": []
+    },
+    {
+      "page": "/assets/demo-keyboard-navigation-transcript.html",
+      "controlsWithVisibleLabel": 4,
+      "violations": []
+    }
+  ],
+  "totalViolations": 0
+}

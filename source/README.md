@@ -28,7 +28,7 @@ ocw-2011-snapshot/
 ├── introduction/index.htm     Unit 1 "Introduction" session page (the module home)
 ├── exam-1/index.htm           Exam 1 page (practice exams used as the module's quiz)
 ├── introduction/MIT9_00SCF11_lec01.pdf      Lecture 1 slides (54-page PDF)
-├── introduction/MIT9_00SCF11_read_kr1.pdf   Study outline, Kosslyn & Rosenberg ch. 1 (PDF, contains Table 1)
+├── introduction/MIT9_00SCF11_read_kr1.pdf   Study outline, Kosslyn & Rosenberg ch. 1 (PDF, references textbook Table 1)
 ├── exam-1/MIT9_00SCF11_exam1.pdf            Exam 1 questions (12 pages)
 ├── exam-1/MIT9_00SCF11_exam1_sol.pdf        Exam 1 solutions
 ├── exam-1/MIT9_00SCF11_exam1_2010.pdf       Practice exam 1, Spring 2010 (21 pages)

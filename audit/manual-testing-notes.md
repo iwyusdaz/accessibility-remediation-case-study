@@ -30,9 +30,16 @@ Headings/landmarks were extracted from the DOM. What a screen-reader user would
 get from the headings rotor is evidenced by this outline, but rotor behavior
 itself was **not** tested (pending human):
 
-- Only `<h1>` on every page = the site logo image ("MIT OpenCourseWare").
-- The page topic ("Introduction") is a `<span id="parent-fieldname-title">`, not
-  a heading — it never appears in a headings list.
+- Two `<h1>`s on every page: first the site logo image h1 (announced as
+  "MIT OpenCourseWare"; its text content is empty, so the outline export shows
+  an empty level-1 entry), then the page topic as an `<h1>`
+  (`<h1><span id="parent-fieldname-title">Introduction</span></h1>`).
+- The topic h1 is real but buried: in DOM order it follows the logo h1 and the
+  sidebar's 15 `<h3>` course-nav headings, so it is the 17th heading in the
+  outline (`manual-pass-results.json`, `structure.headingOutline`).
+  (Corrected in the 2026-10-26 review round: an earlier note claimed the topic
+  was a styled span and "not a heading" — the export and the source markup both
+  show it as an h1; the defect is its position, not its absence.)
 - First content headings are sidebar `<h3>`s ("Syllabus", "Vision II", …), then
   `<h2>` "Session Overview" — heading levels skip (h1→h3; axe `heading-order`).
 - Zero landmarks on all pages (axe `landmark-one-main` + `region`: 20–55 nodes).
@@ -92,8 +99,9 @@ Inspected with pypdf (tag tree, alt entries, text extraction). All six PDFs are
 tagged, carry document titles and `Lang: EN` — but the tags don't help where it
 matters:
 
-- Slides PDF: 20 `/Alt` entries, mostly export junk ("Text Box:", "scan569.jpg",
-  "A_B_color_constrast", empty "Text Box: "); 1 of 4 figures has no alt at all;
+- Slides PDF: 17 of the 20 `/Alt` entries are export junk ("Text Box:",
+  "scan569.jpg", "A_B_color_constrast", empty "Text Box: "); the remaining 3
+  carry real descriptions. 1 of 4 figures has no alt at all;
   38 of 54 pages carry < 200 characters of text — the slide visuals (brain
   photographs, illusion images, a bar chart) carry the meaning without text
   alternatives; chart data ("A Gap Between Attitudes & Actions") is unavailable

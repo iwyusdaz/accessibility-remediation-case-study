@@ -88,10 +88,6 @@ axe-core 4.11.1 · Lighthouse 13.0.1 · pa11y 9.0.0 · Playwright 1.57.0 (script
 - Source module: *9.00SC Introduction to Psychology, Fall 2011*, Prof. John Gabrieli, MIT OpenCourseWare — full adaptation record in [`ATTRIBUTION.md`](ATTRIBUTION.md).
 - Decision rationale: [`DECISIONS.md`](DECISIONS.md) · Status: [`STATUS.md`](STATUS.md) · Changelog: [`CHANGELOG.md`](CHANGELOG.md).
 
-## Contact
-
-[LinkedIn] · [Email]
-
 ---
 
 *Built with AI assistance (disclosed per portfolio standards): the module conversion, audits, and write-up were produced with an AI agent, and every claim is reproducible from this repository. The course content itself is MIT OpenCourseWare's, © the original authors, used under CC BY-NC-SA 3.0 US.*
